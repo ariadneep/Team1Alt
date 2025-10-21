@@ -40,6 +40,7 @@
     {"id":{"name":"spr_background_AshleyRoom","path":"sprites/spr_background_AshleyRoom/spr_background_AshleyRoom.yy",},},
     {"id":{"name":"spr_background_MainMenu","path":"sprites/spr_background_MainMenu/spr_background_MainMenu.yy",},},
     {"id":{"name":"spr_background_MainMenuWithBox","path":"sprites/spr_background_MainMenuWithBox/spr_background_MainMenuWithBox.yy",},},
+    {"id":{"name":"spr_player_AshleyWalk","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},},
     {"id":{"name":"spr_UI_12Clock","path":"sprites/spr_UI_12Clock/spr_UI_12Clock.yy",},},
     {"id":{"name":"spr_UI_CrashOut","path":"sprites/spr_UI_CrashOut/spr_UI_CrashOut.yy",},},
     {"id":{"name":"spr_UI_DialougeBox","path":"sprites/spr_UI_DialougeBox/spr_UI_DialougeBox.yy",},},
