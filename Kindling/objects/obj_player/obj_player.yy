@@ -29,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_player_AshleyWalk",
     "path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",
