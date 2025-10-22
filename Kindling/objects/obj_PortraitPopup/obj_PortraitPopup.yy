@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_PARENT_DialogueTrigger",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_PortraitPopup",
+  "eventList":[],
   "managed":true,
-  "name":"obj_PARENT_DialogueTrigger",
+  "name":"obj_PortraitPopup",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_Interactible",
-    "path":"sprites/spr_object_Interactible/spr_object_Interactible.yy",
+    "name":"spr_player_AshleyPortrait",
+    "path":"sprites/spr_player_AshleyPortrait/spr_player_AshleyPortrait.yy",
   },
   "spriteMaskId":null,
   "visible":true,
