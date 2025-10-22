@@ -1,0 +1,2 @@
+rpgMode = true
+dialogueMode = false

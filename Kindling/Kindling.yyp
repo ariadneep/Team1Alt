@@ -36,7 +36,9 @@
   },
   "name":"Kindling",
   "resources":[
+    {"id":{"name":"obj_Globals","path":"objects/obj_Globals/obj_Globals.yy",},},
     {"id":{"name":"obj_InvisibleCollision","path":"objects/obj_InvisibleCollision/obj_InvisibleCollision.yy",},},
+    {"id":{"name":"obj_Overlay","path":"objects/obj_Overlay/obj_Overlay.yy",},},
     {"id":{"name":"obj_PARENT_DialogueTrigger","path":"objects/obj_PARENT_DialogueTrigger/obj_PARENT_DialogueTrigger.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_PortraitPopup","path":"objects/obj_PortraitPopup/obj_PortraitPopup.yy",},},
@@ -49,6 +51,7 @@
     {"id":{"name":"spr_background_MainMenuWithBox","path":"sprites/spr_background_MainMenuWithBox/spr_background_MainMenuWithBox.yy",},},
     {"id":{"name":"spr_object_Collision","path":"sprites/spr_object_Collision/spr_object_Collision.yy",},},
     {"id":{"name":"spr_object_Interactible","path":"sprites/spr_object_Interactible/spr_object_Interactible.yy",},},
+    {"id":{"name":"spr_overlay_TransparentBlack","path":"sprites/spr_overlay_TransparentBlack/spr_overlay_TransparentBlack.yy",},},
     {"id":{"name":"spr_player_AshleyPortrait","path":"sprites/spr_player_AshleyPortrait/spr_player_AshleyPortrait.yy",},},
     {"id":{"name":"spr_player_AshleyWalk","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},},
     {"id":{"name":"spr_UI_12Clock","path":"sprites/spr_UI_12Clock/spr_UI_12Clock.yy",},},
