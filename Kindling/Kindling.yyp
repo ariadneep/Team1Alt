@@ -36,6 +36,7 @@
   },
   "name":"Kindling",
   "resources":[
+    {"id":{"name":"obj_UI_StartButton","path":"objects/obj_UI_StartButton/obj_UI_StartButton.yy",},},
     {"id":{"name":"rm_AshleyRoom","path":"rooms/rm_AshleyRoom/rm_AshleyRoom.yy",},},
     {"id":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"spr_UI_CrashOut","path":"sprites/spr_UI_CrashOut/spr_UI_CrashOut.yy",},},
     {"id":{"name":"spr_UI_DialougeBox","path":"sprites/spr_UI_DialougeBox/spr_UI_DialougeBox.yy",},},
     {"id":{"name":"spr_UI_Monday","path":"sprites/spr_UI_Monday/spr_UI_Monday.yy",},},
+    {"id":{"name":"spr_UI_StartButton","path":"sprites/spr_UI_StartButton/spr_UI_StartButton.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
