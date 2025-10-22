@@ -36,6 +36,7 @@
   },
   "name":"Kindling",
   "resources":[
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_UI_StartButton","path":"objects/obj_UI_StartButton/obj_UI_StartButton.yy",},},
     {"id":{"name":"rm_AshleyRoom","path":"rooms/rm_AshleyRoom/rm_AshleyRoom.yy",},},
     {"id":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
