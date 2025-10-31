@@ -46,6 +46,7 @@
     {"id":{"name":"rm_AshleyRoom","path":"rooms/rm_AshleyRoom/rm_AshleyRoom.yy",},},
     {"id":{"name":"rm_TitleScreen","path":"rooms/rm_TitleScreen/rm_TitleScreen.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"scr_Dialogue","path":"scripts/scr_Dialogue/scr_Dialogue.yy",},},
     {"id":{"name":"spr_background_AshleyRoom","path":"sprites/spr_background_AshleyRoom/spr_background_AshleyRoom.yy",},},
     {"id":{"name":"spr_background_MainMenu","path":"sprites/spr_background_MainMenu/spr_background_MainMenu.yy",},},
     {"id":{"name":"spr_background_MainMenuWithBox","path":"sprites/spr_background_MainMenuWithBox/spr_background_MainMenuWithBox.yy",},},
