@@ -29,6 +29,7 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"json_dialogue_bed.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"json_dialogue_computer.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_computer.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_ducklamp.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_ducklamp.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_wakeup.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_wakeup.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
@@ -73,7 +74,6 @@
     {"id":{"name":"spr_player_ashleyportrait_happy","path":"sprites/spr_player_ashleyportrait_happy/spr_player_ashleyportrait_happy.yy",},},
     {"id":{"name":"spr_player_ashleyportrait_neutral","path":"sprites/spr_player_ashleyportrait_neutral/spr_player_ashleyportrait_neutral.yy",},},
     {"id":{"name":"spr_player_ashleyportrait_worried","path":"sprites/spr_player_ashleyportrait_worried/spr_player_ashleyportrait_worried.yy",},},
-    {"id":{"name":"spr_player_AshleyPortrait","path":"sprites/spr_player_AshleyPortrait/spr_player_AshleyPortrait.yy",},},
     {"id":{"name":"spr_player_AshleyWalk","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},},
     {"id":{"name":"spr_UI_Icon","path":"sprites/spr_UI_Icon/spr_UI_Icon.yy",},},
     {"id":{"name":"spr_UI_Phone001","path":"sprites/spr_UI_Phone001/spr_UI_Phone001.yy",},},

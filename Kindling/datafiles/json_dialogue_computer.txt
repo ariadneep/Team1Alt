@@ -1,0 +1,291 @@
+[
+	{
+		"index": 0,
+		"text": "Your computer blinks on with only a brief stutter.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"index": 1.0,
+		"text": "You've had enough of your computer for this morning.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 2.0,
+		"text": "[Turn it off.]",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			6.0
+		]
+	},
+	{
+		"index": 3.0,
+		"text": "[Look at homework.]",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			7.0
+		]
+	},
+	{
+		"index": 4.0,
+		"text": "Anything interesting?",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			12.0
+		]
+	},
+	{
+		"index": 5.0,
+		"text": "[Write a task list.]",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			8.0
+		]
+	},
+	{
+		"index": 6.0,
+		"text": "It shuts down quietly.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 7.0,
+		"text": "You've got something due today at 11:59 PM. And oh, yikes, one thing overdue last night.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			9.0,
+			10.0,
+			11.0
+		]
+	},
+	{
+		"index": 8.0,
+		"text": "You open a new note and write out a simple list of things to do. Suddenly, living feels a little easier.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 9.0,
+		"text": "Come back to it later.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			2.0
+		]
+	},
+	{
+		"index": 10.0,
+		"text": "Work on the overdue one.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			13.0
+		]
+	},
+	{
+		"index": 11.0,
+		"text": "Work on the one due today.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			14.0
+		]
+	},
+	{
+		"index": 12.0,
+		"text": "Plenty of interesting things on the wondrous world of the internet. Only question is: How much time you want to spend on this? and Do I really want to spend thirty minutes doomscrolling? That's two questions, actually. You can't count.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			15.0,
+			16.0,
+			17.0
+		]
+	},
+	{
+		"index": 13.0,
+		"text": "If you let this go for any longer, it'll come back to bite you. Raise your mettle and fight against the beast of procrastination.",
+		"speaker":"_sanctum",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 14.0,
+		"text": "You can finish the other one later. This one - it'll take time, sure, but it'll be done, and then you can worry about the other one.",
+		"speaker":"_yearner",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 15.0,
+		"text": "I could look at socials a little.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			18.0
+		]
+	},
+	{
+		"index": 16.0,
+		"text": "Actually, maybe not.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			19.0
+		]
+	},
+	{
+		"index": 17.0,
+		"text": "Morning stretches, mayhaps? (20 minutes)",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			23.0
+		]
+	},
+	{
+		"index": 18.0,
+		"text": "Mmm, discourse. Someone's said something about some Youtuber that could maybe be true. A new law is being considered that might increase the government's ability to kill people. Great!",
+		"speaker":"_hit",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 19.0,
+		"text": "Good on you. You have more material needs than digitalized pixels. Separate yourself from the terror of modern technology and return to your caveman roots!",
+		"speaker":"_executive",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			20.0,
+			21.0,
+			22.0
+		]
+	},
+	{
+		"index": 20.0,
+		"text": "[Grunt ape-like.]",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			24.0
+		]
+	},
+	{
+		"index": 21.0,
+		"text": "[Do nothing and be normal.]",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			25.0
+		]
+	},
+	{
+		"index": 22.0,
+		"text": "[Pound your chest caveman-like.]",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			26.0
+		]
+	},
+	{
+		"index": 23.0,
+		"text": "Yes! Let's go for it! I'd honestly thought you'd forgotten about it! You're taking initiative, that's so wonderful.",
+		"speaker":"_yearner",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			27.0
+		]
+	},
+	{
+		"index": 24.0,
+		"text": "Your voice cracks halfway and there is a long pause where you contemplate yourself and all the actions that lead you here.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 25.0,
+		"text": "You exit the computer normally.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 26.0,
+		"text": "You hit your chest a little too hard. Your morning starts with you hunched over your desk, coughing hard after trying to do a caveman impression.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			28.0
+		]
+	},
+	{
+		"index": 27.0,
+		"text": "Kind of rude, but correct. You participate in twenty minutes of aerobic hell.",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 28.0,
+		"text": "It wasn't a terrible attempt!",
+		"speaker":"_executive",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	}
+]
