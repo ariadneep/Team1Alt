@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_Interactible",
-    "path":"sprites/spr_object_Interactible/spr_object_Interactible.yy",
+    "name":"spr_object_bed",
+    "path":"sprites/spr_object_bed/spr_object_bed.yy",
   },
   "spriteMaskId":null,
   "visible":true,
