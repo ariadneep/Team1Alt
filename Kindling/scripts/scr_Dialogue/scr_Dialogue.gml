@@ -1,7 +1,6 @@
 enum Speaker {
 	Player,
 	Narrator,
-	Choice,
 	Yearner,
 	Sanctum,
 	Executive,
@@ -20,31 +19,28 @@ function close_dialogue(){
 	layer_set_visible(obj_Globals.dialogue_layer, false)
 }
 
-/// @function create_dialogue_line(text, speaker, is_active)
-/// @param text: the string of text associated with this line
-/// @param speaker: the enum speaker that says the line
-function create_dialogue_line(argument0, argument1, argument2) {
-	line = {
-		text : argument0,
-		speaker: argument1,
-		is_active: argument2,
-		children : []
-	}
-	return line
-}
-
-function load_dialogue_bed(argument0) {
-	dialogue_0 = "Your bed. It's rumpled and the mattress is lumpy, but exudes a unique kind of comfort."
-	dialogue_1 = "You've extracted just enough comfort already."
-	dialogue_2 = "You've extracted just a bit too much comfort already."
-	dialogue_3 = "You've extracted way too much comfort already."
-	array_insert(argument0, 0, create_dialogue_line(dialogue_0, Speaker.Narrator, true))
-	array_push(argument0[0].children, 1)
-	array_push(argument0[0].children, 2)
-	array_push(argument0[0].children, 3)
+///@function load_dialogue(filepath)
+///@param {string} filepath: the name of the json dialogue file, .txt extension included. 
+///@return {array}: an array of structs with dialogue.
+function load_dialogue(argument0) {
+	// read the data
+	var file_id = file_text_open_read(argument0);
+	var json_string = "";
+	while (!file_text_eof(file_id))
+    json_string += file_text_readln(file_id);
+	file_text_close(file_id);
 	
-	array_insert(argument0, 1, create_dialogue_line(dialogue_1, Speaker.Narrator, false))
-	array_insert(argument0, 2, create_dialogue_line(dialogue_2, Speaker.Narrator, false))
-	array_insert(argument0, 3, create_dialogue_line(dialogue_3, Speaker.Narrator, true))
-
+	return json_parse(json_string)
+	
+	//dialogue format:
+	/*
+	line = {
+		index : int
+		text : string
+		speaker: enum,
+		mood: mood,
+		is_active: boolean,
+		children : int array
+	}
+	*/
 }
