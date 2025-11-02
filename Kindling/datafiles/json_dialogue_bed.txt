@@ -3,6 +3,7 @@
     "index": 0,
     "text":"Your bed. It's rumpled and the mattress is lumpy, but exudes a unique kind of comfort.",
     "speaker":1,
+    "mood":"",
     "is_active":true,
     "children":[
       1.0,
@@ -14,6 +15,7 @@
     "index": 1,
     "text":"You've extracted just enough comfort already.",
     "speaker":1,
+    "mood":"",
     "is_active":false,
     "children":[
     ]
@@ -22,6 +24,7 @@
     "index": 2,
     "text":"You've extracted just a bit too much comfort already.",
     "speaker":1,
+    "mood":"",
     "is_active":false,
     "children":[
     ]
@@ -30,6 +33,7 @@
     "index": 3,
     "text":"You've extracted way too much comfort already.",
     "speaker":1,
+    "mood":"",
     "is_active":true,
     "children":[
     ]

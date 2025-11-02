@@ -23,6 +23,7 @@ function close_dialogue(){
 ///@param {string} filepath: the name of the json dialogue file, .txt extension included. 
 ///@return {array}: an array of structs with dialogue.
 function load_dialogue(argument0) {
+	var dialogue = []
 	// read the data
 	var file_id = file_text_open_read(argument0);
 	var json_string = "";
@@ -30,7 +31,14 @@ function load_dialogue(argument0) {
     json_string += file_text_readln(file_id);
 	file_text_close(file_id);
 	
-	return json_parse(json_string)
+	var array = json_parse(json_string)
+	
+	//ensure consistency with dialogue index and array index
+	for(var i = 0; i < array_length(array); i++){
+		array_insert(dialogue, array[i].index, array[i])
+	}
+	
+	return dialogue
 	
 	//dialogue format:
 	/*

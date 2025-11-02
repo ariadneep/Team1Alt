@@ -1,0 +1,148 @@
+[
+	{
+		"index": 0,
+		"text": "You wake up blearily. You've thrown the blanket off the bed in your sleep and a puddle of drool is damp against your cheek. Your alarm chirps. You could sleep in a little longer.",
+		"speaker":1,
+		"mood":"",
+		"is_active": true,
+		"children": [
+			1.0,
+			2.0,
+			3.0,
+			4.0
+		]
+	},
+	{
+		"index": 1.0,
+		"text": "New day, new me.",
+		"speaker":1,
+		"mood":"",
+		"is_active": false,
+		"children": [
+		]
+	},
+	{
+		"index": 2.0,
+		"text": "[Longingly look at the snooze button.]",
+		"speaker":1,
+		"mood":"",
+		"is_active": false,
+		"children": [
+		]
+	},
+	{
+		"index": 3.0,
+		"text": "Gotta feed the machine first.",
+		"speaker":1,
+		"mood":"",
+		"is_active": false,
+		"children": [
+		]
+	},
+	{
+		"index": 4.0,
+		"text": "[Hit the snooze button.]",
+		"speaker":1,
+		"mood":"",
+		"is_active": false,
+		"children": [
+		]
+	},
+	{
+		"index": 5.0,
+		"text": "Be at least a little more energetic about it. You could start doing daily stretches, make breakfast from scratch, four minute pool dip -.",
+		"speaker":"_yearner",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			9.0,
+			10.0
+		]
+	},
+	{
+		"index": 6.0,
+		"text": "You're so tired. It feels like anvils are weighing your eyeballs down, exhaustion dragging at your bones. Do you have enough energy to be brave today?",
+		"speaker":"_sanctum",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			15.0,
+			16.0
+		]
+	},
+	{
+		"index": 7.0,
+		"text": "",
+		"speaker":"_executive",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			11.0,
+			14.0
+		]
+	},
+	{
+		"index": 8.0,
+		"text": "",
+		"speaker":"_hit",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 9.0,
+		"text": "I'm going, I'm going...",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 10.0,
+		"text": "Woo!",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 11.0,
+		"text": "",
+		"speaker":"",
+		"mood":"",
+		"is_active": true,
+		"children": [
+			14.0
+		]
+	},
+	{
+		"index": 12.0,
+		"text": "Really killing the mood here, but I'll take it.",
+		"speaker":"_yearner",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 13.0,
+		"text": "There's the drive! Where can we get some ice?!",
+		"speaker":"_yearner",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	},
+	{
+		"index": 14.0,
+		"text": "",
+		"speaker":"_executive",
+		"mood":"",
+		"is_active": true,
+		"children": [
+		]
+	}
+]
