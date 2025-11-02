@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_PortraitPopup",
+  "%Name":"obj_dialoguebox",
   "eventList":[],
   "managed":true,
-  "name":"obj_PortraitPopup",
+  "name":"obj_dialoguebox",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_ashleyportrait_neutral",
-    "path":"sprites/spr_player_ashleyportrait_neutral/spr_player_ashleyportrait_neutral.yy",
+    "name":"spr_dialoguebox_ashley",
+    "path":"sprites/spr_dialoguebox_ashley/spr_dialoguebox_ashley.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -29,6 +29,7 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"json_dialogue_bed.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"json_dialogue_ducklamp.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_ducklamp.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_wakeup.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_wakeup.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -38,6 +39,7 @@
   },
   "name":"Kindling",
   "resources":[
+    {"id":{"name":"obj_dialoguebox","path":"objects/obj_dialoguebox/obj_dialoguebox.yy",},},
     {"id":{"name":"obj_Globals","path":"objects/obj_Globals/obj_Globals.yy",},},
     {"id":{"name":"obj_InvisibleCollision","path":"objects/obj_InvisibleCollision/obj_InvisibleCollision.yy",},},
     {"id":{"name":"obj_Overlay","path":"objects/obj_Overlay/obj_Overlay.yy",},},
@@ -56,6 +58,9 @@
     {"id":{"name":"spr_background_AshleyRoom","path":"sprites/spr_background_AshleyRoom/spr_background_AshleyRoom.yy",},},
     {"id":{"name":"spr_background_MainMenu","path":"sprites/spr_background_MainMenu/spr_background_MainMenu.yy",},},
     {"id":{"name":"spr_background_MainMenuWithBox","path":"sprites/spr_background_MainMenuWithBox/spr_background_MainMenuWithBox.yy",},},
+    {"id":{"name":"spr_dialoguebox_ashley","path":"sprites/spr_dialoguebox_ashley/spr_dialoguebox_ashley.yy",},},
+    {"id":{"name":"spr_dialoguebox_mel","path":"sprites/spr_dialoguebox_mel/spr_dialoguebox_mel.yy",},},
+    {"id":{"name":"spr_dialoguebox_yearner","path":"sprites/spr_dialoguebox_yearner/spr_dialoguebox_yearner.yy",},},
     {"id":{"name":"spr_npc_Mel","path":"sprites/spr_npc_Mel/spr_npc_Mel.yy",},},
     {"id":{"name":"spr_obj_kettle","path":"sprites/spr_obj_kettle/spr_obj_kettle.yy",},},
     {"id":{"name":"spr_object_bed","path":"sprites/spr_object_bed/spr_object_bed.yy",},},
