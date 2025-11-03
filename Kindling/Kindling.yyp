@@ -42,6 +42,7 @@
   },
   "name":"Kindling",
   "resources":[
+    {"id":{"name":"obj_COLLIDABLE","path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",},},
     {"id":{"name":"obj_dialoguebox","path":"objects/obj_dialoguebox/obj_dialoguebox.yy",},},
     {"id":{"name":"obj_DIALOGUETRIGGER","path":"objects/obj_DIALOGUETRIGGER/obj_DIALOGUETRIGGER.yy",},},
     {"id":{"name":"obj_dorm_bed","path":"objects/obj_dorm_bed/obj_dorm_bed.yy",},},

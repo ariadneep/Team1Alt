@@ -1,4 +1,5 @@
-depth = -y
+depth = -(.1 * y)
+show_debug_message(depth)
 // Handle player movement and collisions
 if(obj_Globals.rpgMode){
 	var move_left = keyboard_check(vk_left) or keyboard_check(ord("A"))

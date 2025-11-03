@@ -5,5 +5,5 @@ if (instance_exists(kettle_box)) {
     depth = parent.depth - 1;
 } else {
 	//in case something is weird:
-    depth = -y + base_depth;
+    //depth = -y + base_depth;
 }

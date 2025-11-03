@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_bed",
-  "eventList":[],
+  "%Name":"obj_COLLIDABLE",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_dorm_bed",
+  "name":"obj_COLLIDABLE",
   "overriddenProperties":[],
   "parent":{
-    "name":"furniture",
-    "path":"folders/Objects/furniture.yy",
+    "name":"parents",
+    "path":"folders/Objects/parents.yy",
   },
   "parentObjectId":{
-    "name":"obj_COLLIDABLE",
-    "path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",
+    "name":"obj_DIALOGUETRIGGER",
+    "path":"objects/obj_DIALOGUETRIGGER/obj_DIALOGUETRIGGER.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,10 +33,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_object_bed",
-    "path":"sprites/spr_object_bed/spr_object_bed.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

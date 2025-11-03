@@ -10,8 +10,8 @@
     "path":"folders/Objects/furniture.yy",
   },
   "parentObjectId":{
-    "name":"obj_DIALOGUETRIGGER",
-    "path":"objects/obj_DIALOGUETRIGGER/obj_DIALOGUETRIGGER.yy",
+    "name":"obj_COLLIDABLE",
+    "path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
