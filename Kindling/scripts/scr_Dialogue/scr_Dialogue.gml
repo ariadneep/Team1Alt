@@ -7,9 +7,30 @@ enum Speaker {
 	Hit
 }
 
-function open_dialogue(){
+function open_dialogue(argument0){
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
+	var this_graph;
+	
+	// Figure out who the speaker is
+	switch(argument0.object_index) {
+			case obj_dorm_bed:
+				this_graph = obj_dialogue.map.bed
+				break
+			case obj_dorm_ducklamp:
+				this_graph = obj_dialogue.map.duck
+				break
+			case obj_dorm_pc:
+				this_graph = obj_dialogue.map.pc
+				break
+			case obj_dorm_kettle:
+				//this_graph = obj_dialogue.map.kettle
+				//break
+			default:
+				this_graph = obj_dialogue.map.wakeup
+				break
+	} // end switch
+	obj_dialoguebox.this_graph = this_graph
 	layer_set_visible(obj_globals.dialogue_layer, true)
 	layer_set_visible(obj_globals.portrait_effect_layer, true)
 }
