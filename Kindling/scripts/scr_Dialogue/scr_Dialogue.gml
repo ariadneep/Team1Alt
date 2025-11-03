@@ -8,18 +8,18 @@ enum Speaker {
 }
 
 function open_dialogue(){
-	obj_Globals.rpgMode = false
-	obj_Globals.dialogueMode = true
-	layer_set_visible(obj_Globals.dialogue_layer, true)
-	layer_set_visible(obj_Globals.portrait_effect_layer, true)
+	obj_globals.rpgMode = false
+	obj_globals.dialogueMode = true
+	layer_set_visible(obj_globals.dialogue_layer, true)
+	layer_set_visible(obj_globals.portrait_effect_layer, true)
 	show_debug_message("dialogue opened?")
 }
 
 function close_dialogue(){
-	obj_Globals.rpgMode = true
-	obj_Globals.dialogueMode = false
-	layer_set_visible(obj_Globals.dialogue_layer, false)
-	layer_set_visible(obj_Globals.portrait_effect_layer, false)
+	obj_globals.rpgMode = true
+	obj_globals.dialogueMode = false
+	layer_set_visible(obj_globals.dialogue_layer, false)
+	layer_set_visible(obj_globals.portrait_effect_layer, false)
 	show_debug_message("dialogue closed?")
 }
 

@@ -14,7 +14,7 @@ if(distance_to_object(nearest_interactible) <= 30){
 }
 
 // Handle player movement and collisions
-if(obj_Globals.rpgMode){
+if(obj_globals.rpgMode){
 	var move_left = keyboard_check(vk_left) or keyboard_check(ord("A"))
 	var move_right =  keyboard_check(vk_right) or keyboard_check(ord("D"))
 	var move_up = keyboard_check(vk_up) or keyboard_check(ord("W"))

@@ -1,7 +1,7 @@
 if(is_closest) {
-	if(obj_Globals.rpgMode){
+	if(obj_globals.rpgMode){
 		open_dialogue()
-	} else if(obj_Globals.dialogueMode) {
+	} else if(obj_globals.dialogueMode) {
 		close_dialogue()
 	}
 }
