@@ -12,8 +12,8 @@
     "path":"folders/Objects/furniture.yy",
   },
   "parentObjectId":{
-    "name":"obj_DIALOGUETRIGGER",
-    "path":"objects/obj_DIALOGUETRIGGER/obj_DIALOGUETRIGGER.yy",
+    "name":"obj_INTERACTIBLE",
+    "path":"objects/obj_INTERACTIBLE/obj_INTERACTIBLE.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

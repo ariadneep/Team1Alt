@@ -1,2 +1,2 @@
 event_inherited()
-depth = -(.1 * y) + base_depth
+depth = (-y) * 0.5

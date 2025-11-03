@@ -9,5 +9,5 @@ var dialogue_map = {
 	"computer": load_dialogue("json_dialogue_computer.txt"),
 }
 
-for(var i = 0; i < array_length(dialogue_map.computer); i++)
-	show_debug_message(dialogue_map.computer[i].text)
+//for(var i = 0; i < array_length(dialogue_map.computer); i++)
+//	show_debug_message(dialogue_map.computer[i].text)
