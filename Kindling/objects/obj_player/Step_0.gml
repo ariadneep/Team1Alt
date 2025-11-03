@@ -1,7 +1,8 @@
 depth = .1 * -y
-
+//TODO: organize this later because it's a mess!
 if(distance_to_object(nearest_interactible) > 30){
 	nearest_interactible.is_closest = false
+	layer_set_visible(obj_globals.tips_layer, false)
 }
 var old_nearest = nearest_interactible
 nearest_interactible  = instance_nearest(x, y, obj_INTERACTIBLE)
@@ -11,7 +12,10 @@ if(old_nearest.id != nearest_interactible.id)
 
 if(distance_to_object(nearest_interactible) <= 30){
 	nearest_interactible.is_closest = true
+	layer_set_visible(obj_globals.tips_layer, true)
 }
+if(obj_globals.dialogueMode)
+	layer_set_visible(obj_globals.tips_layer, false)
 
 // Handle player movement and collisions
 if(obj_globals.rpgMode){

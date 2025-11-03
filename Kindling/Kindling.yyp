@@ -49,6 +49,7 @@
   "name":"Kindling",
   "resources":[
     {"id":{"name":"obj_COLLIDABLE","path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",},},
+    {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_dialoguebox","path":"objects/obj_dialoguebox/obj_dialoguebox.yy",},},
     {"id":{"name":"obj_dorm_bed","path":"objects/obj_dorm_bed/obj_dorm_bed.yy",},},
     {"id":{"name":"obj_dorm_box","path":"objects/obj_dorm_box/obj_dorm_box.yy",},},
@@ -58,6 +59,7 @@
     {"id":{"name":"obj_dorm_toilet","path":"objects/obj_dorm_toilet/obj_dorm_toilet.yy",},},
     {"id":{"name":"obj_dorm_walls","path":"objects/obj_dorm_walls/obj_dorm_walls.yy",},},
     {"id":{"name":"obj_globals","path":"objects/obj_globals/obj_globals.yy",},},
+    {"id":{"name":"obj_hints","path":"objects/obj_hints/obj_hints.yy",},},
     {"id":{"name":"obj_INTERACTIBLE","path":"objects/obj_INTERACTIBLE/obj_INTERACTIBLE.yy",},},
     {"id":{"name":"obj_npc_mel","path":"objects/obj_npc_mel/obj_npc_mel.yy",},},
     {"id":{"name":"obj_OBSTACLE","path":"objects/obj_OBSTACLE/obj_OBSTACLE.yy",},},
