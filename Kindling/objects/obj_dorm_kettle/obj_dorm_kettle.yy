@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_walls",
+  "%Name":"obj_dorm_kettle",
   "eventList":[],
   "managed":true,
-  "name":"obj_dorm_walls",
+  "name":"obj_dorm_kettle",
   "overriddenProperties":[],
   "parent":{
     "name":"furniture",
     "path":"folders/Objects/furniture.yy",
   },
   "parentObjectId":{
-    "name":"obj_OBSTACLE",
-    "path":"objects/obj_OBSTACLE/obj_OBSTACLE.yy",
+    "name":"obj_DIALOGUETRIGGER",
+    "path":"objects/obj_DIALOGUETRIGGER/obj_DIALOGUETRIGGER.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_background_dorm_walls",
-    "path":"sprites/spr_background_dorm_walls/spr_background_dorm_walls.yy",
+    "name":"spr_obj_kettle",
+    "path":"sprites/spr_obj_kettle/spr_obj_kettle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

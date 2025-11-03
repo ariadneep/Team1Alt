@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_walls",
+  "%Name":"obj_dorm_box",
   "eventList":[],
   "managed":true,
-  "name":"obj_dorm_walls",
+  "name":"obj_dorm_box",
   "overriddenProperties":[],
   "parent":{
     "name":"furniture",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_background_dorm_walls",
-    "path":"sprites/spr_background_dorm_walls/spr_background_dorm_walls.yy",
+    "name":"spr_object_box",
+    "path":"sprites/spr_object_box/spr_object_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,

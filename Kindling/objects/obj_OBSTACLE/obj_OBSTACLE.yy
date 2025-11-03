@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_computer",
+  "%Name":"obj_OBSTACLE",
   "eventList":[],
   "managed":true,
-  "name":"obj_dorm_computer",
+  "name":"obj_OBSTACLE",
   "overriddenProperties":[],
   "parent":{
-    "name":"furniture",
-    "path":"folders/Objects/furniture.yy",
+    "name":"parents",
+    "path":"folders/Objects/parents.yy",
   },
-  "parentObjectId":{
-    "name":"obj_DIALOGUETRIGGER",
-    "path":"objects/obj_DIALOGUETRIGGER/obj_DIALOGUETRIGGER.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_object_PC",
-    "path":"sprites/spr_object_PC/spr_object_PC.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
