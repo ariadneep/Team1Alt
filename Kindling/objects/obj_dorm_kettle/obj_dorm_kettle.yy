@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_dorm_kettle",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_dorm_kettle",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/furniture.yy",
   },
   "parentObjectId":{
-    "name":"obj_DIALOGUETRIGGER",
-    "path":"objects/obj_DIALOGUETRIGGER/obj_DIALOGUETRIGGER.yy",
+    "name":"obj_OBSTACLE",
+    "path":"objects/obj_OBSTACLE/obj_OBSTACLE.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

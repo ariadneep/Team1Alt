@@ -1,3 +1,4 @@
+event_inherited()
 var dialogue_bed = load_dialogue("json_dialogue_bed.txt")
 var dialogue_wakeup = load_dialogue("json_dialogue_wakeup.txt")
 

@@ -1,0 +1,1 @@
+depth = -y + base_depth
