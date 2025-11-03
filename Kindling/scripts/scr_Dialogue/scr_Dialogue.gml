@@ -12,7 +12,6 @@ function open_dialogue(){
 	obj_globals.dialogueMode = true
 	layer_set_visible(obj_globals.dialogue_layer, true)
 	layer_set_visible(obj_globals.portrait_effect_layer, true)
-	show_debug_message("dialogue opened?")
 }
 
 function close_dialogue(){
@@ -20,7 +19,6 @@ function close_dialogue(){
 	obj_globals.dialogueMode = false
 	layer_set_visible(obj_globals.dialogue_layer, false)
 	layer_set_visible(obj_globals.portrait_effect_layer, false)
-	show_debug_message("dialogue closed?")
 }
 
 ///@function load_dialogue(filepath)
