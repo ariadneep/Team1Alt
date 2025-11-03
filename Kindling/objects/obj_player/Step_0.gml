@@ -1,7 +1,7 @@
 depth = .5 * -y
 var inst  = instance_nearest(x, y, obj_INTERACTIBLE)
-if(distance_to_object(inst) < 30)
-	show_debug_message("depth is " + string(depth) + " but instance depth is " + string(inst.depth))
+if(distance_to_object(inst) < 30){}
+	//show_debug_message("depth is " + string(depth) + " but instance depth is " + string(inst.depth))
 
 // Handle player movement and collisions
 if(obj_Globals.rpgMode){
