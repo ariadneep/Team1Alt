@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_PC",
-    "path":"sprites/spr_object_PC/spr_object_PC.yy",
+    "name":"spr_object_pc",
+    "path":"sprites/spr_object_pc/spr_object_pc.yy",
   },
   "spriteMaskId":null,
   "visible":true,

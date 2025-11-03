@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc_Mel",
-    "path":"sprites/spr_npc_Mel/spr_npc_Mel.yy",
+    "name":"spr_character_mel",
+    "path":"sprites/spr_character_mel/spr_character_mel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

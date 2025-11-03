@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_DuckLamp",
-    "path":"sprites/spr_object_DuckLamp/spr_object_DuckLamp.yy",
+    "name":"spr_object_ducklamp",
+    "path":"sprites/spr_object_ducklamp/spr_object_ducklamp.yy",
   },
   "spriteMaskId":null,
   "visible":true,

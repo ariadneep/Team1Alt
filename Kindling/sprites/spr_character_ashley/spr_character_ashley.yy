@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_player_AshleyWalk",
+  "%Name":"spr_character_ashley",
   "bboxMode":2,
   "bbox_bottom":123,
   "bbox_left":15,
@@ -44,19 +44,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"3f7aed94-1150-43da-a840-90634eca4e89","blendMode":0,"displayName":"default","isLocked":false,"name":"3f7aed94-1150-43da-a840-90634eca4e89","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_player_AshleyWalk",
+  "name":"spr_character_ashley",
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"characters",
+    "path":"folders/Sprites/characters.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_player_AshleyWalk",
+    "%Name":"spr_character_ashley",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -80,7 +80,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_player_AshleyWalk",
+    "name":"spr_character_ashley",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -94,76 +94,76 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e58e1ba4-f49a-4491-bbe3-d3f60c6ed2c9","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e58e1ba4-f49a-4491-bbe3-d3f60c6ed2c9","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"19f91b6e-643d-49ad-b4fe-573f223c4900","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7adaf435-4659-4aef-b64c-6c00befeb2bd","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7adaf435-4659-4aef-b64c-6c00befeb2bd","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"07390120-03f6-4600-9650-d12b0e907f23","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ad42f8b-1518-4ae4-8fe0-6c2a4dec5d81","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ad42f8b-1518-4ae4-8fe0-6c2a4dec5d81","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e9feea02-aa64-41cf-9bb8-b2da4dba51fd","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e14c86d0-8b3e-485a-a8c4-2e463f678713","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e14c86d0-8b3e-485a-a8c4-2e463f678713","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8660cb03-91f0-402e-a37e-2fb46185d1d1","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aa1c53c6-760b-47cb-abcc-6b50836c0315","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aa1c53c6-760b-47cb-abcc-6b50836c0315","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"56659666-b487-4a6c-b102-5769bda2c923","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0563ef15-49be-4f38-b1f4-b405abc0bd5c","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0563ef15-49be-4f38-b1f4-b405abc0bd5c","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"baa0fec7-9c2a-4934-99b8-279211eef8bb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0d6ba6a-44f5-466e-bb75-d09b5f81f2ca","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0d6ba6a-44f5-466e-bb75-d09b5f81f2ca","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0dadc8b9-b261-46a2-b7d4-a92a623038ee","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d59fadf0-318a-4068-ae12-018bc232e709","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d59fadf0-318a-4068-ae12-018bc232e709","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5c9d8370-e982-422c-815c-c888c3078239","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"162172c0-565e-4cdf-bc5a-2c35a44de00b","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"162172c0-565e-4cdf-bc5a-2c35a44de00b","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ca72b128-9da1-465c-808b-031deae94571","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48a1fec3-2eb2-43b8-90cd-f583ee88bac2","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48a1fec3-2eb2-43b8-90cd-f583ee88bac2","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"67619c60-2c2f-4d9b-96bd-51fb94dcb526","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5e1f6c97-4295-4133-9791-3e121f4f60e6","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5e1f6c97-4295-4133-9791-3e121f4f60e6","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b1262920-5be4-4483-bb26-f3d7fcbd3c58","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f25e5460-100a-45ac-b212-16f38bac3b2c","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f25e5460-100a-45ac-b212-16f38bac3b2c","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d52cf188-31a2-4022-8b03-f991e8613284","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99e335c6-e0db-4a36-b97b-d817c8a8b58c","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99e335c6-e0db-4a36-b97b-d817c8a8b58c","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"c4837e7a-42e8-4422-a3ac-3d985b450c3c","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aed93171-235b-497d-a082-235b9275cdb1","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aed93171-235b-497d-a082-235b9275cdb1","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"4edef77f-3183-41f3-b6be-25f22a5d8471","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b687148e-958f-4ec6-8dbd-b97d52e6ab54","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b687148e-958f-4ec6-8dbd-b97d52e6ab54","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0d69271b-0565-4bc4-b2f8-8ec3350148c7","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f196a9bc-14a6-42f8-8915-d7a70fa828ab","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f196a9bc-14a6-42f8-8915-d7a70fa828ab","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"86d8b4e0-8377-48d7-9fdf-03dd2961377c","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9e43d14a-adcc-437d-9ccc-023d9f2c43f2","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9e43d14a-adcc-437d-9ccc-023d9f2c43f2","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8fef0664-75d5-4943-9663-606650d8b1c1","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4a1d581-c137-4825-97af-d552d1682247","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4a1d581-c137-4825-97af-d552d1682247","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"3ce961e0-eb90-4703-aabf-91cb5c94a8bd","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"29a40f17-c65b-4ccf-9023-251260c8238e","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"29a40f17-c65b-4ccf-9023-251260c8238e","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0e939fc9-0146-4546-9b6a-9b18865ee8d8","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7cdac2fb-4c81-4d6d-9f13-313ec7eb01a7","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7cdac2fb-4c81-4d6d-9f13-313ec7eb01a7","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"14066663-f714-4eb6-b0a3-e4e441a44460","IsCreationKey":false,"Key":19.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"485b49a5-7d25-424b-a461-d00ac82b9b03","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"485b49a5-7d25-424b-a461-d00ac82b9b03","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"0737334e-368e-4c02-8a5b-e6f42ce2b68d","IsCreationKey":false,"Key":20.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6696071-a97b-4351-bd5d-0b2027155584","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6696071-a97b-4351-bd5d-0b2027155584","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ee583bbc-6115-4240-8bb2-259d1497d3c2","IsCreationKey":false,"Key":21.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc3541b8-1597-41ab-8e70-6b77769af591","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc3541b8-1597-41ab-8e70-6b77769af591","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"756ac3d2-21a5-4a1e-843e-1cb3a95ae6a6","IsCreationKey":false,"Key":22.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"542299fd-bc65-403e-a029-78b8a750e433","path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"542299fd-bc65-403e-a029-78b8a750e433","path":"sprites/spr_character_ashley/spr_character_ashley.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"50260685-ee36-4676-8b3e-0278e867e716","IsCreationKey":false,"Key":23.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

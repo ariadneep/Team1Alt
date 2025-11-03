@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_UI_Icon",
-    "path":"sprites/spr_UI_Icon/spr_UI_Icon.yy",
+    "name":"spr_ui_interactible",
+    "path":"sprites/spr_ui_interactible/spr_ui_interactible.yy",
   },
   "spriteMaskId":null,
   "visible":true,

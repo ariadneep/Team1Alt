@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_UI_Phone001",
-    "path":"sprites/spr_UI_Phone001/spr_UI_Phone001.yy",
+    "name":"spr_ui_phone001",
+    "path":"sprites/spr_ui_phone001/spr_ui_phone001.yy",
   },
   "spriteMaskId":null,
   "visible":true,

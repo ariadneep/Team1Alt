@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_overlay_TransparentBlack",
-    "path":"sprites/spr_overlay_TransparentBlack/spr_overlay_TransparentBlack.yy",
+    "name":"spr_ui_overlay_black",
+    "path":"sprites/spr_ui_overlay_black/spr_ui_overlay_black.yy",
   },
   "spriteMaskId":null,
   "visible":true,

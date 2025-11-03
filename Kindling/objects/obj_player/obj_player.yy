@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_player_AshleyWalk",
-    "path":"sprites/spr_player_AshleyWalk/spr_player_AshleyWalk.yy",
+    "name":"spr_character_ashley",
+    "path":"sprites/spr_character_ashley/spr_character_ashley.yy",
   },
   "spriteMaskId":null,
   "visible":true,
