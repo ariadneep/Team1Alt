@@ -1,4 +1,5 @@
-if(in_range){
-	show_debug_message(string(id) + " is in range")
-	in_range = false //constantly reset to false
+if(is_closest){
+	hover_icon.visible = true
+} else {
+	hover_icon.visible = false
 }

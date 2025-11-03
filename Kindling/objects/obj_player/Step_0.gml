@@ -1,8 +1,16 @@
 depth = .1 * -y
+
+if(distance_to_object(nearest_interactible) > 30){
+	nearest_interactible.is_closest = false
+}
+var old_nearest = nearest_interactible
 nearest_interactible  = instance_nearest(x, y, obj_INTERACTIBLE)
-if(distance_to_object(nearest_interactible) < 30){
-	//show_debug_message("depth is " + string(depth) + " but instance depth is " + string(inst.depth))
-	nearest_interactible.in_range = true
+
+if(old_nearest.id != nearest_interactible.id)
+	old_nearest.is_closest = false
+
+if(distance_to_object(nearest_interactible) <= 30){
+	nearest_interactible.is_closest = true
 }
 
 // Handle player movement and collisions

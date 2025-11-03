@@ -1,5 +1,5 @@
 event_inherited()
-in_range = false
+is_closest = false
 dialogue_bed = load_dialogue("json_dialogue_bed.txt")
 dialogue_wakeup = load_dialogue("json_dialogue_wakeup.txt")
 hover_icon = instance_create_layer(x, y - sprite_height, layer_get_id("Symbols"), obj_symbol_interactible)

@@ -1,1 +1,1 @@
-depth = -y + base_depth
+depth = -y * .1
