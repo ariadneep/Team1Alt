@@ -23,6 +23,7 @@
     {"name":"inst_32070CAC","path":"rooms/rm_dorm/rm_dorm.yy",},
     {"name":"inst_65E900C8","path":"rooms/rm_dorm/rm_dorm.yy",},
     {"name":"inst_120A451E","path":"rooms/rm_dorm/rm_dorm.yy",},
+    {"name":"inst_4489FC1F","path":"rooms/rm_dorm/rm_dorm.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,6 +55,7 @@
         {"$GMRInstance":"v4","%Name":"inst_37DF570D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37DF570D","objectId":{"name":"obj_dorm_kettle","path":"objects/obj_dorm_kettle/obj_dorm_kettle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":632.0,"y":568.0,},
         {"$GMRInstance":"v4","%Name":"inst_32070CAC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32070CAC","objectId":{"name":"obj_dorm_toilet","path":"objects/obj_dorm_toilet/obj_dorm_toilet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":880.0,"y":556.0,},
         {"$GMRInstance":"v4","%Name":"inst_120A451E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_120A451E","objectId":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":8.0,"y":8.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4489FC1F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4489FC1F","objectId":{"name":"obj_roomchange_hub","path":"objects/obj_roomchange_hub/obj_roomchange_hub.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.75,"x":472.0,"y":624.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Room_Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Room_Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background_dorm","path":"sprites/spr_background_dorm/spr_background_dorm.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
