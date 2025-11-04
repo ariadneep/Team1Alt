@@ -16,7 +16,7 @@
     "text":"You've extracted just enough comfort already.",
     "speaker":"",
     "mood":"",
-    "is_active":false,
+    "is_active":true,
     "children":[
     ]
   },
@@ -34,7 +34,7 @@
     "text":"You've extracted way too much comfort already.",
     "speaker":"",
     "mood":"",
-    "is_active":true,
+    "is_active":false,
     "children":[
     ]
   }

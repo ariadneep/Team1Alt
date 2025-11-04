@@ -46,22 +46,32 @@ function open_dialogue(argument0){
 /// @description traverses the dialogue graph currently mapped in the dialoguebox.
 /// @returns {void}
 function step_dialogue() {
+	
 	with (obj_dialoguebox) {
+		//save the children of this line for easy access
 		var children = this_graph[current_index].children
+		
+		//If there are no children, just close the dialogue.
 		if(array_length(children) == 0) {
 			is_choice = false
 			close_dialogue()
-		} else if(is_choice){
+			return
+		}
+		if(is_choice){
+			//navigate to the chosen child at method call time
 			current_index = children[curr_choice_index]
+			is_choice = false //dealt with the choice; no longer a choice
 		} else {
 			if(array_length(children) == 1){
+				//if there's just one child, go to it.
 				is_choice = false
 				current_index++
 			} else { //if there's more than one child, then this is a choice
-			is_choice = true
+				is_choice = true
 			}
-		}
-	}
+		}//end else
+	}//end with
+	
 }
 
 function close_dialogue(){
