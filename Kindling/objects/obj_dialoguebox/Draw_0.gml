@@ -17,10 +17,11 @@ if(!is_choice){
 } else {
 	var options = ""
 	var these_children = this_graph[current_index].children
+	var option_sep = 0
 	//for each child
 	for(var i = 0; i < array_length(these_children); i++) {
-		options += "[PRESS " + string(i+1) + "] " + this_graph[these_children[i]].text + "\n"
+		//draw each child's text, preceeded with a number/instruction, in a respective region
+		draw_text_ext(text_x, text_y + option_sep, ("[PRESS " + string(i+1) + "] " + this_graph[these_children[i]].text + "\n"), line_sep, max_width)
+		option_sep += 30
 	}
-	//draw each child's text, preceeded with a number/instruction, in a respective region
-	draw_text_ext(text_x, text_y, options, line_sep, max_width)
 }
