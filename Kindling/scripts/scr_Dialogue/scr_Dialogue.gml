@@ -54,11 +54,9 @@ function step_dialogue(){
 		} else if(array_length(children) == 1){
 			is_choice = false
 			current_index++
-		} else {
-			//if there's more than one child, then this is a choice
+		} else { //if there's more than one child, then this is a choice
 			is_choice = true
-			var chosen_child = -1;
-			var num_children = array_length(children)
+			//current_index = children[curr_choice_index]
 		}
 	}
 }
