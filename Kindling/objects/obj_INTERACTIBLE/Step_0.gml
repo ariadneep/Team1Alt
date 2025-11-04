@@ -6,7 +6,7 @@ if(is_closest){
 		if(obj_globals.rpgMode){
 			open_dialogue(id) //send off the type key
 		} else if(obj_globals.dialogueMode) {
-			close_dialogue()
+			step_dialogue()
 		}
 	}
 } 

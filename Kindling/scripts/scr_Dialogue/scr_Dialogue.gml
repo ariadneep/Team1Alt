@@ -11,28 +11,48 @@ function open_dialogue(argument0){
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
 	var this_graph;
+	var this_index;
 	
 	// Figure out who the speaker is
 	switch(argument0.object_index) {
 			case obj_dorm_bed:
-				this_graph = obj_dialogue.map.bed
+				this_graph = obj_dialogue.map.bed.content
+				this_index = obj_dialogue.map.bed.ptr_index
 				break
 			case obj_dorm_ducklamp:
-				this_graph = obj_dialogue.map.duck
+				this_graph = obj_dialogue.map.duck.content
+				this_index = obj_dialogue.map.duck.ptr_index
 				break
 			case obj_dorm_pc:
-				this_graph = obj_dialogue.map.pc
+				this_graph = obj_dialogue.map.pc.content
+				this_index = obj_dialogue.map.pc.ptr_index
 				break
 			case obj_dorm_kettle:
-				//this_graph = obj_dialogue.map.kettle
+				//this_graph = obj_dialogue.map.kettle.content
+				//this_index = obj_dialogue.map.kettle.ptr_index
 				//break
 			default:
-				this_graph = obj_dialogue.map.wakeup
+				this_graph = obj_dialogue.map.wakeup.content
+				this_index = obj_dialogue.map.wakeup.ptr_index
 				break
 	} // end switch
 	obj_dialoguebox.this_graph = this_graph
+	obj_dialoguebox.current_index = this_index
 	layer_set_visible(obj_globals.dialogue_layer, true)
 	layer_set_visible(obj_globals.portrait_effect_layer, true)
+}
+
+/// @function step_dialogue()
+/// @description traverses the dialogue graph currently mapped in the dialoguebox.
+/// @returns {void}
+function step_dialogue(){
+	with (obj_dialoguebox) {
+		if(array_length(this_graph[current_index].children) == 0) {
+			close_dialogue()
+		} else {
+			current_index++
+		}
+	}
 }
 
 function close_dialogue(){
