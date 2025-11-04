@@ -8,8 +8,8 @@
   "name":"obj_roomchange_dorm",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"room changes",
+    "path":"folders/Objects/room changes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

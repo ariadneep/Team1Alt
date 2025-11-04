@@ -5,6 +5,3 @@ map = {
 	"pc": load_dialogue("json_dialogue_computer.txt"),
 	"kettle": [],
 }
-
-for(var i = 0; i < array_length(map.bed); i++)
-	show_debug_message(map.bed[i].text)
