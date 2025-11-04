@@ -6,5 +6,5 @@ this_graph = [{
 	"speaker": "",
 	"mood": "",
 	}]
-current_index = this_graph[0].index
+current_index = 0
 //grab from correct event index 0

@@ -1,5 +1,6 @@
 if(is_closest){
 	hover_icon.visible = true
+	
 	// Trigger an interaction
 	if(keyboard_check_pressed(obj_globals.CTRL_interact)){
 		if(obj_globals.rpgMode){
@@ -8,7 +9,7 @@ if(is_closest){
 			close_dialogue()
 		}
 	}
-	
-} else {
+} 
+else {
 	hover_icon.visible = false
 }
