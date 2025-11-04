@@ -47,10 +47,18 @@ function open_dialogue(argument0){
 /// @returns {void}
 function step_dialogue(){
 	with (obj_dialoguebox) {
-		if(array_length(this_graph[current_index].children) == 0) {
+		var children = this_graph[current_index].children
+		if(array_length(children) == 0) {
+			is_choice = false
 			close_dialogue()
-		} else {
+		} else if(array_length(children) == 1){
+			is_choice = false
 			current_index++
+		} else {
+			//if there's more than one child, then this is a choice
+			is_choice = true
+			var chosen_child = -1;
+			var num_children = array_length(children)
 		}
 	}
 }

@@ -7,4 +7,5 @@ this_graph = [{
 	"mood": "",
 	}]
 current_index = 0
+is_choice = false
 //grab from correct event index 0
