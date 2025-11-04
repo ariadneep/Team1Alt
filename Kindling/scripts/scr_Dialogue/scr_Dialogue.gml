@@ -45,18 +45,21 @@ function open_dialogue(argument0){
 /// @function step_dialogue()
 /// @description traverses the dialogue graph currently mapped in the dialoguebox.
 /// @returns {void}
-function step_dialogue(){
+function step_dialogue() {
 	with (obj_dialoguebox) {
 		var children = this_graph[current_index].children
 		if(array_length(children) == 0) {
 			is_choice = false
 			close_dialogue()
-		} else if(array_length(children) == 1){
-			is_choice = false
-			current_index++
-		} else { //if there's more than one child, then this is a choice
+		} else if(is_choice){
+			current_index = children[curr_choice_index]
+		} else {
+			if(array_length(children) == 1){
+				is_choice = false
+				current_index++
+			} else { //if there's more than one child, then this is a choice
 			is_choice = true
-			//current_index = children[curr_choice_index]
+			}
 		}
 	}
 }
