@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_portrait_ashley_neutral",
-    "path":"sprites/spr_portrait_ashley_neutral/spr_portrait_ashley_neutral.yy",
+    "name":"spr_portrait_ashley",
+    "path":"sprites/spr_portrait_ashley/spr_portrait_ashley.yy",
   },
   "spriteMaskId":null,
   "visible":true,

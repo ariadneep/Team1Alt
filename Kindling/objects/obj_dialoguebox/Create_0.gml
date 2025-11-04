@@ -1,9 +1,10 @@
 this_graph = [{
-	"index": -1, 
+	"index": 0, 
 	"text": "sample text",
 	"children": [],
+	"is_active": true,
 	"speaker": "",
 	"mood": "",
 	}]
-current_index = 0
+current_index = this_graph[0].index
 //grab from correct event index 0
