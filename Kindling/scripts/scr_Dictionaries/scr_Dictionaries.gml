@@ -23,9 +23,9 @@ function populate_diboxes() {
 		diboxes[?"ashley"] = spr_dialoguebox_ashley
 		diboxes[?"mel"] =spr_dialoguebox_mel
 		diboxes[?"alex"] = spr_dialoguebox_alex
-		diboxes[?"sanctum"] = spr_dialoguebox_innertemplate
+		diboxes[?"sanctum"] = spr_dialoguebox_sanctum
 		diboxes[?"yearner"] = spr_dialoguebox_yearner
-		diboxes[?"hit"] = spr_dialoguebox_innertemplate
-		diboxes[?"executive"] = spr_dialoguebox_innertemplate
+		diboxes[?"hit"] = spr_dialoguebox_hit
+		diboxes[?"executive"] = spr_dialoguebox_executive
 	}
 }
