@@ -7,6 +7,9 @@ enum Speaker {
 	Hit
 }
 
+///@function open_dialogue(object)
+///@param {asset} object: the object whose dialogue we plan to open.
+///@descripton triggers dialogue sequence for a certain object.
 function open_dialogue(argument0){
 	show_debug_message("open dialogue called! index " + string(obj_dialoguebox.current_index))
 	
@@ -42,10 +45,6 @@ function open_dialogue(argument0){
 	obj_dialoguebox.this_graph = this_graph
 	obj_dialoguebox.current_index = this_index
 	
-	with(obj_dialoguebox){
-		key = obj_dialoguebox.this_graph[current_index].speaker + obj_dialoguebox.this_graph[current_index].mood
-	}
-	
 	layer_set_visible(obj_globals.dialogue_layer, true)
 	layer_set_visible(obj_globals.portrait_effect_layer, true)
 }
@@ -55,7 +54,7 @@ function open_dialogue(argument0){
 /// @returns {void}
 function step_dialogue() {
 	with (obj_dialoguebox) {
-		key = obj_dialoguebox.this_graph[current_index].speaker + obj_dialoguebox.this_graph[current_index].mood
+		//key = obj_dialoguebox.this_graph[current_index].speaker + obj_dialoguebox.this_graph[current_index].mood
 		//save the children of this line for easy access
 		var children = this_graph[current_index].children
 		show_debug_message(this_graph[current_index])

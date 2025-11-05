@@ -1,14 +1,23 @@
 var num_choices = array_length(this_graph[current_index].children)
 
-key = this_graph[current_index].speaker + this_graph[current_index].mood
-var portrait
+// Handle dialogue-dependent portraits
+var portrait_key = this_graph[current_index].speaker + this_graph[current_index].mood
+var portrait = spr_portrait
 try {
-	portrait = obj_globals.portraits[?key]
-} catch(_exception){
-	portrait = spr_portrait
-}
+	portrait = obj_globals.portraits[?portrait_key]
+} catch(_exception){}
 obj_PortraitPopup.sprite_index = portrait
 
+// Handle dialogue-dependent textboxes.
+var dibox_key = this_graph[current_index].speaker
+var box = spr_dialoguebox
+try {
+	box = obj_globals.diboxes[?dibox_key]
+} catch(_exception){}
+sprite_index = box
+
+
+// Navigate through choices
 if(num_choices != 0){
 	// move down the elements
 	if(keyboard_check_pressed(obj_globals.CTRL_right[0]) 
