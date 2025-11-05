@@ -74,7 +74,7 @@
 		"index": 7.0,
 		"text": "You've got something due today at 11:59 PM. And oh, yikes, one thing overdue last night.",
 		"speaker":"ashley",
-		"mood":"worried",
+		"mood":"_worried",
 		"is_active": true,
 		"children": [
 			9.0,
