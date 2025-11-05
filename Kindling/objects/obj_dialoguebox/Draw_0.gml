@@ -11,7 +11,7 @@ var text_y = y
 var max_width = sprite_width * 0.8
 var line_sep = 20
 var text_color = c_white
-var selected_color = c_aqua
+var selected_color = c_blue
 
 // Draw text itself:
 if(!is_choice){
