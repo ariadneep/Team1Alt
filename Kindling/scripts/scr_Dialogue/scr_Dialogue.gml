@@ -69,7 +69,7 @@ function step_dialogue() {
 			if(array_length(children) == 1){
 				//if there's just one child, go to it.
 				is_choice = false
-				current_index++
+				current_index = children[0]
 			} else { //if there's more than one child, then this is a choice
 				is_choice = true
 			}
