@@ -136,7 +136,7 @@
 	{
 		"index": 13.0,
 		"text": "If you let this go for any longer, it'll come back to bite you. Raise your mettle and fight against the beast of procrastination.",
-		"speaker":"_sanctum",
+		"speaker":"sanctum",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -145,7 +145,7 @@
 	{
 		"index": 14.0,
 		"text": "You can finish the other one later. This one - it'll take time, sure, but it'll be done, and then you can worry about the other one.",
-		"speaker":"_yearner",
+		"speaker":"yearner",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -184,7 +184,7 @@
 	{
 		"index": 18.0,
 		"text": "Mmm, discourse. Someone's said something about some Youtuber that could maybe be true. A new law is being considered that might increase the government's ability to kill people. Great!",
-		"speaker":"_hit",
+		"speaker":"hit",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -193,7 +193,7 @@
 	{
 		"index": 19.0,
 		"text": "Good on you. You have more material needs than digitalized pixels. Separate yourself from the terror of modern technology and return to your caveman roots!",
-		"speaker":"_executive",
+		"speaker":"executive",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -235,7 +235,7 @@
 	{
 		"index": 23.0,
 		"text": "Yes! Let's go for it! I'd honestly thought you'd forgotten about it! You're taking initiative, that's so wonderful.",
-		"speaker":"_yearner",
+		"speaker":"yearner",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -282,7 +282,7 @@
 	{
 		"index": 28.0,
 		"text": "It wasn't a terrible attempt!",
-		"speaker":"_executive",
+		"speaker":"executive",
 		"mood":"",
 		"is_active": true,
 		"children": [

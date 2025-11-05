@@ -1,6 +1,12 @@
 var num_choices = array_length(this_graph[current_index].children)
 
-var portrait = obj_globals.portraits[?key]
+key = this_graph[current_index].speaker + this_graph[current_index].mood
+var portrait
+try {
+	portrait = obj_globals.portraits[?key]
+} catch(_exception){
+	portrait = spr_portrait
+}
 obj_PortraitPopup.sprite_index = portrait
 
 if(num_choices != 0){

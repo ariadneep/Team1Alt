@@ -5,7 +5,7 @@
 		"speaker": "ashley",
 		"mood": "",
 		"is_active":true,
-		"children":[]
+		"children":[1]
 	},
 	{
 		"index": 1,
