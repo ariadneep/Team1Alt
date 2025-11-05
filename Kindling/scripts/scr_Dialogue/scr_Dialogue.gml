@@ -10,6 +10,7 @@ enum Speaker {
 function open_dialogue(argument0){
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
+	obj_dialoguebox.curr_choice_index = 0
 	var this_graph;
 	var this_index;
 	
@@ -46,10 +47,10 @@ function open_dialogue(argument0){
 /// @description traverses the dialogue graph currently mapped in the dialoguebox.
 /// @returns {void}
 function step_dialogue() {
-	
 	with (obj_dialoguebox) {
 		//save the children of this line for easy access
 		var children = this_graph[current_index].children
+		show_debug_message(key)
 		
 		//If there are no children, just close the dialogue.
 		if(array_length(children) == 0) {
@@ -60,6 +61,7 @@ function step_dialogue() {
 		if(is_choice){
 			//navigate to the chosen child at method call time
 			current_index = children[curr_choice_index]
+			show_debug_message("FROM step_dialogue: children is " + string(children) + " choice index is " + string(curr_choice_index) + " curr index: " + string(current_index))
 			is_choice = false //dealt with the choice; no longer a choice
 		} else {
 			if(array_length(children) == 1){
@@ -70,6 +72,7 @@ function step_dialogue() {
 				is_choice = true
 			}
 		}//end else
+		curr_choice_index = 0
 	}//end with
 	
 }

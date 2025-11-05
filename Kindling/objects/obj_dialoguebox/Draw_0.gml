@@ -17,7 +17,6 @@ var selected_color = c_aqua
 if(!is_choice){
 	draw_text_ext_colour(text_x, text_y, this_graph[current_index].text, line_sep, max_width, text_color, text_color, text_color, text_color, 1)
 } else {
-	var options = ""
 	var these_children = this_graph[current_index].children
 	var option_sep = 0
 	

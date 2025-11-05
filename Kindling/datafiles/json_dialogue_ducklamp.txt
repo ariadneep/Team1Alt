@@ -2,7 +2,7 @@
 	{
 		"index": 0,
 		"text":"The duck lamp - paragon of human innovation - sits calmly on your drawer. Your mom had gifted it to you before the start of college.",
-		"speaker": "_ashley",
+		"speaker": "ashley",
 		"mood": "",
 		"is_active":true,
 		"children":[]
@@ -10,7 +10,7 @@
 	{
 		"index": 1,
 		"text":"The duck lamp's name is Bert.",
-		"speaker": "_ashley",
+		"speaker": "ashley",
 		"mood":"",
 		"is_active":true,
 		"children":[2]
@@ -18,7 +18,7 @@
 	{
 		"index": 2,
 		"text":"You'd been both touched and imbalanced by the gift. It had been a moment of real, genuine understanding of what you liked, so it was really goddamn weird.",
-		"speaker": "_sanctum",
+		"speaker": "sanctum",
 		"mood":"",
 		"is_active":true,
 		"children": []

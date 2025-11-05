@@ -23,7 +23,7 @@
   ],
   "name":"spr_portrait_mel_happy",
   "nineSlice":null,
-  "origin":0,
+  "origin":6,
   "parent":{
     "name":"portraits",
     "path":"folders/Sprites/portraits.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":1080,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -24,7 +24,7 @@
 	{
 		"index": 2.0,
 		"text": "[Turn it off.]",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -34,7 +34,7 @@
 	{
 		"index": 3.0,
 		"text": "[Look at homework.]",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -44,7 +44,7 @@
 	{
 		"index": 4.0,
 		"text": "Anything interesting?",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -54,7 +54,7 @@
 	{
 		"index": 5.0,
 		"text": "[Write a task list.]",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -73,8 +73,8 @@
 	{
 		"index": 7.0,
 		"text": "You've got something due today at 11:59 PM. And oh, yikes, one thing overdue last night.",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_worried",
 		"is_active": true,
 		"children": [
 			9.0,
