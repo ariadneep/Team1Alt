@@ -1,8 +1,8 @@
 // Inherit the parent event
 event_inherited()
-if (instance_exists(duck_box)) {
+if (instance_exists(table)) {
 	//make the kettle sit nicely on top of its box:
-    var parent = duck_box;
+    var parent = table;
     depth = parent.depth - 1;
 } else {
 	//in case something is weird:

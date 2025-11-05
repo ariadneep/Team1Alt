@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_kettle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dorm_trash",
+  "eventList":[],
   "managed":true,
-  "name":"obj_dorm_kettle",
+  "name":"obj_dorm_trash",
   "overriddenProperties":[],
   "parent":{
     "name":"furniture",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_kettle",
-    "path":"sprites/spr_object_kettle/spr_object_kettle.yy",
+    "name":"spr_object_trash",
+    "path":"sprites/spr_object_trash/spr_object_trash.yy",
   },
   "spriteMaskId":null,
   "visible":true,

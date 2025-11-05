@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_kettle",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dorm_rug",
+  "eventList":[],
   "managed":true,
-  "name":"obj_dorm_kettle",
+  "name":"obj_dorm_rug",
   "overriddenProperties":[],
   "parent":{
     "name":"furniture",
     "path":"folders/Objects/furniture.yy",
   },
-  "parentObjectId":{
-    "name":"obj_OBSTACLE",
-    "path":"objects/obj_OBSTACLE/obj_OBSTACLE.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_kettle",
-    "path":"sprites/spr_object_kettle/spr_object_kettle.yy",
+    "name":"spr_object_rug",
+    "path":"sprites/spr_object_rug/spr_object_rug.yy",
   },
   "spriteMaskId":null,
   "visible":true,
