@@ -2,7 +2,7 @@
 	{
 		"index": 0,
 		"text": "You wake up blearily. You've thrown the blanket off the bed in your sleep and a puddle of drool is damp against your cheek. Your alarm chirps. You could sleep in a little longer.",
-		"speaker":1,
+		"speaker":"",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -15,7 +15,7 @@
 	{
 		"index": 1.0,
 		"text": "New day, new me.",
-		"speaker":1,
+		"speaker":"",
 		"mood":"",
 		"is_active": false,
 		"children": [
@@ -24,7 +24,7 @@
 	{
 		"index": 2.0,
 		"text": "[Longingly look at the snooze button.]",
-		"speaker":1,
+		"speaker":"",
 		"mood":"",
 		"is_active": false,
 		"children": [
@@ -33,7 +33,7 @@
 	{
 		"index": 3.0,
 		"text": "Gotta feed the machine first.",
-		"speaker":1,
+		"speaker":"",
 		"mood":"",
 		"is_active": false,
 		"children": [
@@ -42,7 +42,7 @@
 	{
 		"index": 4.0,
 		"text": "[Hit the snooze button.]",
-		"speaker":1,
+		"speaker":"",
 		"mood":"",
 		"is_active": false,
 		"children": [
@@ -51,7 +51,7 @@
 	{
 		"index": 5.0,
 		"text": "Be at least a little more energetic about it. You could start doing daily stretches, make breakfast from scratch, four minute pool dip -.",
-		"speaker":"_yearner",
+		"speaker":"yearner",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -62,7 +62,7 @@
 	{
 		"index": 6.0,
 		"text": "You're so tired. It feels like anvils are weighing your eyeballs down, exhaustion dragging at your bones. Do you have enough energy to be brave today?",
-		"speaker":"_sanctum",
+		"speaker":"sanctum",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -73,7 +73,7 @@
 	{
 		"index": 7.0,
 		"text": "",
-		"speaker":"_executive",
+		"speaker":"executive",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -84,7 +84,7 @@
 	{
 		"index": 8.0,
 		"text": "",
-		"speaker":"_hit",
+		"speaker":"hit",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -121,7 +121,7 @@
 	{
 		"index": 12.0,
 		"text": "Really killing the mood here, but I'll take it.",
-		"speaker":"_yearner",
+		"speaker":"yearner",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -130,7 +130,7 @@
 	{
 		"index": 13.0,
 		"text": "There's the drive! Where can we get some ice?!",
-		"speaker":"_yearner",
+		"speaker":"yearner",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -139,7 +139,7 @@
 	{
 		"index": 14.0,
 		"text": "",
-		"speaker":"_executive",
+		"speaker":"executive",
 		"mood":"",
 		"is_active": true,
 		"children": [

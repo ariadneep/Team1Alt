@@ -41,6 +41,11 @@ function open_dialogue(argument0){
 	} // end switch
 	obj_dialoguebox.this_graph = this_graph
 	obj_dialoguebox.current_index = this_index
+	
+	with(obj_dialoguebox){
+		key = obj_dialoguebox.this_graph[current_index].speaker + obj_dialoguebox.this_graph[current_index].mood
+	}
+	
 	layer_set_visible(obj_globals.dialogue_layer, true)
 	layer_set_visible(obj_globals.portrait_effect_layer, true)
 }
@@ -50,9 +55,10 @@ function open_dialogue(argument0){
 /// @returns {void}
 function step_dialogue() {
 	with (obj_dialoguebox) {
+		key = obj_dialoguebox.this_graph[current_index].speaker + obj_dialoguebox.this_graph[current_index].mood
 		//save the children of this line for easy access
 		var children = this_graph[current_index].children
-		show_debug_message(key)
+		show_debug_message(this_graph[current_index])
 		
 		//If there are no children, just close the dialogue.
 		if(array_length(children) == 0) {
@@ -63,7 +69,6 @@ function step_dialogue() {
 		if(is_choice){
 			//navigate to the chosen child at method call time
 			current_index = children[curr_choice_index]
-			show_debug_message("FROM step_dialogue: children is " + string(children) + " choice index is " + string(curr_choice_index) + " curr index: " + string(current_index))
 			is_choice = false //dealt with the choice; no longer a choice
 		} else {
 			if(array_length(children) == 1){
