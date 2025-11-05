@@ -85,8 +85,8 @@
 	{
 		"index": 8.0,
 		"text": "You open a new note and write out a simple list of things to do. Suddenly, living feels a little easier.",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_happy",
 		"is_active": true,
 		"children": [
 		]
@@ -94,7 +94,7 @@
 	{
 		"index": 9.0,
 		"text": "Come back to it later.",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -104,8 +104,8 @@
 	{
 		"index": 10.0,
 		"text": "Work on the overdue one.",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_worried",
 		"is_active": true,
 		"children": [
 			13.0
@@ -114,7 +114,7 @@
 	{
 		"index": 11.0,
 		"text": "Work on the one due today.",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -124,7 +124,7 @@
 	{
 		"index": 12.0,
 		"text": "Plenty of interesting things on the wondrous world of the internet. Only question is: How much time you want to spend on this? and Do I really want to spend thirty minutes doomscrolling? That's two questions, actually. You can't count.",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -154,7 +154,7 @@
 	{
 		"index": 15.0,
 		"text": "I could look at socials a little.",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -164,7 +164,7 @@
 	{
 		"index": 16.0,
 		"text": "Actually, maybe not.",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -174,7 +174,7 @@
 	{
 		"index": 17.0,
 		"text": "Morning stretches, mayhaps? (20 minutes)",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -205,8 +205,8 @@
 	{
 		"index": 20.0,
 		"text": "[Grunt ape-like.]",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_happy",
 		"is_active": true,
 		"children": [
 			24.0
@@ -215,7 +215,7 @@
 	{
 		"index": 21.0,
 		"text": "[Do nothing and be normal.]",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -225,8 +225,8 @@
 	{
 		"index": 22.0,
 		"text": "[Pound your chest caveman-like.]",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_happy",
 		"is_active": true,
 		"children": [
 			26.0
@@ -245,8 +245,8 @@
 	{
 		"index": 24.0,
 		"text": "Your voice cracks halfway and there is a long pause where you contemplate yourself and all the actions that lead you here.",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_worried",
 		"is_active": true,
 		"children": [
 		]
@@ -254,7 +254,7 @@
 	{
 		"index": 25.0,
 		"text": "You exit the computer normally.",
-		"speaker":"",
+		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
 		"children": [
@@ -263,8 +263,8 @@
 	{
 		"index": 26.0,
 		"text": "You hit your chest a little too hard. Your morning starts with you hunched over your desk, coughing hard after trying to do a caveman impression.",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_worried",
 		"is_active": true,
 		"children": [
 			28.0
@@ -273,8 +273,8 @@
 	{
 		"index": 27.0,
 		"text": "Kind of rude, but correct. You participate in twenty minutes of aerobic hell.",
-		"speaker":"",
-		"mood":"",
+		"speaker":"ashley",
+		"mood":"_worried",
 		"is_active": true,
 		"children": [
 		]
