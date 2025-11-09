@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_character_ashley",
-    "path":"sprites/spr_character_ashley/spr_character_ashley.yy",
+    "name":"spr_character_ashley_walk_down",
+    "path":"sprites/spr_character_ashley_walk_down/spr_character_ashley_walk_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
