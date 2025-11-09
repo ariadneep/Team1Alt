@@ -1,4 +1,6 @@
 depth = .1 * -y
+xspeed = 0
+yspeed = 0
 
 //TODO: organize this later because it's a mess!sta
 if(distance_to_object(nearest_interactible) > 30){
@@ -27,24 +29,33 @@ if(obj_globals.rpgMode){
 	var is_moving = move_left || move_right || move_up || move_down
 	
 	if (move_left) {
-		move_and_collide(-player_speed, 0, impassible_objects)
+		xspeed += -player_speed
 		sprite_index = spr_character_ashley_walk_left
 		image_speed = 1
 	}
 	if (move_right) {
-	    move_and_collide(player_speed, 0, impassible_objects)
+	    xspeed += player_speed
 		sprite_index = spr_character_ashley_walk_right
 		image_speed = 1
 	}
 	if (move_up) {
-	   move_and_collide(0, -player_speed, impassible_objects)
+	   yspeed += -player_speed
 	   sprite_index = spr_character_ashley_walk_up
 	   image_speed = 1
-	}
+	} 
 	if (move_down) {
-		move_and_collide(0, player_speed, impassible_objects)
+		yspeed += player_speed
 		sprite_index = spr_character_ashley_walk_down
 		image_speed = 1
+	}
+
+	if (yspeed != 0 || xspeed != 0) {
+		var angle = point_direction(0, 0, xspeed, yspeed)
+		xspeed = lengthdir_x(player_speed, angle)
+		yspeed = lengthdir_y(player_speed, angle)
+	}
+	if(is_moving) {
+		move_and_collide(xspeed, yspeed, impassible_objects)
 	}
 	
 	if(!is_moving) {
