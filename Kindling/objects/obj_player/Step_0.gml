@@ -1,5 +1,5 @@
 depth = .1 * -y
-//TODO: organize this later because it's a mess!
+//TODO: organize this later because it's a mess!sta
 if(distance_to_object(nearest_interactible) > 30){
 	nearest_interactible.is_closest = false
 	layer_set_visible(obj_globals.tips_layer, false)
