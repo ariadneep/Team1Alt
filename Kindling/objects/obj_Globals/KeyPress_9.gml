@@ -1,21 +1,12 @@
-if(PhoneBool == 0)
-{
-var l5F757E3A_0 = false;
-l5F757E3A_0 = sequence_instance_exists(seq_UI_PhoneDown);
-if(l5F757E3A_0)
-{
-layer_sequence_destroy(PhoneDownVar);
-}
-	PhoneUpVar = layer_sequence_create("Symbols", 0, 0, seq_UI_PhoneUp);
-
-	PhoneBool = 1;
-		show_debug_message(string("Moons Haunted"));
-}
-
-else{
-	layer_sequence_destroy(PhoneUpVar);
-	PhoneDownVar = layer_sequence_create("Symbols", 0, 0, seq_UI_PhoneDown);
-
-	PhoneBool = 0;
-	show_debug_message(string("It's Silksong from Hornet"));
+if(!phone_is_visible) {
+	
+	if(sequence_instance_exists(seq_UI_PhoneDown))
+		layer_sequence_destroy(phone_seq_down);
+		
+	phone_seq_up = layer_sequence_create("Symbols", 0, 0, seq_UI_PhoneUp);
+	phone_is_visible = true;
+} else {
+	layer_sequence_destroy(phone_seq_up);
+	phone_seq_down = layer_sequence_create("Symbols", 0, 0, seq_UI_PhoneDown);
+	phone_is_visible = false;
 }
