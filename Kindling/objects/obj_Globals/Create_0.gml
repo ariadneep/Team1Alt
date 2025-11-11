@@ -16,6 +16,7 @@ dialogue_layer = layer_get_id("Portraits_And_Dialogue")
 portrait_effect_layer = layer_get_id("PortraitEffect")
 tips_layer = layer_get_id("Tips")
 
+//MAPS
 portraits = ds_map_create()
 populate_portraits()
 

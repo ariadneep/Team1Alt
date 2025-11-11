@@ -1,4 +1,11 @@
-depth = .1 * -y
+depth = (-y/room_height) * 100
+
+//DEBUG
+step_count = (step_count + 1) % 100
+if(step_count == 50) {
+	show_debug_message("ashley depth:" + string(depth))
+}
+
 xspeed = 0
 yspeed = 0
 

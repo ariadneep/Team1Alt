@@ -1,2 +1,2 @@
 event_inherited()
-depth = .1 * - y
+depth = (-y/room_height) * 100

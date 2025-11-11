@@ -1,1 +1,1 @@
-depth = -y * .1
+depth = (-y/room_height) * 100
