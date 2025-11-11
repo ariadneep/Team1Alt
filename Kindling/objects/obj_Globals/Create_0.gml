@@ -13,6 +13,8 @@ phone_is_visible = false;
 
 //LAYERS
 dialogue_layer = layer_get_id("Portraits_And_Dialogue")
+instances_layer = layer_get_id("Instances")
+popups_layer = layer_get_id("Instances")
 portrait_effect_layer = layer_get_id("PortraitEffect")
 tips_layer = layer_get_id("Tips")
 
