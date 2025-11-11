@@ -8,7 +8,7 @@ draw_set_colour(c_white)
 
 var text_x = x
 var text_y = y
-var max_width = sprite_width * 0.8
+var max_width = sprite_width * 0.65
 var line_sep = 20
 var text_color = c_white
 var selected_color = c_blue
