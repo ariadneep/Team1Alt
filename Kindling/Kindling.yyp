@@ -82,7 +82,6 @@
     {"id":{"name":"obj_roomchange_hub","path":"objects/obj_roomchange_hub/obj_roomchange_hub.yy",},},
     {"id":{"name":"obj_symbol_interactible","path":"objects/obj_symbol_interactible/obj_symbol_interactible.yy",},},
     {"id":{"name":"obj_UI_StartButton","path":"objects/obj_UI_StartButton/obj_UI_StartButton.yy",},},
-    {"id":{"name":"scr_PhonePopUp","path":"objects/scr_PhonePopUp/scr_PhonePopUp.yy",},},
     {"id":{"name":"rm_dorm","path":"rooms/rm_dorm/rm_dorm.yy",},},
     {"id":{"name":"rm_hub","path":"rooms/rm_hub/rm_hub.yy",},},
     {"id":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},

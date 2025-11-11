@@ -9,6 +9,8 @@ CTRL_right = [vk_right, ord("D")]
 //GLOBAL VARIABLES
 rpgMode = true
 dialogueMode = false
+PhoneBool = 0;
+show_debug_message(string(PhoneBool));
 
 //LAYERS
 dialogue_layer = layer_get_id("Portraits_And_Dialogue")
