@@ -1,4 +1,3 @@
-//depth = (-y/room_height) * 100
 calc_depth(id)
 
 xspeed = 0
