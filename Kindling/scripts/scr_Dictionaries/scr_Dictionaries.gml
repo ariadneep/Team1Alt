@@ -29,3 +29,12 @@ function populate_diboxes() {
 		diboxes[?"executive"] = spr_dialoguebox_executive
 	}
 }
+
+function populate_effects() {
+	with (obj_globals) {
+		effects[?"sanctum"] = fx_create("_effect_gaussian_blur")
+		effects[?"yearner"] = fx_create("_filter_heathaze")
+		effects[?"hit"] = fx_create("_filter_underwater")
+		effects[?"executive"] = fx_create("_filter_whitenoise")
+	}
+}
