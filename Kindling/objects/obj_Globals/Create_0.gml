@@ -15,7 +15,7 @@ phone_is_visible = false;
 dialogue_layer = layer_get_id("Portraits_And_Dialogue")
 instances_layer = layer_get_id("Instances")
 popups_layer = layer_get_id("Instances")
-portrait_effect_layer = layer_get_id("PortraitEffect")
+dialogue_effects = layer_create(layer_get_depth(obj_globals.dialogue_layer) + 1, "Dialogue_Effects")
 tips_layer = layer_get_id("Tips")
 
 //MAPS

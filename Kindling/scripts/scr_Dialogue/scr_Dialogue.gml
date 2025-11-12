@@ -43,8 +43,13 @@ function open_dialogue(argument0){
 	obj_dialoguebox.this_graph = this_graph
 	obj_dialoguebox.current_index = this_index
 	
+	//Set the effect dynamically
+	var effect = fx_create("_effect_gaussian_blur")
+	layer_set_fx(obj_globals.dialogue_effects, effect)
+	
+	//Show layers
 	layer_set_visible(obj_globals.dialogue_layer, true)
-	layer_set_visible(obj_globals.portrait_effect_layer, true)
+	layer_set_visible(obj_globals.dialogue_effects, true)
 }
 
 /// @function step_dialogue()
@@ -85,7 +90,7 @@ function close_dialogue(){
 	obj_globals.rpgMode = true
 	obj_globals.dialogueMode = false
 	layer_set_visible(obj_globals.dialogue_layer, false)
-	layer_set_visible(obj_globals.portrait_effect_layer, false)
+	layer_set_visible(obj_globals.dialogue_effects, false)
 }
 
 ///@function load_dialogue(filepath)
