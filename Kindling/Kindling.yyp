@@ -93,7 +93,7 @@
     {"id":{"name":"seq_UI_PhoneUp","path":"sequences/seq_UI_PhoneUp/seq_UI_PhoneUp.yy",},},
     {"id":{"name":"spr_background_dorm_walls","path":"sprites/spr_background_dorm_walls/spr_background_dorm_walls.yy",},},
     {"id":{"name":"spr_background_dorm","path":"sprites/spr_background_dorm/spr_background_dorm.yy",},},
-    {"id":{"name":"spr_background_hub_temp","path":"sprites/spr_background_hub_temp/spr_background_hub_temp.yy",},},
+    {"id":{"name":"spr_background_hub","path":"sprites/spr_background_hub/spr_background_hub.yy",},},
     {"id":{"name":"spr_background_MainMenu","path":"sprites/spr_background_MainMenu/spr_background_MainMenu.yy",},},
     {"id":{"name":"spr_background_MainMenuWithBox","path":"sprites/spr_background_MainMenuWithBox/spr_background_MainMenuWithBox.yy",},},
     {"id":{"name":"spr_character_ashley_walk_down","path":"sprites/spr_character_ashley_walk_down/spr_character_ashley_walk_down.yy",},},

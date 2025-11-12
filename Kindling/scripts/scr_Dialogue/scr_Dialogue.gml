@@ -11,8 +11,6 @@ enum Speaker {
 ///@param {asset} object: the object whose dialogue we plan to open.
 ///@descripton triggers dialogue sequence for a certain object.
 function open_dialogue(argument0){
-	show_debug_message("open dialogue called! index " + string(obj_dialoguebox.current_index))
-	
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
 	obj_dialoguebox.curr_choice_index = 0

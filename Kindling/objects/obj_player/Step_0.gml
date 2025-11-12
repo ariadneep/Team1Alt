@@ -3,20 +3,23 @@ calc_depth(id)
 xspeed = 0
 yspeed = 0
 
-//TODO: organize this later because it's a mess!sta
-if(distance_to_object(nearest_interactible) > 30){
-	nearest_interactible.is_closest = false
-	layer_set_visible(obj_globals.tips_layer, false)
-}
-var old_nearest = nearest_interactible
-nearest_interactible  = instance_nearest(x, y, obj_INTERACTIBLE)
-
-if(old_nearest.id != nearest_interactible.id)
+//If there are interactible objects, worry about whatever is closest to show the interactible sign. 
+if(nearest_interactible != noone) {
+	if(distance_to_object(nearest_interactible) > 30){
+		nearest_interactible.is_closest = false
+		layer_set_visible(obj_globals.tips_layer, false)
+	}
+	
+	var old_nearest = nearest_interactible
+	nearest_interactible  = instance_nearest(x, y, obj_INTERACTIBLE)
+	
+	if(old_nearest.id != nearest_interactible.id)
 	old_nearest.is_closest = false
 
-if(distance_to_object(nearest_interactible) <= 30){
-	nearest_interactible.is_closest = true
-	layer_set_visible(obj_globals.tips_layer, true)
+	if(distance_to_object(nearest_interactible) <= 30){
+		nearest_interactible.is_closest = true
+		layer_set_visible(obj_globals.tips_layer, true)
+	}
 }
 if(obj_globals.dialogueMode)
 	layer_set_visible(obj_globals.tips_layer, false)
