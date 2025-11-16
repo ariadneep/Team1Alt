@@ -10,4 +10,5 @@ current_index = 0
 is_choice = false
 curr_choice_index = 0
 portrait = spr_portrait
+speaker = this_graph[current_index].speaker
 //grab from correct event index 0
