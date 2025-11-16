@@ -46,6 +46,7 @@
     {"$GMIncludedFile":"","%Name":"json_dialogue_bed.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_computer.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_computer.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_ducklamp.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_ducklamp.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"json_dialogue_kettle.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_kettle.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_wakeup.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_wakeup.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,

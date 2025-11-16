@@ -1,0 +1,115 @@
+[
+	{
+		"index": 0,
+		"text": "When you first moved in, you asked around if anyone had a kettle you could borrow occasionally. you were lucky enough that your RA, Dan, had accidentally bought an extra. She'd tied a little ribbon on it when giving it to you.",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"children": [1]
+	},
+	{
+		"index": 1,
+		"text": "A step to real independence, away from the days of feeling like a stranger in your childhood home.",
+		"speaker": "yearner",
+		"mood": "",
+		"is_active": true,
+		"children": [2, 3, 4]
+	},
+	{
+		"index": 2,
+		"text": "[Enjoy the kettle's aesthetic.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": [5]
+	},
+	{
+		"index": 3,
+		"text": "[Use the kettle.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": [6]
+	},
+	{
+		"index": 4,
+		"text": "[Cast a kettle spell.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": [7]
+	},
+	{
+		"index": 5,
+		"text": "The kettle, unbothered and unmoved, glows faintly in the morning light. Something in how it's angled or the definition of the shadow...",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": [8]
+	},
+	{
+		"index": 6,
+		"text": "You brew a nice cup of instant coffee with: a full two seconds of pouring chocolate syrup because you have kind of too much free will",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": []
+	},
+	{
+		"index": 7,
+		"text": "You are one of many talented wizards to find your own, unique talent to show to the world. This kettle will be the instrument of your victory, your genius, your everything-",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": [9]
+	},
+	{
+		"index": 8,
+		"text": "...It's beautiful.",
+		"speaker": "hit",
+		"mood": "",
+		"is_active": true,
+		"children": [10]
+	},
+	{
+		"index": 9,
+		"text": "Focus up before your delirium from hunger completely takes you over, okay? Please? For you?",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"children": [11]
+	},
+	{
+		"index": 10,
+		"text": "You admire the kettle quietly.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": []
+	},
+	{
+		"index": 11,
+		"text": "Most of what you're doing isn't for yourself. It's for money, your parents, that far off dream of success. The grandiose wizard is taken out back and shot with a bullet of concentrated gloom.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": [12]
+	},
+	{
+		"index": 12,
+		"text": "What are your options?",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"children": [13]
+	},
+	{
+		"index": 13,
+		"text": "[Instant ramen (terrible).]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"children": []
+	},
+]
+	
