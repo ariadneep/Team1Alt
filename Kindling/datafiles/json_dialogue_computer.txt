@@ -43,7 +43,7 @@
 	},
 	{
 		"index": 4.0,
-		"text": "Anything interesting?",
+		"text": "[Stare blankly.]",
 		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
@@ -123,7 +123,7 @@
 	},
 	{
 		"index": 12.0,
-		"text": "Plenty of interesting things on the wondrous world of the internet. Only question is: How much time you want to spend on this? and Do I really want to spend thirty minutes doomscrolling? That's two questions, actually. You can't count.",
+		"text": "Maybe you could stare at something more interesting. Only question is: How much time do you want to spend on this? And do I really want to spend thirty minutes doomscrolling? That's two questions, actually. You can't count.",
 		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
