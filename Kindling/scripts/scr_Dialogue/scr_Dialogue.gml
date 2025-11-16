@@ -32,9 +32,9 @@ function open_dialogue(argument0){
 				this_index = obj_dialogue.map.pc.ptr_index
 				break
 			case obj_dorm_kettle:
-				//this_graph = obj_dialogue.map.kettle.content
-				//this_index = obj_dialogue.map.kettle.ptr_index
-				//break
+				this_graph = obj_dialogue.map.kettle.content
+				this_index = obj_dialogue.map.kettle.ptr_index
+				break
 			default:
 				this_graph = obj_dialogue.map.wakeup.content
 				this_index = obj_dialogue.map.wakeup.ptr_index

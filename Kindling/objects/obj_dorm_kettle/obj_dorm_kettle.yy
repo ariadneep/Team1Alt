@@ -12,8 +12,8 @@
     "path":"folders/Objects/dorm_assets.yy",
   },
   "parentObjectId":{
-    "name":"obj_OBSTACLE",
-    "path":"objects/obj_OBSTACLE/obj_OBSTACLE.yy",
+    "name":"obj_INTERACTIBLE",
+    "path":"objects/obj_INTERACTIBLE/obj_INTERACTIBLE.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

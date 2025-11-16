@@ -22,6 +22,7 @@ tips_layer = layer_get_id("Tips")
 //initialzie deeper layer
 layer_set_fx(obj_globals.dialogue_effects_2, fx_create("_effect_gaussian_blur"))
 layer_set_visible(dialogue_effects_2, false)
+layer_set_visible(dialogue_effects, false)
 
 //MAPS
 portraits = ds_map_create()
