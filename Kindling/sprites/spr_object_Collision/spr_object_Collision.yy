@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"objects",
-    "path":"folders/Sprites/objects.yy",
+    "name":"dorm_sprites",
+    "path":"folders/Sprites/dorm_sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
