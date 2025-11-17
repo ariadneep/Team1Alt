@@ -1,5 +1,35 @@
 draw_self()
 
+var current_index = get_pointer_index(current_object) 
+
+// Handle dialogue-dependent portraits
+var speaker = this_graph[current_index].speaker
+var portrait_key = speaker + this_graph[current_index].mood
+var portrait = spr_portrait
+try {
+	portrait = obj_globals.portraits[?portrait_key]
+} catch(_exception){}
+obj_PortraitPopup.sprite_index = portrait
+
+// Handle dialogue-dependent textboxes.
+var dibox_key = this_graph[current_index].speaker
+var box = spr_dialoguebox
+try {
+	box = obj_globals.diboxes[?dibox_key]
+} catch(_exception){}
+sprite_index = box
+
+// Handle effect layers. 
+if(ds_map_exists(obj_globals.effects, speaker)) {
+	var effect = obj_globals.effects[?speaker]
+	layer_set_fx(obj_globals.dialogue_effects, effect)
+	if(obj_globals.dialogueMode){
+		layer_set_visible(obj_globals.dialogue_effects, true)
+	}
+} else {
+	layer_set_visible(obj_globals.dialogue_effects, false)
+}
+
 // Presets for text drawing:
 draw_set_halign(fa_middle)
 draw_set_valign(fa_top)
@@ -11,7 +41,7 @@ var max_width = sprite_width * 0.65
 var line_sep = 20
 var text_color = c_white
 var selected_color = c_blue
-set_pointer_index(current_object, current_index)
+
 // Draw text itself:
 if(!is_choice){
 	draw_text_ext_colour(text_x, text_y, this_graph[current_index].text, line_sep, max_width, text_color, text_color, text_color, text_color, 1)
