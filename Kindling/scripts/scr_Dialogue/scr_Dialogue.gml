@@ -81,6 +81,7 @@ function step_dialogue() {
 		curr_choice_index = 0
 	}//end with
 	
+	
 }
 
 function close_dialogue(){

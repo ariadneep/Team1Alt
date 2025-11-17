@@ -4,9 +4,12 @@ this_graph = [{
 	"children": [],
 	"is_active": true,
 	"speaker": "",
+	"association": "",
+	"command": [[]],
 	"mood": "",
 	}]
 current_index = 0
 is_choice = false
 curr_choice_index = 0
+these_children = []
 //grab from correct event index 0
