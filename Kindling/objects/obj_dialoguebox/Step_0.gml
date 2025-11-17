@@ -1,9 +1,10 @@
 var num_choices = array_length(this_graph[current_index].children)
 
 // Handle dialogue-dependent portraits
-speaker = this_graph[current_index].speaker
+var speaker = this_graph[current_index].speaker
 var portrait_key = speaker + this_graph[current_index].mood
 
+var portrait = spr_portrait
 try {
 	portrait = obj_globals.portraits[?portrait_key]
 } catch(_exception){}
@@ -17,17 +18,15 @@ try {
 } catch(_exception){}
 sprite_index = box
 
-//var effect = fx_create("_effect_gaussian_blur")
+
 if(ds_map_exists(obj_globals.effects, speaker)) {
 	var effect = obj_globals.effects[?speaker]
 	layer_set_fx(obj_globals.dialogue_effects, effect)
 	if(obj_globals.dialogueMode){
 		layer_set_visible(obj_globals.dialogue_effects, true)
-		layer_set_visible(obj_globals.dialogue_effects_2, true)
-		}
+										}
 } else {
 	layer_set_visible(obj_globals.dialogue_effects, false)
-	layer_set_visible(obj_globals.dialogue_effects_2, false)
 }
 
 
