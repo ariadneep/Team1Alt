@@ -11,7 +11,7 @@ var max_width = sprite_width * 0.65
 var line_sep = 20
 var text_color = c_white
 var selected_color = c_blue
-
+set_pointer_index(current_object, current_index)
 // Draw text itself:
 if(!is_choice){
 	draw_text_ext_colour(text_x, text_y, this_graph[current_index].text, line_sep, max_width, text_color, text_color, text_color, text_color, 1)

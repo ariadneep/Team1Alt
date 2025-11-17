@@ -52,7 +52,7 @@ function step_dialogue() {
 		//key = obj_dialoguebox.this_graph[current_index].speaker + obj_dialoguebox.this_graph[current_index].mood
 		//save the children of this line for easy access
 		var children = this_graph[current_index].children
-		show_debug_message(this_graph[current_index])
+		show_debug_message("current index is " + string(current_index) + "and pointer index is " + string(get_pointer_index(current_object)))
 		
 		//If there are no children, just close the dialogue.
 		if(array_length(children) == 0) {
@@ -63,12 +63,14 @@ function step_dialogue() {
 		if(is_choice){
 			//navigate to the chosen child at method call time
 			current_index = children[curr_choice_index]
+			set_pointer_index(current_object, current_index)
 			is_choice = false //dealt with the choice; no longer a choice
 		} else {
 			if(array_length(children) == 1){
 				//if there's just one child, go to it.
 				is_choice = false
 				current_index = children[0]
+				set_pointer_index(current_object, current_index)
 			} else { //if there's more than one child, then this is a choice
 				is_choice = true
 			}
@@ -114,7 +116,7 @@ function load_dialogue(argument0) {
 /// @param {real} new_index: an integer for the new index of the dialogue pointer
 /// @desc Set the pointer
 function set_pointer_index(argument0, argument1) {
-	if(!(is_int32(argument1) || is_int64(argument1)))
+	if(!is_real(argument1) || !is_real(argument1))
 		return false
 	var index = argument1
 		
