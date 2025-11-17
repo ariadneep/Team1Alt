@@ -16,15 +16,17 @@ var selected_color = c_blue
 // Draw text itself:
 if(!is_choice){
 	draw_text_ext_colour(text_x, text_y, this_graph[current_index].text, line_sep, max_width, text_color, text_color, text_color, text_color, 1)
+	these_children = []
 } else {
 	var option_sep = 0
-	var these_children = []
-	var temp_children = this_graph[current_index].children
-	var index = 0
-	for (var i = 0; i < array_length(temp_children); i++) {
-		if(this_graph[temp_children[i]].is_active){
-			these_children[index] = temp_children[i]
-			index++
+	if(array_length(these_children) == 0) { //if these children are empty then populate
+		var temp_children = this_graph[current_index].children
+		var index = 0
+		for (var i = 0; i < array_length(temp_children); i++) {
+			if(this_graph[temp_children[i]].is_active){
+				these_children[index] = temp_children[i]
+				index++
+			}
 		}
 	}
 	
