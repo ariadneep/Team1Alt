@@ -4,6 +4,8 @@ this_graph = [{
 	"children": [],
 	"is_active": true,
 	"speaker": "",
+	"association": "",
+	"command": [[]],
 	"mood": "",
 	}]
 current_index = 0

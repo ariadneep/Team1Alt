@@ -1,5 +1,4 @@
 var num_choices = array_length(this_graph[current_index].children)
-
 // Handle dialogue-dependent portraits
 var speaker = this_graph[current_index].speaker
 var portrait_key = speaker + this_graph[current_index].mood
