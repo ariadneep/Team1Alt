@@ -11,4 +11,5 @@ this_graph = [{
 current_index = 0
 is_choice = false
 curr_choice_index = 0
+
 //grab from correct event index 0
