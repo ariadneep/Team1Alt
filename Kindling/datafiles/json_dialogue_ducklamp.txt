@@ -5,6 +5,8 @@
 		"speaker": "ashley",
 		"mood": "",
 		"is_active":true,
+		"association": "",
+		"command":[],
 		"children":[1]
 	},
 	{
@@ -13,6 +15,8 @@
 		"speaker": "ashley",
 		"mood":"",
 		"is_active":true,
+		"association": "",
+		"command": [],
 		"children":[2]
 	},
 	{
@@ -21,6 +25,8 @@
 		"speaker": "sanctum",
 		"mood":"",
 		"is_active":true,
+		"association": "",
+		"command": [],
 		"children": []
 	}
 ]

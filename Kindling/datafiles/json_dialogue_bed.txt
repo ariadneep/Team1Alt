@@ -5,6 +5,8 @@
     "speaker":"",
     "mood":"",
     "is_active":true,
+    "association": "",
+    "command": [],
     "children":[
       1.0,
       2.0,
@@ -17,6 +19,8 @@
     "speaker":"",
     "mood":"",
     "is_active":true,
+    "association": "",
+    "command": [],
     "children":[
     ]
   },
@@ -26,6 +30,8 @@
     "speaker":"",
     "mood":"",
     "is_active":false,
+    "association": "",
+    "command": [],
     "children":[
     ]
   },
@@ -35,6 +41,8 @@
     "speaker":"",
     "mood":"",
     "is_active":false,
+    "association": "",
+    "command": [],
     "children":[
     ]
   }
