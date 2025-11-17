@@ -8,6 +8,7 @@ this_graph = [{
 	"command": [[]],
 	"mood": "",
 	}]
+current_object = noone
 current_index = 0
 is_choice = false
 curr_choice_index = 0

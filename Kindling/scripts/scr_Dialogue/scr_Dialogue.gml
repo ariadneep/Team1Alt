@@ -14,6 +14,7 @@ function open_dialogue(argument0){
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
 	obj_dialoguebox.curr_choice_index = 0
+	obj_dialoguebox.current_object = argument0
 	var this_object;
 	
 	// Figure out who the speaker is
@@ -31,7 +32,7 @@ function open_dialogue(argument0){
 				this_object = obj_dialogue.map.kettle
 				break
 			default:
-				this_object = obj_dialogue.map
+				this_object = obj_dialogue.map.wakeup
 				break
 	} // end switch
 	obj_dialoguebox.this_graph = this_object.content
@@ -106,16 +107,50 @@ function load_dialogue(argument0) {
 	}
 	
 	return dialogue
-	
-	//dialogue format:
-	/*
-	line = {
-		index : int
-		text : string
-		speaker: enum,
-		mood: mood,
-		is_active: boolean,
-		children : int array
+}
+
+/// @function set_pointer_index(object, new_index)
+/// @param {asset} object: the object whose pointer we want to modify
+/// @param {real} new_index: an integer for the new index of the dialogue pointer
+/// @desc Set the pointer
+function set_pointer_index(argument0, argument1) {
+	if(!(is_int32(argument1) || is_int64(argument1)))
+		return false
+	var index = argument1
+		
+	switch(argument0.object_index) {
+		case obj_dorm_bed:
+			obj_dialogue.map.bed.ptr_index = index
+			return true
+		case obj_dorm_ducklamp:
+			obj_dialogue.map.duck.ptr_index = index
+			return true
+		case obj_dorm_pc:
+			obj_dialogue.map.pc.ptr_index = index
+			return true
+		case obj_dorm_kettle:
+			obj_dialogue.map.kettle.ptr_index = index
+			return true
+		default:
+			return false
 	}
-	*/
+}
+
+/// @function get_pointer_index(object)
+/// @param {asset} object: the object whose pointer we want to retrieve
+/// @return {real} index: the index of dialogue we should be at.
+/// @desc Get the pointer index
+function get_pointer_index(argument0) {
+	switch(argument0.object_index) {
+		case obj_dorm_bed:
+			return obj_dialogue.map.bed.ptr_index
+		case obj_dorm_ducklamp:
+			return obj_dialogue.map.duck.ptr_index
+		case obj_dorm_pc:
+			return obj_dialogue.map.pc.ptr_index
+		case obj_dorm_kettle:
+			return obj_dialogue.map.kettle.ptr_index
+		default:
+			return -1 //index not found
+	}
 }

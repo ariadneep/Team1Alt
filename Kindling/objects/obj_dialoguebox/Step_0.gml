@@ -2,7 +2,6 @@ var num_choices = array_length(these_children)
 // Handle dialogue-dependent portraits
 var speaker = this_graph[current_index].speaker
 var portrait_key = speaker + this_graph[current_index].mood
-
 var portrait = spr_portrait
 try {
 	portrait = obj_globals.portraits[?portrait_key]
@@ -17,13 +16,13 @@ try {
 } catch(_exception){}
 sprite_index = box
 
-
+// Handle effect layers. 
 if(ds_map_exists(obj_globals.effects, speaker)) {
 	var effect = obj_globals.effects[?speaker]
 	layer_set_fx(obj_globals.dialogue_effects, effect)
 	if(obj_globals.dialogueMode){
 		layer_set_visible(obj_globals.dialogue_effects, true)
-										}
+	}
 } else {
 	layer_set_visible(obj_globals.dialogue_effects, false)
 }
