@@ -1,5 +1,4 @@
 draw_self()
-//get dialogue for the current index
 
 // Presets for text drawing:
 draw_set_halign(fa_middle)
@@ -22,6 +21,7 @@ if(!is_choice){
 	if(array_length(these_children) == 0) { //if these children are empty then populate
 		var temp_children = this_graph[current_index].children
 		var index = 0
+		//only add allow access to active children
 		for (var i = 0; i < array_length(temp_children); i++) {
 			if(this_graph[temp_children[i]].is_active){
 				these_children[index] = temp_children[i]
