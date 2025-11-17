@@ -14,34 +14,28 @@ function open_dialogue(argument0){
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
 	obj_dialoguebox.curr_choice_index = 0
-	var this_graph;
-	var this_index;
+	var this_object;
 	
 	// Figure out who the speaker is
 	switch(argument0.object_index) {
 			case obj_dorm_bed:
-				this_graph = obj_dialogue.map.bed.content
-				this_index = obj_dialogue.map.bed.ptr_index
+				this_object = obj_dialogue.map.bed
 				break
 			case obj_dorm_ducklamp:
-				this_graph = obj_dialogue.map.duck.content
-				this_index = obj_dialogue.map.duck.ptr_index
+				this_object = obj_dialogue.map.duck
 				break
 			case obj_dorm_pc:
-				this_graph = obj_dialogue.map.pc.content
-				this_index = obj_dialogue.map.pc.ptr_index
+				this_object = obj_dialogue.map.pc
 				break
 			case obj_dorm_kettle:
-				this_graph = obj_dialogue.map.kettle.content
-				this_index = obj_dialogue.map.kettle.ptr_index
+				this_object = obj_dialogue.map.kettle
 				break
 			default:
-				this_graph = obj_dialogue.map.wakeup.content
-				this_index = obj_dialogue.map.wakeup.ptr_index
+				this_object = obj_dialogue.map
 				break
 	} // end switch
-	obj_dialoguebox.this_graph = this_graph
-	obj_dialoguebox.current_index = this_index
+	obj_dialoguebox.this_graph = this_object.content
+	obj_dialoguebox.current_index = this_object.ptr_index
 	
 	//Show layers
 	layer_set_visible(obj_globals.dialogue_layer, true)
