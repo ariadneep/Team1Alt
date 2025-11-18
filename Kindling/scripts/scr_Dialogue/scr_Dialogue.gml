@@ -141,7 +141,7 @@ function set_pointer_index(argument0, argument1) {
 /// @function get_pointer_index(object)
 /// @param {asset} object: the object whose pointer we want to retrieve
 /// @return {real} index: the index of dialogue we should be at.
-/// @desc Get the pointer index
+/// @description: Get the pointer index
 function get_pointer_index(argument0) {
 	switch(argument0.object_index) {
 		case obj_dorm_bed:
@@ -155,4 +155,13 @@ function get_pointer_index(argument0) {
 		default:
 			return -1 //index not found
 	}
+}
+
+/// @function parse_command(commands)
+/// @param {array} commands: the commands to be parsed, as a 
+/// jagged array of command arrays taken straight from dialogue JSONs.
+/// @description: reads the command passed in as an argument and executes the
+/// associated code.
+function parse_command(argument0) {
+	
 }

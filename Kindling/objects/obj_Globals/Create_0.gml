@@ -25,6 +25,9 @@ layer_set_visible(dialogue_effects_2, false)
 layer_set_visible(dialogue_effects, false)
 
 //MAPS
+archetypes = ds_map_create()
+populate_archetypes()
+
 portraits = ds_map_create()
 populate_portraits()
 
