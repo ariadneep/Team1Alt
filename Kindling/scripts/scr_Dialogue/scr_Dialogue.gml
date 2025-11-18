@@ -218,11 +218,11 @@ function HELPER_parse_command(argument0) {
 	switch(command_string) {
 		case "UPGRADE": // level up an archetype
 			// We need to look at the first 3 elements, so if length is less than 3 then this fails
-			if(array_length(command < 3))
+			if(array_length(command) < 3)
 				return false
 			// Upgrade selected archetype!
 			var archetype = command[1]
-			var qty = command[2] 
+			var qty =  command[2]
 			obj_globals.archetypes[?archetype] += qty
 			show_debug_message(string(archetype) + " updated to " + string(obj_globals.archetypes[?archetype]))
 			return true 

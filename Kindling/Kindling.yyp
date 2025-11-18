@@ -51,7 +51,6 @@
     {"$GMIncludedFile":"","%Name":"json_dialogue_leaveroom.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_leaveroom.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_mirrorsink.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_mirrorsink.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_toilet.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_toilet.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"json_dialogue_toilet.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_toilet.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_wakeup.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_wakeup.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
