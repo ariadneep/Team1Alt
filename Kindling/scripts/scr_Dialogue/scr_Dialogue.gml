@@ -193,7 +193,11 @@ function parse_commands(argument0) {
 	
 	// Parse each command in the array 
 	for(var i = 0; i < array_length(commands); i++) {
-		returnbool = returnbool && HELPER_parse_command(commands[i])
+		var cmdbool = HELPER_parse_command(commands[i])
+		//if the command was parsed successfully, clear it.
+		if(cmdbool)
+			obj_dialoguebox.this_graph[current_index].command[i] = []
+		returnbool = returnbool && cmdbool
 	}
 	
 	show_debug_message("Parse success??: " + string(returnbool))
