@@ -5,6 +5,8 @@
 		"speaker":"",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			2.0
 		]
@@ -15,6 +17,8 @@
 		"speaker":"",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 		]
 	},
@@ -24,6 +28,8 @@
 		"speaker":"_hit",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			3
 		]
@@ -34,6 +40,8 @@
 		"speaker":"_sanctum",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			4.0,
 			5.0
@@ -45,6 +53,8 @@
 		"speaker":"",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			6.0
 		]
@@ -55,6 +65,8 @@
 		"speaker":"",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			7.0
 		]
@@ -65,6 +77,8 @@
 		"speaker":"_hit",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			8.0
 		]
@@ -75,6 +89,8 @@
 		"speaker":"_sanctum",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			9.0
 		]
@@ -85,6 +101,8 @@
 		"speaker":"_sanctum",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			10.0
 		]
@@ -95,6 +113,8 @@
 		"speaker":"_hit",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 			11.0
 		]
@@ -105,6 +125,8 @@
 		"speaker":"_executive",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 		]
 	},
@@ -114,6 +136,8 @@
 		"speaker":"_sanctum",
 		"mood":"",
 		"is_active": true,
+		"association": "",
+		"command": [],
 		"children": [
 		]
 	}

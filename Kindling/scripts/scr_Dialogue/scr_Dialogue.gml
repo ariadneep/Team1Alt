@@ -177,6 +177,9 @@ function parse_commands(argument0) {
 	for(var i = 0; i < array_length(commands); i++) {
 		returnbool = returnbool && HELPER_parse_command(commands[i])
 	}
+	
+	show_debug_message("Parse success??: " + string(returnbool))
+	
 	return returnbool
 }
 
@@ -189,7 +192,6 @@ function HELPER_parse_command(argument0) {
 	var command = argument0
 	//check for argument validity & return early.
 	if(!is_array(command) || array_length(command) == 0){
-		show_debug_message("Parse failed: command not array (bad) or length 0 (fine).")
 		return false
 	}
 	
@@ -205,7 +207,6 @@ function HELPER_parse_command(argument0) {
 			var qty = command[2] 
 			obj_globals.archetypes[?archetype] += qty
 			show_debug_message(string(archetype) + " updated to " + string(obj_globals.archetypes[?archetype]))
-			
 			return true 
 		default:
 			return false
