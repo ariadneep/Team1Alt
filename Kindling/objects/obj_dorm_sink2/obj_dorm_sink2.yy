@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_toilet",
+  "%Name":"obj_dorm_sink2",
   "eventList":[],
   "managed":true,
-  "name":"obj_dorm_toilet",
+  "name":"obj_dorm_sink2",
   "overriddenProperties":[],
   "parent":{
     "name":"dorm_assets",
     "path":"folders/Objects/dorm_assets.yy",
   },
   "parentObjectId":{
-    "name":"obj_COLLIDABLE",
-    "path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",
+    "name":"obj_OBSTACLE",
+    "path":"objects/obj_OBSTACLE/obj_OBSTACLE.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_toilet",
-    "path":"sprites/spr_object_toilet/spr_object_toilet.yy",
+    "name":"spr_object_mirror",
+    "path":"sprites/spr_object_mirror/spr_object_mirror.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dorm_toilet",
+  "%Name":"obj_dorm_sink",
   "eventList":[],
   "managed":true,
-  "name":"obj_dorm_toilet",
+  "name":"obj_dorm_sink",
   "overriddenProperties":[],
   "parent":{
     "name":"dorm_assets",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_object_toilet",
-    "path":"sprites/spr_object_toilet/spr_object_toilet.yy",
+    "name":"spr_object_sink",
+    "path":"sprites/spr_object_sink/spr_object_sink.yy",
   },
   "spriteMaskId":null,
   "visible":true,

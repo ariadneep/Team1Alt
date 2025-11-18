@@ -25,7 +25,7 @@
 	{
 		"index": 2.0,
 		"text": "To be fair, the Triple Chocolate Brownie Blast Now 20% More Flavor and 40% More Protein Smoothie (Double Chocolate Syrup) tasted awesome.",
-		"speaker":"_hit",
+		"speaker":"hit",
 		"mood":"",
 		"is_active": true,
 		"association": "",
@@ -37,7 +37,7 @@
 	{
 		"index": 3.0,
 		"text": "What had wracked your body after was much less awesome, and the terrible embarrassing conversation with maintenance after was worse.",
-		"speaker":"_sanctum",
+		"speaker":"sanctum",
 		"mood":"",
 		"is_active": true,
 		"association": "",
@@ -74,7 +74,7 @@
 	{
 		"index": 6.0,
 		"text": "It's like a flu shot - because you took it once, the next time you're going to be immune to anything bad and reap everything good.",
-		"speaker":"_hit",
+		"speaker":"hit",
 		"mood":"",
 		"is_active": true,
 		"association": "",
@@ -86,7 +86,7 @@
 	{
 		"index": 7.0,
 		"text": "Yes, we censure, denounce, criticize, deplore, revile this...concoction of pure evil. Nevermore shall it lay its heinous grasp upon your frail, terrible digestive system.",
-		"speaker":"_sanctum",
+		"speaker":"sanctum",
 		"mood":"",
 		"is_active": true,
 		"association": "",
@@ -98,7 +98,7 @@
 	{
 		"index": 8.0,
 		"text": "We're not even a biology major there's no way that's true - ah, why am I bothering arguing with you. Executive, be on standby.",
-		"speaker":"_sanctum",
+		"speaker":"sanctum",
 		"mood":"",
 		"is_active": true,
 		"association": "",
@@ -110,7 +110,7 @@
 	{
 		"index": 9.0,
 		"text": "You just read off like 50% of the synonyms for condemn.",
-		"speaker":"_hit",
+		"speaker":"hit",
 		"mood":"",
 		"is_active": true,
 		"association": "",
@@ -122,7 +122,7 @@
 	{
 		"index": 10.0,
 		"text": "...God-fucking-damnit.",
-		"speaker":"_executive",
+		"speaker":"executive",
 		"mood":"",
 		"is_active": true,
 		"association": "",
@@ -133,7 +133,7 @@
 	{
 		"index": 11.0,
 		"text": "And all of them are true and correct in this context.",
-		"speaker":"_sanctum",
+		"speaker":"sanctum",
 		"mood":"",
 		"is_active": true,
 		"association": "",

@@ -138,6 +138,6 @@
 		"association": "",
 		"command": [],
 		"children": []
-	},
+	}
 ]
 	

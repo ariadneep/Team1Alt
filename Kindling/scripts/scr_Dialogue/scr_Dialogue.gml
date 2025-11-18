@@ -31,7 +31,14 @@ function open_dialogue(argument0){
 			case obj_dorm_kettle:
 				this_object = obj_dialogue.map.kettle
 				break
+			case obj_dorm_toilet:
+				this_object = obj_dialogue.map.toilet
+				break
+			case obj_dorm_sink:
+				this_object = obj_dialogue.map.mirrorsink
+				break
 			default:
+				show_debug_message("Loading default dialogue... this may be a mistake...")
 				this_object = obj_dialogue.map.wakeup
 				break
 	} // end switch
@@ -134,6 +141,12 @@ function set_pointer_index(argument0, argument1) {
 		case obj_dorm_kettle:
 			obj_dialogue.map.kettle.ptr_index = index
 			return true
+		case obj_dorm_toilet:
+			obj_dialogue.map.toilet.ptr_index = index
+			return true
+		case obj_dorm_sink:
+			obj_dialogue.map.mirrorsink.ptr_index = index
+			return true
 		default:
 			return false
 	}
@@ -153,7 +166,12 @@ function get_pointer_index(argument0) {
 			return obj_dialogue.map.pc.ptr_index
 		case obj_dorm_kettle:
 			return obj_dialogue.map.kettle.ptr_index
+		case obj_dorm_toilet:
+			return obj_dialogue.map.toilet.ptr_index
+		case obj_dorm_sink:
+			return obj_dialogue.map.mirrorsink.ptr_index
 		default:
+			show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
 			return -1 //index not found
 	}
 }
