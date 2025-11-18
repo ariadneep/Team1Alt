@@ -49,7 +49,8 @@ function open_dialogue(argument0){
 /// @returns {void}
 function step_dialogue() {
 	with (obj_dialoguebox) {
-		//key = obj_dialoguebox.this_graph[current_index].speaker + obj_dialoguebox.this_graph[current_index].mood
+		// check & parse any commands associated with this piece of dialogue before moving on to the next.
+		parse_commands(this_graph[current_index].command)
 		//save the children of this line for easy access
 		var children = this_graph[current_index].children
 		show_debug_message("current index is " + string(current_index) + "and pointer index is " + string(get_pointer_index(current_object)))
@@ -157,11 +158,56 @@ function get_pointer_index(argument0) {
 	}
 }
 
-/// @function parse_command(commands)
+/// @function parse_commands(commands)
 /// @param {array} commands: the commands to be parsed, as a 
 /// jagged array of command arrays taken straight from dialogue JSONs.
+/// @return true if the parse was a success and false if it was not. 
+/// @description: reads the array of commands passed in as an argument and executes the
+/// associated code.
+function parse_commands(argument0) {
+	var commands = argument0
+	//check for argument validity & return early.
+	if(!is_array(commands) || array_length(commands) == 0){
+		show_debug_message("Parse failed: commands not array (bad) or length 0 (fine).")
+		return false
+	}
+	var returnbool = true
+	
+	// Parse each command in the array 
+	for(var i = 0; i < array_length(commands); i++) {
+		returnbool = returnbool && HELPER_parse_command(commands[i])
+	}
+	return returnbool
+}
+
+/// @function HELPER_parse_command(command)
+/// @param {array} command: a SINGLE command to be parsed.
+/// @return true if the parse was a success and false if it was not. 
 /// @description: reads the command passed in as an argument and executes the
 /// associated code.
-function parse_command(argument0) {
+function HELPER_parse_command(argument0) {
+	var command = argument0
+	//check for argument validity & return early.
+	if(!is_array(command) || array_length(command) == 0){
+		show_debug_message("Parse failed: command not array (bad) or length 0 (fine).")
+		return false
+	}
 	
+	// assuming all arguments are valid, we now have ONE command with at least one element!
+	var command_string = command[0]
+	switch(command_string) {
+		case "UPGRADE": // level up an archetype
+			// We need to look at the first 3 elements, so if length is less than 3 then this fails
+			if(array_length(command < 3))
+				return false
+			// Upgrade selected archetype!
+			var archetype = command[1]
+			var qty = command[2] 
+			obj_globals.archetypes[?archetype] += qty
+			show_debug_message(string(archetype) + " updated to " + string(obj_globals.archetypes[?archetype]))
+			
+			return true 
+		default:
+			return false
+	} 
 }
