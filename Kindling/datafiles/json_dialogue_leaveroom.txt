@@ -1,0 +1,52 @@
+[
+	{
+		"index": 0,
+		"text": "You hesitate for a moment outside your door. You have everything you need - keycard, wallet, backpack, laptop, phone... but your feet refuse to move.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [1,2]
+	},
+	{
+		"index": 1,
+		"text": "[Push through it.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [3]
+	},
+	{
+		"index": 2,
+		"text": "[Go back.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [4]
+	},
+	{
+		"index": 3,
+		"text": "You grit your teeth and rush away from your room before you can think more on it...",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 4,
+		"text": "The swell of anxiety is too much, and you return to your room...",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	}
+]

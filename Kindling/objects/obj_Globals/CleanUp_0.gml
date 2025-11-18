@@ -1,3 +1,5 @@
 event_inherited()
 ds_map_destroy(portraits)
 ds_map_destroy(diboxes)
+ds_map_destroy(archetypes)
+ds_map_destroy(effects)

@@ -1,0 +1,143 @@
+[
+	{
+		"index": 0,
+		"text": "The bench presents itself as a semi-comfortable location to semi-study or semi-nap."
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [1, 2]
+	},
+	{
+		"index": 1,
+		"text": "[Semi-study.]"
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [3]
+	},
+	{
+		"index": 2,
+		"text": "[Semi-nap.]"
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [4]
+	},
+	{
+		"index": 3,
+		"text": "Even in this new, unfamiliar environment, you will continue your streak of A's."
+		"speaker": "yearner",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [5]
+	},
+	{
+		"index": 4,
+		"text": "Yes. Your body aches too terribly for semi-anything else. Hard thinking eludes your grasp."
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [6]
+	},
+	{
+		"index": 5,
+		"text": "Can you? The words on the screen swim strangely, every blink heavier thna usual. In a flash, your fitful study session is over and you get up to face the executioner's gallows of class."
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 6,
+		"text": "But if you sleep now, you're sure to fall back asleep in class."
+		"speaker": "hit",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [7, 8]
+	},
+	{
+		"index": 7,
+		"text": "I ache so badly..."
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [["UPGRADE", "executive", 1]],
+		"children": [9]
+	},
+	{
+		"index": 8,
+		"text": "I can persevere..."
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [["UPGRADE", "hit", 1]],
+		"children": [10]
+	},
+	{
+		"index": 9,
+		"text": "Every iota of your body cries for relaxation, for peace. Stress will shatter your bones if you do not treat it well."
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [11]
+	},
+	{
+		"index": 10,
+		"text": "C'mon, direct your gaze over here. It'll keep you awake and aware enough to live. Maybe even a little happier."
+		"speaker": "hit",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": [12]
+	},
+	{
+		"index": 11,
+		"text": "Paradoxically, you have too much strain to relax. You close your eyes, swimming in and out of consciousness and struggling to destress, and suddenly it is time for class."
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 12,
+		"text": "Your phone threatens to slip from your hand with every listless scroll you make. It's not enough to distract you from the hollow guilt in your chest, but it is enough to distract you from keeping track of the time."
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association: "",
+		"command": [],
+		"children": []
+	}
+]
+
+
+
+
+
+
+
+
+
+
+	

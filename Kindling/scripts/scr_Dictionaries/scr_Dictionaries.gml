@@ -30,6 +30,15 @@ function populate_diboxes() {
 	}
 }
 
+function populate_archetypes() {
+	with(obj_globals) {
+		archetypes[?"yearner"] = 1
+		archetypes[?"sanctum"] = 1
+		archetypes[?"hit"] = 1
+		archetypes[?"executive"] = 1
+	}
+}
+
 function populate_effects() {
 	with (obj_globals) {
 		effects[?"sanctum"] = fx_create("_effect_gaussian_blur")
