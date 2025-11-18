@@ -1,6 +1,5 @@
 var num_choices = array_length(these_children)
 
-
 // Navigate through choices
 if(num_choices != 0){
 	// move down the elements

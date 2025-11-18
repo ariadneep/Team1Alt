@@ -1,17 +1,20 @@
-draw_self()
+//draw_self()
 
-var current_index = get_pointer_index(current_object) 
+var current_index = 0
+try {
+	current_index = get_pointer_index(current_object)
+} catch(e){}
 
-// Handle dialogue-dependent portraits
+// Draw dialogue-dependent portraits
 var speaker = this_graph[current_index].speaker
 var portrait_key = speaker + this_graph[current_index].mood
 var portrait = spr_portrait
 try {
 	portrait = obj_globals.portraits[?portrait_key]
 } catch(_exception){}
-obj_PortraitPopup.sprite_index = portrait
+draw_sprite(portrait, 0, -75, room_height)
 
-// Handle dialogue-dependent textboxes.
+// Draw dialogue-dependent textboxes.
 var dibox_key = this_graph[current_index].speaker
 var box = spr_dialoguebox
 try {
@@ -29,6 +32,8 @@ if(ds_map_exists(obj_globals.effects, speaker)) {
 } else {
 	layer_set_visible(obj_globals.dialogue_effects, false)
 }
+
+draw_self()
 
 // Presets for text drawing:
 draw_set_halign(fa_middle)
