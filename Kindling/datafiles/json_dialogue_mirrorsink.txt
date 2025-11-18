@@ -1,7 +1,7 @@
 [
 	{
 		"index": 0,
-		"text": "You splash your face in the sink. Cold water drips off your nose, your pores cleansed of oil, and you blink in the now sidden harsh bathroom lighting."
+		"text": "You splash your face in the sink. Cold water drips off your nose, your pores cleansed of oil, and you blink in the now sudden harsh bathroom lighting.",
 		"speaker": "",
 		"mood": "",
 		"is_active": true,
@@ -11,7 +11,7 @@
 	},
 	{
 		"index": 1,
-		"text": "You can't look at yourself in the eyes."
+		"text": "You can't look at yourself in the eyes.",
 		"speaker": "",
 		"mood": "",
 		"is_active": true,
@@ -26,7 +26,7 @@
 		"mood": "",
 		"is_active": true,
 		"association": "",
-		"command": [[“UPGRADE”, “yearner”, 1], [“UPGRADE”, “sanctum”, 1], [“UPGRADE”, “hit”, 1], [“UPGRADE”, “executive”, 1]],
+		"command": [["UPGRADE", "yearner", 1], ["UPGRADE", "sanctum", 1], ["UPGRADE", "hit", 1], ["UPGRADE", "executive", 1]],
 		"children": []
 	}
 ]
