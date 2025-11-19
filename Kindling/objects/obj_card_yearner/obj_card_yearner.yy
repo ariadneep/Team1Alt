@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card_mostpicked",
+  "%Name":"obj_card_yearner",
   "eventList":[],
   "managed":true,
-  "name":"obj_card_mostpicked",
+  "name":"obj_card_yearner",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stats_executive",
-    "path":"sprites/spr_stats_executive/spr_stats_executive.yy",
+    "name":"spr_stats_yearner",
+    "path":"sprites/spr_stats_yearner/spr_stats_yearner.yy",
   },
   "spriteMaskId":null,
   "visible":true,
