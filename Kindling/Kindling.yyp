@@ -114,6 +114,7 @@
     {"id":{"name":"obj_UI_StartButton","path":"objects/obj_UI_StartButton/obj_UI_StartButton.yy",},},
     {"id":{"name":"rm_dorm","path":"rooms/rm_dorm/rm_dorm.yy",},},
     {"id":{"name":"rm_hub","path":"rooms/rm_hub/rm_hub.yy",},},
+    {"id":{"name":"rm_scorescreen","path":"rooms/rm_scorescreen/rm_scorescreen.yy",},},
     {"id":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"scr_Dialogue","path":"scripts/scr_Dialogue/scr_Dialogue.yy",},},
@@ -193,6 +194,7 @@
     {"roomId":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},
     {"roomId":{"name":"rm_dorm","path":"rooms/rm_dorm/rm_dorm.yy",},},
     {"roomId":{"name":"rm_hub","path":"rooms/rm_hub/rm_hub.yy",},},
+    {"roomId":{"name":"rm_scorescreen","path":"rooms/rm_scorescreen/rm_scorescreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -50,6 +50,11 @@ function open_dialogue(argument0){
 			case obj_bench:
 				this_object = obj_dialogue.map.bench
 				break
+			case obj_dorm_entrance:
+				show_debug_message("dorm entrance..?")
+				close_dialogue()
+				room_goto(rm_scorescreen)
+				return true
 			default:
 				//show_debug_message("Loading default dialogue... this may be a mistake...")
 				//this_object = obj_dialogue.map.wakeup
@@ -107,12 +112,15 @@ function step_dialogue() {
 function close_dialogue(){
 	obj_globals.rpgMode = true
 	obj_globals.dialogueMode = false
+	try{
 	if(obj_dialoguebox.current_object.object_index == obj_dorm_exit) {
 		set_pointer_index(obj_dorm_exit, 0)
 	}
+	}catch(e){}
 	layer_set_visible(obj_globals.dialogue_layer, false)
 	layer_set_visible(obj_globals.dialogue_effects, false)
 	layer_set_visible(obj_globals.dialogue_effects_2, false)
+	show_debug_message("closed successfully?????")
 }
 
 ///@function load_dialogue(filepath)

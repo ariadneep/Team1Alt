@@ -1,5 +1,3 @@
-//draw_self()
-
 var current_index = 0
 try {
 	current_index = get_pointer_index(current_object)
