@@ -44,6 +44,12 @@ function open_dialogue(argument0){
 			case obj_dorm_exit:
 				this_object = obj_dialogue.map.leaveroom
 				break
+			case obj_bikerack:
+				this_object = obj_dialogue.map.bikerack
+				break
+			case obj_bench:
+				this_object = obj_dialogue.map.bench
+				break
 			default:
 				//show_debug_message("Loading default dialogue... this may be a mistake...")
 				//this_object = obj_dialogue.map.wakeup
@@ -165,6 +171,12 @@ function set_pointer_index(argument0, argument1) {
 		case obj_dorm_exit:
 			obj_dialogue.map.leaveroom.ptr_index = index
 			return true
+		case obj_bikerack:
+			obj_dialogue.map.bikerack.ptr_index = index
+			return true
+		case obj_bench:
+			obj_dialogue.map.bench.ptr_index = index
+			return true
 		default:
 			return false
 	}
@@ -192,6 +204,10 @@ function get_pointer_index(argument0) {
 			return obj_dialogue.map.wakeup.ptr_index
 		case obj_dorm_exit:
 			return obj_dialogue.map.leaveroom.ptr_index
+		case obj_bikerack:
+			return obj_dialogue.map.bikerack.ptr_index
+		case obj_bench:
+			return obj_dialogue.map.bench.ptr_index 
 		default:
 			show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
 			return -1 //index not found

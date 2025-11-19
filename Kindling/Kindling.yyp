@@ -71,6 +71,8 @@
   },
   "name":"Kindling",
   "resources":[
+    {"id":{"name":"obj_bench","path":"objects/obj_bench/obj_bench.yy",},},
+    {"id":{"name":"obj_bikerack","path":"objects/obj_bikerack/obj_bikerack.yy",},},
     {"id":{"name":"obj_city","path":"objects/obj_city/obj_city.yy",},},
     {"id":{"name":"obj_COLLIDABLE","path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",},},
     {"id":{"name":"obj_day","path":"objects/obj_day/obj_day.yy",},},
@@ -140,8 +142,7 @@
     {"id":{"name":"spr_dialoguebox","path":"sprites/spr_dialoguebox/spr_dialoguebox.yy",},},
     {"id":{"name":"spr_object_bed","path":"sprites/spr_object_bed/spr_object_bed.yy",},},
     {"id":{"name":"spr_object_bench","path":"sprites/spr_object_bench/spr_object_bench.yy",},},
-    {"id":{"name":"spr_object_bikerack_1","path":"sprites/spr_object_bikerack_1/spr_object_bikerack_1.yy",},},
-    {"id":{"name":"spr_object_bikerack_2","path":"sprites/spr_object_bikerack_2/spr_object_bikerack_2.yy",},},
+    {"id":{"name":"spr_object_bikerack","path":"sprites/spr_object_bikerack/spr_object_bikerack.yy",},},
     {"id":{"name":"spr_object_box","path":"sprites/spr_object_box/spr_object_box.yy",},},
     {"id":{"name":"spr_object_city","path":"sprites/spr_object_city/spr_object_city.yy",},},
     {"id":{"name":"spr_object_closet","path":"sprites/spr_object_closet/spr_object_closet.yy",},},
