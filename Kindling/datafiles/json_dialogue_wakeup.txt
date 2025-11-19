@@ -1,7 +1,8 @@
 [
 	{
 		"index": 0,
-		"text": "You wake up blearily. You've thrown the blanket off the bed in your sleep and a puddle of drool is damp against your cheek. Your alarm chirps. You could sleep in a little longer.",
+		"text": "You wake up blearily. You've thrown the blanket off the bed in your sleep and a puddle of drool is damp against your cheek. Your alarm chirps. You could sleep in a little longer.
+[PRESS SPACE TO PROGRESS]",
 		"speaker":"",
 		"mood":"",
 		"is_active": true,
