@@ -250,6 +250,14 @@ function HELPER_parse_command(argument0) {
 			obj_globals.archetypes[?archetype] += qty
 			show_debug_message(string(archetype) + " updated to " + string(obj_globals.archetypes[?archetype]))
 			return true 
+		case "LEAVEROOM":
+			//Ensure there are at least 2 elements
+			if(array_length(command) < 2)
+				return false
+			var destination = command[1]
+			if(destination == "hub")
+				room_goto(rm_hub)
+			return true
 		default:
 			return false
 	} 
