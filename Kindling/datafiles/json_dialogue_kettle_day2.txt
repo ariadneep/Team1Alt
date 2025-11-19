@@ -1,0 +1,46 @@
+[
+	{
+		"index": 0,
+		"text": "Frustration, acrid anger swells, and you suddenly want nothing more than to throw it against the wall.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [2]
+	},
+	{
+		"index": 1,
+		"text": "The green of its plastic shell looks sickly in the dim lighting.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 2,
+		"text": "And what would that do? Make your neighbors think you're deranged? Break the gift Dan had given you so generously and be utterly unable to explain why if she ever asks?",
+		"speaker": "yearner",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [3]
+	},
+	{
+		"index": 3,
+		"text": "Water burns at the edges of your eyes, and you refuse to acknowledge it.",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	}
+]
+	
+	
+	
+	

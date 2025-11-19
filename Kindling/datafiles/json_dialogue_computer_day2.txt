@@ -1,0 +1,174 @@
+[
+	{
+		"index": 0,
+		"text": "Your computer blinks on with only a brief stutter.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [2, 3, 4, 5]
+	},
+	{
+		"index": 1,
+		"text": "You might actually put your fist through the screen if you keep looking at it.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 2,
+		"text": "[Turn it off.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [6]
+	},
+	{
+		"index": 3,
+		"text": "[Look at homework.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [7]
+	},
+	{
+		"index": 4,
+		"text": "[Stare blankly.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [8]
+	},
+	{
+		"index": 5,
+		"text": "[Update calendar.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [9]
+	},
+	{
+		"index": 6,
+		"text": "It shuts down quietly.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 7,
+		"text": "The page blurs, refocuses. You blink for a little too long and realize your hands are struggling to type out sentences.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [10, 11, 12]
+	},
+	{
+		"index": 8,
+		"text": "The headache doesn't feel like a headache. Cotton swabs fill your brain, clog it of fluff, thoughts smothered with dull static. Even your own breath is distant.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "sanctum",
+		"command": [["UPGRADE", "sanctum", 1]],
+		"children": [15]
+	},
+	{
+		"index": 9,
+		"text": "Listlessly, you open your calendar. At first, you'd thought you'd allot every minute of every day to make things feel productive even when you weren't doing anything.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [["UPGRADE", "yearner", 1]],
+		"children": [16]
+	},
+	{
+		"index": 10,
+		"text": "Come back to it later.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [2]
+	},
+	{
+		"index": 11,
+		"text": "Forgot about something.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "hit",
+		"command": [["UPGRADE", "hit", 1]],
+		"children": [13]
+	},
+	{
+		"index": 12,
+		"text": "Something's due today.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "executive",
+		"command": [["UPGRADE", "executive", 1]],
+		"children": [14]
+	},
+	{
+		"index": 13,
+		"text": "You always forget. Panic crests like a wave, and apathy crashes down. There is a crater where you should care, wasteland, ashes. Look for other meaningless things to fill your void.",
+		"speaker": "hit",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 14,
+		"text": "Adrenaline floods your veins. That thump-thump-thump of panic, fear stiffening your spine, you hold onto it like your life depends on it. In this moment, so close to midnight, it kind of does.",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 15,
+		"text": "This isn't helping. You can hardly determine what color the pixels are. Let's go back to bed, curl away from it all, let it fade out to a nothing that we can handle. Living is too much for your body. Maybe it never was meant for it.",
+		"speaker": "sanctum",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 16,
+		"text": "That hadn't lasted long, had it? The bitter shame is a familiar taste now, almost comforting. The idea of being so much more than your worthless self gets farther and farther away.",
+		"speaker": "yearner",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	}
+]
+	
+	
