@@ -36,7 +36,7 @@
 		"mood": "",
 		"is_active": true,
 		"association": "",
-		"command": [],
+		"command": [["LEAVEROOM", "hub"]],
 		"children": []
 	},
 	{
