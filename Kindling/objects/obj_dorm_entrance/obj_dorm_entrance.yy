@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_roomchange_dorm",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_dorm_entrance",
+  "eventList":[],
   "managed":true,
-  "name":"obj_roomchange_dorm",
+  "name":"obj_dorm_entrance",
   "overriddenProperties":[],
   "parent":{
     "name":"room changes",
     "path":"folders/Objects/room changes.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_INTERACTIBLE",
+    "path":"objects/obj_INTERACTIBLE/obj_INTERACTIBLE.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

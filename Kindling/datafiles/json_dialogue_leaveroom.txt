@@ -2,8 +2,8 @@
 	{
 		"index": 0,
 		"text": "You hesitate for a moment outside your door. You have everything you need - keycard, wallet, backpack, laptop, phone... but your feet refuse to move.",
-		"speaker": "",
-		"mood": "",
+		"speaker":"",
+		"mood":"",
 		"is_active": true,
 		"association": "",
 		"command": [],

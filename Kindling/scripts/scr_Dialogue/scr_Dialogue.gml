@@ -11,6 +11,7 @@ enum Speaker {
 ///@param {asset} object: the object whose dialogue we plan to open.
 ///@descripton triggers dialogue sequence for a certain object.
 function open_dialogue(argument0){
+	show_debug_message("opened dialogue for object " + string(argument0.object_index))
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
 	obj_dialoguebox.curr_choice_index = 0
@@ -39,7 +40,9 @@ function open_dialogue(argument0){
 				break
 			case obj_day:
 				this_object = obj_dialogue.map.wakeup
-				show_debug_message("day object...")
+				break
+			case obj_dorm_exit:
+				this_object = obj_dialogue.map.leaveroom
 				break
 			default:
 				show_debug_message("Loading default dialogue... this may be a mistake...")
@@ -96,6 +99,9 @@ function step_dialogue() {
 function close_dialogue(){
 	obj_globals.rpgMode = true
 	obj_globals.dialogueMode = false
+	if(obj_dialoguebox.current_object.object_index == obj_dorm_exit) {
+		set_pointer_index(obj_dorm_exit, 0)
+	}
 	layer_set_visible(obj_globals.dialogue_layer, false)
 	layer_set_visible(obj_globals.dialogue_effects, false)
 	layer_set_visible(obj_globals.dialogue_effects_2, false)
@@ -153,6 +159,10 @@ function set_pointer_index(argument0, argument1) {
 			return true
 		case obj_day:
 			obj_dialogue.map.wakeup.ptr_index = index
+			return true
+		case obj_dorm_exit:
+			obj_dialogue.map.leaveroom.ptr_index = index
+			return true
 		default:
 			return false
 	}
@@ -178,6 +188,8 @@ function get_pointer_index(argument0) {
 			return obj_dialogue.map.mirrorsink.ptr_index
 		case obj_day:
 			return obj_dialogue.map.wakeup.ptr_index
+		case obj_dorm_exit:
+			return obj_dialogue.map.leaveroom.ptr_index
 		default:
 			show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
 			return -1 //index not found

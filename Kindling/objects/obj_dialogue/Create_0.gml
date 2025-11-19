@@ -9,6 +9,6 @@ map = {
 	"bikerack": {"ptr_index": 0, "content": load_dialogue("json_dialogue_bikerack.txt")},
 	"exitschool": {"ptr_index": 0, "content": load_dialogue("json_dialogue_exitschool.txt")},
 	"start_day2": {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")},
-	
+	"leaveroom": {"ptr_index": 0, "content": load_dialogue("json_dialogue_leaveroom.txt")},	
 }
 
