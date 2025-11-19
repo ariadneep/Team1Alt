@@ -47,7 +47,7 @@ function open_dialogue(argument0){
 				break
 	} // end switch
 	obj_dialoguebox.this_graph = this_object.content
-	obj_dialoguebox.current_index = this_object.ptr_index
+	obj_dialoguebox.current_index = this_object.ptr_index //TODO outdated infrastructure..????????
 	
 	//Show layers
 	layer_set_visible(obj_globals.dialogue_layer, true)
