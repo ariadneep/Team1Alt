@@ -38,16 +38,18 @@ function open_dialogue(argument0){
 			case obj_dorm_sink:
 				this_object = obj_dialogue.map.mirrorsink
 				break
-			case obj_day:
+			case obj_transition_day1:
 				this_object = obj_dialogue.map.wakeup
 				break
 			case obj_dorm_exit:
 				this_object = obj_dialogue.map.leaveroom
 				break
 			default:
-				show_debug_message("Loading default dialogue... this may be a mistake...")
-				this_object = obj_dialogue.map.wakeup
-				break
+				//show_debug_message("Loading default dialogue... this may be a mistake...")
+				//this_object = obj_dialogue.map.wakeup
+				show_debug_message("Loading failed in open_dialogue... this may be a mistake... closing now")
+				close_dialogue()
+				return false
 	} // end switch
 	obj_dialoguebox.this_graph = this_object.content
 	obj_dialoguebox.current_index = this_object.ptr_index //TODO outdated infrastructure..????????
@@ -157,7 +159,7 @@ function set_pointer_index(argument0, argument1) {
 		case obj_dorm_sink:
 			obj_dialogue.map.mirrorsink.ptr_index = index
 			return true
-		case obj_day:
+		case obj_transition_day1:
 			obj_dialogue.map.wakeup.ptr_index = index
 			return true
 		case obj_dorm_exit:
@@ -186,7 +188,7 @@ function get_pointer_index(argument0) {
 			return obj_dialogue.map.toilet.ptr_index
 		case obj_dorm_sink:
 			return obj_dialogue.map.mirrorsink.ptr_index
-		case obj_day:
+		case obj_transition_day1:
 			return obj_dialogue.map.wakeup.ptr_index
 		case obj_dorm_exit:
 			return obj_dialogue.map.leaveroom.ptr_index

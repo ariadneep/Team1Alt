@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_day",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_transition_day1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_day",
+  "name":"obj_transition_day1",
   "overriddenProperties":[],
   "parent":{
     "name":"day_transitions",
     "path":"folders/Objects/day_transitions.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_day",
+    "path":"objects/obj_day/obj_day.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -37,5 +35,5 @@
     "path":"sprites/spr_transition_day1_morning/spr_transition_day1_morning.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
