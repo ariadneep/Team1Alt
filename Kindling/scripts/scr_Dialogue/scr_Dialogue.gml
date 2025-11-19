@@ -37,6 +37,10 @@ function open_dialogue(argument0){
 			case obj_dorm_sink:
 				this_object = obj_dialogue.map.mirrorsink
 				break
+			case obj_day:
+				this_object = obj_dialogue.map.wakeup
+				show_debug_message("day object...")
+				break
 			default:
 				show_debug_message("Loading default dialogue... this may be a mistake...")
 				this_object = obj_dialogue.map.wakeup
@@ -147,6 +151,8 @@ function set_pointer_index(argument0, argument1) {
 		case obj_dorm_sink:
 			obj_dialogue.map.mirrorsink.ptr_index = index
 			return true
+		case obj_day:
+			obj_dialogue.map.wakeup.ptr_index = index
 		default:
 			return false
 	}
@@ -170,6 +176,8 @@ function get_pointer_index(argument0) {
 			return obj_dialogue.map.toilet.ptr_index
 		case obj_dorm_sink:
 			return obj_dialogue.map.mirrorsink.ptr_index
+		case obj_day:
+			return obj_dialogue.map.wakeup.ptr_index
 		default:
 			show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
 			return -1 //index not found

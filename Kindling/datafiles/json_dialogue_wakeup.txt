@@ -15,164 +15,244 @@
 		]
 	},
 	{
-		"index": 1.0,
+		"index": 1,
 		"text": "New day, new me.",
-		"speaker":"",
-		"mood":"",
-		"is_active": false,
-		"association": "",
-		"command": [],
-		"children": [
-		]
+		"speaker": "ashley",
+		"mood": "_happy",
+		"is_active": true,
+		"association": "yearner",
+		"command": [["UPGRADE", "yearner", 1]],
+		"children": [5]
 	},
 	{
-		"index": 2.0,
+		"index": 2,
 		"text": "[Longingly look at the snooze button.]",
-		"speaker":"",
-		"mood":"",
-		"is_active": false,
-		"association": "",
-		"command": [],
-		"children": [
-		]
+		"speaker":"ashley",
+		"mood": "_worried",
+		"is_active": true,
+		"association": "sanctum",
+		"command": [["UPGRADE", "sanctum", 1]],
+		"children": [6]
 	},
 	{
-		"index": 3.0,
+		"index": 3,
 		"text": "Gotta feed the machine first.",
-		"speaker":"",
-		"mood":"",
-		"is_active": false,
-		"association": "",
-		"command": [],
-		"children": [
-		]
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "executive",
+		"command": [["UPGRADE", "executive", 1]],
+		"children": [7]
 	},
 	{
-		"index": 4.0,
+		"index": 4,
 		"text": "[Hit the snooze button.]",
-		"speaker":"",
-		"mood":"",
-		"is_active": false,
-		"association": "",
-		"command": [],
-		"children": [
-		]
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "hit",
+		"command": [["UPGRADE", "hit", 1]],
+		"children": [8]
 	},
 	{
-		"index": 5.0,
+		"index": 5,
 		"text": "Be at least a little more energetic about it. You could start doing daily stretches, make breakfast from scratch, four minute pool dip -.",
-		"speaker":"yearner",
-		"mood":"",
+		"speaker": "yearner",
+		"mood": "",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-			9.0,
-			10.0
-		]
+		"children": [9, 10]
 	},
 	{
-		"index": 6.0,
+		"index": 6,
 		"text": "You're so tired. It feels like anvils are weighing your eyeballs down, exhaustion dragging at your bones. Do you have enough energy to be brave today?",
-		"speaker":"sanctum",
+		"speaker": "sanctum",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [19, 20]
+	},
+	{
+		"index": 7,
+		"text": "Bathroom first - routine is important. You need to: rinse mouth, wash face, change, then consider food. Something inventive with your kettle, perhaps.",
+		"speaker": "executive",
 		"mood":"",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-			15.0,
-			16.0
-		]
+		"children": [11]
 	},
 	{
-		"index": 7.0,
-		"text": "",
-		"speaker":"executive",
-		"mood":"",
+		"index": 8,
+		"text": "You can speed through getting ready, anyways. You roll over, and close your eyes to the guilt and shame ravaging your heart, and drift back to sleep...",
+		"speaker": "hit",
+		"mood": "",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-			11.0,
-			14.0
-		]
+		"children": []
 	},
 	{
-		"index": 8.0,
-		"text": "",
-		"speaker":"hit",
-		"mood":"",
-		"is_active": true,
-		"association": "",
-		"command": [],
-		"children": [
-		]
-	},
-	{
-		"index": 9.0,
+		"index": 9,
 		"text": "I'm going, I'm going...",
-		"speaker":"",
-		"mood":"",
+		"speaker": "ashley",
+		"mood": "_worried",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-		]
+		"children": [12]
 	},
 	{
-		"index": 10.0,
+		"index": 10,
 		"text": "Woo!",
-		"speaker":"",
-		"mood":"",
+		"speaker": "ashley",
+		"mood": "_happy",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-		]
+		"children": [13]
 	},
 	{
-		"index": 11.0,
-		"text": "",
-		"speaker":"",
-		"mood":"",
+		"index": 11,
+		"text": "I could be the great kettle inventor.",
+		"speaker": "ashley",
+		"mood": "_happy",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-			14.0
-		]
+		"children": [14]
 	},
 	{
-		"index": 12.0,
+		"index": 12,
 		"text": "Really killing the mood here, but I'll take it.",
 		"speaker":"yearner",
-		"mood":"",
+		"mood": "",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-		]
+		"children": []
 	},
 	{
-		"index": 13.0,
+		"index": 13,
 		"text": "There's the drive! Where can we get some ice?!",
 		"speaker":"yearner",
-		"mood":"",
+		"mood": "",
 		"is_active": true,
 		"association": "",
-		"command": [],
+		"command": [["GOAL", "ADD", "MORNING INFLUENCER"]],
 		"children": [
 		]
 	},
 	{
-		"index": 14.0,
-		"text": "",
-		"speaker":"executive",
+		"index": 14,
+		"text": "You know that the kettle's already been invented, right?",
+		"speaker": "executive",
 		"mood":"",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [
-		]
-	}
+		"children": [15, 16]
+	},
+	{
+		"index": 15,
+		"text": "[Don't pivot.]",
+		"speaker": "ashley",
+		"mood":"",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [17]
+	},
+	{
+		"index": 16,
+		"text": "[Pivot.]",
+		"speaker": "ashley",
+		"mood":"_worried",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [18]
+	},
+	{
+		"index": 17,
+		"text": "I could invent the kettle, like, better. Harder.",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [23]
+	},
+	{
+		"index": 18,
+		"text": "I could be a wizard and my kettle is my wand.",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [24]
+	},
+	{
+		"index": 19,
+		"text": "[Bravely haul yourself out of bed.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [21]
+	},
+	{
+		"index": 20,
+		"text": "[Cowardly lie like a slug.]",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [22]
+	},
+	{
+		"index": 21,
+		"text": "Good job. Now a billion other steps to take towards normalcy, but this one was the hardest.",
+		"speaker": "sanctum",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 22,
+		"text": "It isn't terrible to be a slug. But a few more moments, maybe, and we'll be ready enough for the day.",
+		"speaker": "sanctum",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 23,
+		"text": "How about before that, you instead invent going to the bathroom? Does that sound okay?",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	},
+	{
+		"index": 24,
+		"text": "Cast your spell to make kettle food, I guess. Why not.",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [["GOAL", "ADD", "WIZARD OF KETTLES"]],
+		"children": []
+	},
 ]

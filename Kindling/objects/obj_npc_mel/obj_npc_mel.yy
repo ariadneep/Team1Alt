@@ -9,7 +9,10 @@
     "name":"characters",
     "path":"folders/Objects/characters.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_INTERACTIBLE",
+    "path":"objects/obj_INTERACTIBLE/obj_INTERACTIBLE.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
