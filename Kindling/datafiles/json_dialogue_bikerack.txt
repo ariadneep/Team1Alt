@@ -1,0 +1,46 @@
+[
+    {
+        "index": 0,
+        "text": "You'd expected the bike racks to be a little more full, but people seem to drive a lot around campus.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            2
+        ]
+    },
+    {
+        "index": 1,
+        "text": "The bike rack stands stoically against the tide of isolation. Admirable.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": []
+    },
+    {
+        "index": 2,
+        "text": "You could get a bike. Bike resurgence. Bike harbringer. Leader of the bike riders.",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "yearner",
+        "command": [],
+        "children": [
+            3
+        ]
+    },
+    {
+        "index": 3,
+        "text": "Or you could get a bike because Alexandra had brought up enjoying biking a few days ago, and do a nice friend activity. Friendship!",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "sanctum",
+        "command": [],
+        "children": []
+    }
+]

@@ -1,0 +1,97 @@
+[
+    {
+        "index": 0,
+        "text": "It's getting dark outside. You're not accustomed yet to how loud the nighttime here is - the campus is woody and half-sunken into a small forest, so it had surprised you when the crickets kept getting louder. Now, it's almost comforting.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            1,
+            2
+        ]
+    },
+    {
+        "index": 1,
+        "text": "It was surprising seeing Alexandra. You didn't know Mel and Alexandra knew each other (high school friends, apparently) and you also didn't know you were celebrating Alexandra's breakup. Her ex seemed like a piece of shit, from what you gathered.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            3
+        ]
+    },
+    {
+        "index": 2,
+        "text": "Alexandra had texted you later today, apologizing for not 'doing friend things' with you recently. A selfie was attached to the text and you were very surprised when you saw Mel in the background. Apparently, they're high school friends, and the party was celebrating Alexandra's breakup.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            4
+        ]
+    },
+    {
+        "index": 3,
+        "text": "You'd drank a mouthful of wine for the first time, hated it, and sipped on a Martinelli for the rest of the night. You might remember only half of the faces there tomorrow.",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            5
+        ]
+    },
+    {
+        "index": 4,
+        "text": "Alexandra FaceTimes you randomly, and blubbered tipsily about how you're so cool and she wants to hang out more. (Mel was cheering her on in the background.) It was honestly very touching.",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            6
+        ]
+    },
+    {
+        "index": 5,
+        "text": "Greater thought escapes you. You are well and truly exhausted, vigor and stamina drained out.",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            7
+        ]
+    },
+    {
+        "index": 6,
+        "text": "It's too late to wonder if you should have gone. Maybe you'll gather enough courage to do it next time.",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            7
+        ]
+    },
+    {
+        "index": 7,
+        "text": "But you pull yourself together. Some semblance of work needs to be done before you go to bed. Homework, at the very least, or some chore you need to complete.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": []
+    }
+]

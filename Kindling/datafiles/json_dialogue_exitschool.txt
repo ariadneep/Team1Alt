@@ -1,0 +1,468 @@
+[
+    {
+        "index": 0,
+        "text": "Mel cracks her fingers and stretches, a satisfied look on her face. The afternoon sun is warm on your skin and a sharp contrast from the cold AC that seemed keen on giving you a migraine.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            1
+        ]
+    },
+    {
+        "index": 1,
+        "text": "That was easier than I thought!",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            2
+        ]
+    },
+    {
+        "index": 2,
+        "text": "You nod, unwilling to trust your voice. Turns out, your actions have consequences, and now you're fighting the urge to look up the answers on the questions you weren't 100% sure on and figure out whether or not you need to lie down for a while.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            3
+        ]
+    },
+    {
+        "index": 3,
+        "text": "Reporting: heart hurting, feverish anxiety, increased heartbeat, eyes stinging. I'd recommend changing your focus, fast, before you lose control of your tear ducts.",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "executive",
+        "command": [],
+        "children": [
+            4
+        ]
+    },
+    {
+        "index": 4,
+        "text": "Do you...um, have anything else for the day? That was my only class for today and I was gonna just head back and do some homework.",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            5
+        ]
+    },
+    {
+        "index": 5,
+        "text": "Mel thinks, tapping idly at the case of her phone. It's absolutely covered with capybara stickers.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            6
+        ]
+    },
+    {
+        "index": 6,
+        "text": "Some of my friends and I are holding a party, if you'd like to join. We've got some wine, but if that's not your vibe, also Martinellis. Or Kool-Aid. Or Jarritos.",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            7,
+            8,
+            9,
+            10,
+            11
+        ]
+    },
+    {
+        "index": 7,
+        "text": "I don't know, wouldn't it be weird?",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            12
+        ]
+    },
+    {
+        "index": 8,
+        "text": "How many people are going to be there?",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            13
+        ]
+    },
+    {
+        "index": 9,
+        "text": "What's the party for?",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            14
+        ]
+    },
+    {
+        "index": 10,
+        "text": "How long is it?",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            15
+        ]
+    },
+    {
+        "index": 11,
+        "text": "[Decide.]",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            16,
+            17
+        ]
+    },
+    {
+        "index": 12,
+        "text": "She shakes her head enthusiastically.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            16
+        ]
+    },
+    {
+        "index": 13,
+        "text": "Five? Six? Eli hasn't said yes or no yet, but maximum six for sure.",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            20
+        ]
+    },
+    {
+        "index": 14,
+        "text": "We're celebrating Alexandra breaking up with her ex. You'd love her, she's great. She plays the piano too!",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            21
+        ]
+    },
+    {
+        "index": 15,
+        "text": "The swell of anxiety is too much, and you return to your room...",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            22
+        ]
+    },
+    {
+        "index": 16,
+        "text": "No, you'd totally be welcome! I've talked about you a lot and they like you, don't worry.",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            19
+        ]
+    },
+    {
+        "index": 17,
+        "text": "Yeah, sure. I've got some time.",
+        "speaker": "ashely",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            23
+        ]
+    },
+    {
+        "index": 18,
+        "text": "The swell of anxiety is too much, and you return to your room...",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            24
+        ]
+    },
+    {
+        "index": 19,
+        "text": "Your heart warms at the idea of Mel talking about you. Simultaneously, you are immediately worried about what exactly Mel has been saying about you.",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "sanctum",
+        "command": [
+            [
+                "UPGRADE",
+                "sanctum",
+                1
+            ]
+        ],
+        "children": []
+    },
+    {
+        "index": 20,
+        "text": "The swell of anxiety is too much, and you return to your room...",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "yearner",
+        "command": [
+            [
+                "UPGRADE",
+                "yearner",
+                1
+            ]
+        ],
+        "children": []
+    },
+    {
+        "index": 21,
+        "text": "The swell of anxiety is too much, and you return to your room...",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            27
+        ]
+    },
+    {
+        "index": 22,
+        "text": "You're so exhausted. Whatever remaining stamina you have might be enough to get you through the party, or it won't and you'll shut down in the middle of the social gathering.",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "executive",
+        "command": [
+            [
+                "UPGRADE",
+                "executive",
+                1
+            ]
+        ],
+        "children": []
+    },
+    {
+        "index": 23,
+        "text": "You're so hungry for connection, here, in this isolated place. You've texted Mel a lot since getting her number (ignoring last week, that was pretty bad) and all of the friends she's talked about are interesting enough for you to set aside your terror.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            25
+        ]
+    },
+    {
+        "index": 24,
+        "text": "The near panic attack earlier was too much. Your chest tightens reflexively, fever-hot nervousness lancing down your spine - you can't. You're too weak. Too much of a coward.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            26
+        ]
+    },
+    {
+        "index": 25,
+        "text": "She claps her hands, delighted, and nearly drops her phone.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            28
+        ]
+    },
+    {
+        "index": 26,
+        "text": "The edge of Mel's smile crimps down.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            29
+        ]
+    },
+    {
+        "index": 27,
+        "text": "What, for real? Small world!",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            30
+        ]
+    },
+    {
+        "index": 28,
+        "text": "Oh, great! I was really hoping you'd say yes.",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            31
+        ]
+    },
+    {
+        "index": 29,
+        "text": "Aw, that's okay - maybe next time!",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            31
+        ]
+    },
+    {
+        "index": 30,
+        "text": "You like Alexandra, but you're also so nervous talking to her. She exudes an air of confidence that you absolutely lack.",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "hit",
+        "command": [
+            [
+                "UPGRADE",
+                "hit",
+                1
+            ]
+        ],
+        "children": []
+    },
+    {
+        "index": 31,
+        "text": "Oh, and...",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            32,
+            33,
+            34,
+            35
+        ]
+    },
+    {
+        "index": 32,
+        "text": "I'm always available to talk. About anything, y'know?",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            36
+        ]
+    },
+    {
+        "index": 33,
+        "text": "Let me know if you need any help with your homework!",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            36
+        ]
+    },
+    {
+        "index": 34,
+        "text": "We could plan a hangout outside of class, just to relax a bit.",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            36
+        ]
+    },
+    {
+        "index": 35,
+        "text": "Don't forget about my frog images. They are incredibly important.",
+        "speaker": "mel",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            36
+        ]
+    },
+    {
+        "index": 36,
+        "text": "Yeah, for sure.",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": []
+    }
+]

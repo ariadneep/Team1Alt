@@ -1,0 +1,231 @@
+[
+    {
+        "index": 0,
+        "text": "It is rumpled and empty, exactly how you left it this morning.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            1,
+            2
+        ]
+    },
+    {
+        "index": 1,
+        "text": "[Go to bed.]",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            3
+        ]
+    },
+    {
+        "index": 2,
+        "text": "[Don't go to bed.]",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            4
+        ]
+    },
+    {
+        "index": 3,
+        "text": "You throw yourself into bed and arrange your body into a maybe-okay sleeping position. The blanket is freezing cold.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            5
+        ]
+    },
+    {
+        "index": 4,
+        "text": "You tear your gaze away from it. There's something, fading at the edges of your memory, something you still need to do...",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": []
+    },
+    {
+        "index": 5,
+        "text": "Why is your heartrate still elevated? Tension knits itself into your bones and you gasp, wet and miserable, into your pillow. When did you start crying?",
+        "speaker": "execuitve",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            6
+        ]
+    },
+    {
+        "index": 6,
+        "text": "You didn't do something incredibly stupid during class, or mess up an interaction terribly, or get a bad grade. Nothing in the hours of today points you towards an explanation to you scream-sobbing in your bed.",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            7
+        ]
+    },
+    {
+        "index": 7,
+        "text": "All the more reason to cry harder. Shame is a lava-hot pit in your stomach, embarrassment strangling your breath in your lungs. Eighteen and in college for pre-law, only child of your family, and you are crying like a little baby for no fucking reason at all.",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            8
+        ]
+    },
+    {
+        "index": 8,
+        "text": "Your fastest way to calm down is that poison you sup from greedily on Instagram, Twitter, frivolous, useless, wastes of time. How will you ever get your life together? Can you? Is that possible?",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            9
+        ]
+    },
+    {
+        "index": 9,
+        "text": "You have to stop crying.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ]
+    },
+    {
+        "index": 10,
+        "text": "I know what to do. Shut down all external thought. Stop thinking ahead. Your flesh, bones, blood, every atom of your body needs to settle. Your dreams? Hopes? Love? Keep it stagnant so the debris can settle before the next earthquake shatters your life.",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            16
+        ]
+    },
+    {
+        "index": 11,
+        "text": "I know what to do. Isolate and identify the catalyst - the factor that shattered you to this weeping mess - by retreating so far that nothing can hurt you. You can dream from the safety of your iron cage, dying ember kept safe and blind to the world burning down around you.",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            16
+        ]
+    },
+    {
+        "index": 12,
+        "text": "I know what to do. Close your heart to the misery. The present is too hard to live in. Wish upon a dead candle and chase fragments of reality in the smoke - if you keep your eyes ahead, maybe eventually the 'here and now' will catch up.",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            16
+        ]
+    },
+    {
+        "index": 13,
+        "text": "I know what to do. Think about literally anything else. Here's a shortcut to not deal with anything - immerse yourself in distraction. Throw yourself into the blue and drown your brain with water until you can't put together conscious thought.",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            16
+        ]
+    },
+    {
+        "index": 14,
+        "text": "Your head clamors with thoughts, all equally loud. You can't think, you can't breathe, you slap your face hard and wail:",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            15
+        ]
+    },
+    {
+        "index": 15,
+        "text": "STOP IT!",
+        "speaker": "ashley",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            17
+        ]
+    },
+    {
+        "index": 16,
+        "text": "Your breathing steadies, your sobs petering out. You're cried yourself to absolute fatigue, and the misery has given way to that familiar emptiness, sinking you down, down into your bed...",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            18
+        ]
+    },
+    {
+        "index": 17,
+        "text": "And for a single, blessed moment, as white-hot pain blooms across your cheek, you can calm down.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            18
+        ]
+    },
+    {
+        "index": 18,
+        "text": "You fall into a dreamless sleep.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": []
+    }
+]

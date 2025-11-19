@@ -1,0 +1,22 @@
+[
+    {
+        "index": 0,
+        "text": "Bert, the duck lamp, is unaffected by the hardship of living, because it is a duck lamp.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": []
+    },
+    {
+        "index": 1,
+        "text": "That's Bert.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": []
+    }
+]
