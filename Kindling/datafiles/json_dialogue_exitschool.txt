@@ -29,7 +29,7 @@
         "speaker": "",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "executive",
         "command": [],
         "children": [
             3
@@ -41,7 +41,7 @@
         "speaker": "executive",
         "mood": "",
         "is_active": true,
-        "association": "executive",
+        "association": "",
         "command": [],
         "children": [
             4
@@ -166,8 +166,14 @@
         "speaker": "mel",
         "mood": "",
         "is_active": true,
-        "association": "",
-        "command": [],
+        "association": "yearner",
+        "command": [            
+		[
+                "UPGRADE",
+                "yearner",
+                1
+           	]
+	],
         "children": [
             20
         ]
@@ -190,8 +196,14 @@
         "speaker": "mel",
         "mood": "",
         "is_active": true,
-        "association": "",
-        "command": [],
+        "association": "executive",
+        "command": [            
+		[
+                "UPGRADE",
+                "executive",
+                1
+            ]
+	],
         "children": [
             22
         ]
@@ -202,8 +214,14 @@
         "speaker": "mel",
         "mood": "",
         "is_active": true,
-        "association": "",
-        "command": [],
+        "association": "sanctum",
+        "command": [            
+		[
+                "UPGRADE",
+                "sanctum",
+                1
+            ]
+	],
         "children": [
             19
         ]
@@ -238,14 +256,8 @@
         "speaker": "sanctum",
         "mood": "",
         "is_active": true,
-        "association": "sanctum",
-        "command": [
-            [
-                "UPGRADE",
-                "sanctum",
-                1
-            ]
-        ],
+        "association": "",
+        "command": [],
         "children": []
     },
     {
@@ -254,14 +266,8 @@
         "speaker": "yearner",
         "mood": "",
         "is_active": true,
-        "association": "yearner",
-        "command": [
-            [
-                "UPGRADE",
-                "yearner",
-                1
-            ]
-        ],
+        "association": "",
+        "command": [],
         "children": []
     },
     {
@@ -282,14 +288,8 @@
         "speaker": "executive",
         "mood": "",
         "is_active": true,
-        "association": "executive",
-        "command": [
-            [
-                "UPGRADE",
-                "executive",
-                1
-            ]
-        ],
+        "association": "",
+        "command": [],
         "children": []
     },
     {
@@ -346,8 +346,14 @@
         "speaker": "mel",
         "mood": "",
         "is_active": true,
-        "association": "",
-        "command": [],
+        "association": "hit",
+        "command": [            
+		[
+                "UPGRADE",
+                "hit",
+                1
+            ]
+	],
         "children": [
             30
         ]
@@ -382,14 +388,8 @@
         "speaker": "hit",
         "mood": "",
         "is_active": true,
-        "association": "hit",
-        "command": [
-            [
-                "UPGRADE",
-                "hit",
-                1
-            ]
-        ],
+        "association": "",
+        "command": [],
         "children": []
     },
     {

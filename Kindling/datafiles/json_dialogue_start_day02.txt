@@ -18,7 +18,7 @@
         "speaker": "",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "hit",
         "command": [],
         "children": [
             3
@@ -30,7 +30,7 @@
         "speaker": "",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "sanctum",
         "command": [],
         "children": [
             4
@@ -42,7 +42,7 @@
         "speaker": "hit",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "executive",
         "command": [],
         "children": [
             5
@@ -54,7 +54,7 @@
         "speaker": "sanctum",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "yearner",
         "command": [],
         "children": [
             6

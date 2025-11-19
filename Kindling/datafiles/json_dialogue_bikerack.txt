@@ -5,7 +5,7 @@
         "speaker": "",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "yearner",
         "command": [],
         "children": [
             2
@@ -27,7 +27,7 @@
         "speaker": "yearner",
         "mood": "",
         "is_active": true,
-        "association": "yearner",
+        "association": "sanctum",
         "command": [],
         "children": [
             3
@@ -39,7 +39,7 @@
         "speaker": "sanctum",
         "mood": "",
         "is_active": true,
-        "association": "sanctum",
+        "association": "",
         "command": [],
         "children": []
     }
