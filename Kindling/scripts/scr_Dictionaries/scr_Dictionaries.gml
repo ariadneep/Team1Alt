@@ -49,15 +49,18 @@ function populate_effects() {
 }
 
 function initialize_layers() {
-	dialogue_layer = layer_get_id("Portraits_And_Dialogue")
-	instances_layer = layer_get_id("Instances")
-	popups_layer = layer_get_id("Instances") //todo: um fix this?
-	dialogue_effects = layer_create(layer_get_depth(obj_globals.dialogue_layer) + 1, "Dialogue_Effects")
-	dialogue_effects_2 = layer_create(layer_get_depth(obj_globals.dialogue_layer) + 2, "Dialogue_Effects_2")
-	tips_layer = layer_get_id("Tips")
+	show_debug_message("initializing layers??")
+	with (obj_globals) {
+		dialogue_layer = layer_get_id("Portraits_And_Dialogue")
+		instances_layer = layer_get_id("Instances")
+		popups_layer = layer_get_id("Instances") //todo: um fix this?
+		dialogue_effects = layer_create(layer_get_depth(obj_globals.dialogue_layer) + 1, "Dialogue_Effects")
+		dialogue_effects_2 = layer_create(layer_get_depth(obj_globals.dialogue_layer) + 2, "Dialogue_Effects_2")
+		tips_layer = layer_get_id("Tips")
 
-	//initialzie deeper layer
-	layer_set_fx(obj_globals.dialogue_effects_2, fx_create("_effect_gaussian_blur"))
-	layer_set_visible(dialogue_effects_2, false)
-	layer_set_visible(dialogue_effects, false)
+		//initialzie deeper layer
+		layer_set_fx(obj_globals.dialogue_effects_2, fx_create("_effect_gaussian_blur"))
+		layer_set_visible(dialogue_effects_2, false)
+		layer_set_visible(dialogue_effects, false)
+	}
 }
