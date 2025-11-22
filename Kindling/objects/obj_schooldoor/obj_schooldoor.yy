@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card_sanctum",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_schooldoor",
+  "eventList":[],
   "managed":true,
-  "name":"obj_card_sanctum",
+  "name":"obj_schooldoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"cards",
-    "path":"folders/Objects/cards.yy",
+    "name":"hub_assets",
+    "path":"folders/Objects/hub_assets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_COLLIDABLE",
+    "path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stats_sanctum",
-    "path":"sprites/spr_stats_sanctum/spr_stats_sanctum.yy",
+    "name":"spr_object_door",
+    "path":"sprites/spr_object_door/spr_object_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_transition_day2A",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_transition_day2A",
   "overriddenProperties":[],

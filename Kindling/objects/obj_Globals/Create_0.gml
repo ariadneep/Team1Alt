@@ -4,6 +4,7 @@ CTRL_up = [vk_up, ord("W")]
 CTRL_down = [vk_down, ord("S")]
 CTRL_left = [vk_left, ord("A")]
 CTRL_right = [vk_right, ord("D")]
+day = 1
 // make another array for movement 
 
 //GLOBAL VARIABLES

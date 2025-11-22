@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card_sanctum",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"rm_classroom",
+  "eventList":[],
   "managed":true,
-  "name":"obj_card_sanctum",
+  "name":"rm_classroom",
   "overriddenProperties":[],
   "parent":{
-    "name":"cards",
-    "path":"folders/Objects/cards.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_stats_sanctum",
-    "path":"sprites/spr_stats_sanctum/spr_stats_sanctum.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

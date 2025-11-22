@@ -50,14 +50,15 @@ function open_dialogue(argument0){
 			case obj_bench:
 				this_object = obj_dialogue.map.bench
 				break
+			case obj_schooldoor:
+				this_object = obj_dialogue.map.enterschool
+				break
 			case obj_dorm_entrance:
 				show_debug_message("dorm entrance..?")
 				close_dialogue()
-				room_goto(rm_scorescreen)
+				//room_goto(rm_dorm)
 				return true
 			default:
-				//show_debug_message("Loading default dialogue... this may be a mistake...")
-				//this_object = obj_dialogue.map.wakeup
 				show_debug_message("Loading failed in open_dialogue... this may be a mistake... closing now")
 				close_dialogue()
 				return false
@@ -185,6 +186,9 @@ function set_pointer_index(argument0, argument1) {
 		case obj_bench:
 			obj_dialogue.map.bench.ptr_index = index
 			return true
+		case obj_schooldoor:
+			obj_dialogue.map.enterschool.ptr_index = index
+			return true
 		default:
 			return false
 	}
@@ -216,6 +220,8 @@ function get_pointer_index(argument0) {
 			return obj_dialogue.map.bikerack.ptr_index
 		case obj_bench:
 			return obj_dialogue.map.bench.ptr_index 
+		case obj_schooldoor:
+			return obj_dialogue.map.enterschool.ptr_index
 		default:
 			show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
 			return -1 //index not found
@@ -283,6 +289,10 @@ function HELPER_parse_command(argument0) {
 			var destination = command[1]
 			if(destination == "hub")
 				room_goto(rm_hub)
+			return true
+		case "ENDGAME":
+			close_dialogue()
+			room_goto(rm_scorescreen)
 			return true
 		default:
 			return false
