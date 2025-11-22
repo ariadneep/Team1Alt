@@ -14,3 +14,9 @@ function draw_score(argument0) {
 	// Draw text itself:
 	draw_text_ext_colour(text_x, text_y, obj_globals.archetypes[?argument0], line_sep, max_width, text_color, text_color, text_color, text_color, 1)
 }
+
+function get_archetype_score(argument0) {
+	with(obj_globals) {
+		
+	}
+}
