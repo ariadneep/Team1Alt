@@ -1,0 +1,272 @@
+[
+	{
+		"index": 0,
+		"text": "You slink into class on the heels of a group, and someone in the front row waves a hand at your approach. She's got a lot of papers out on her desk.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [2]
+	},
+	{
+		"index": 1,
+		"text": "You slink into class hoping no one notices you, but someone in the front row gestures you over to a seat next to her. She's got a lot of papers out on her desk.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [3]
+	},
+	{
+		"index": 2,
+		"text": "Hi, Ashley! How are you?",
+		"speaker": "mel",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [4]
+	},
+	{
+		"index": 3,
+		"text": "Hi, Ashley!, I barely managed to save you a seat - a lot of people started showing up as class started. How are you?",
+		"speaker": "mel",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [4]
+	},
+	{
+		"index": 4,
+		"text": "Esperanza Melanie Sanchez Garcia, 'call me Mel', is in pre-law like you. She'd engaged you in a conversation about the cafeteria (lackluster, in both of your opinions) in your first interaction, and exchanged numbers fast after. Turns out, she's sharing a few classes with you by coincidence. Lucky you.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [5]
+	},
+	{
+		"index": 5,
+		"text": "I'm alright. Are you reviewing for the quiz?",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [6]
+	},
+	{
+		"index": 6,
+		"text": "The sick swell of anxiery was too much when you looked at it yesterday night and looking at Mel studying - every bit a perfect student - makes it come back with a vengeance.",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [7]
+	},
+	{
+		"index": 7,
+		"text": "Maybe catching up on that K-drama wasn't the best move.",
+		"speaker": "hit",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [8]
+	},
+	{
+		"index": 8,
+		"text": "Mel, unaware of your agitation, hums assent.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [9]
+	},
+	{
+		"index": 9,
+		"text": "Yeah... I really wish they weren't 25% of the final grade. Glad to hear you're OK though, you kinda dropped off the face of the earth last week.",
+		"speaker": "mel",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [10, 11, 12, 13]
+	},
+	{
+		"index": 10,
+		"text": "OK is definitely a word for it.",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "yearner",
+		"command": [["UPGRADE", "yearner", 1]],
+		"children": [14]
+	},
+	{
+		"index": 11,
+		"text": "Yeah, I was catching up on some homework, sorry.",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "executive",
+		"command": [["UPGRADE", "executive", 1]],
+		"children": [15]
+	},
+	{
+		"index": 12,
+		"text": "Just been kinda stressed.",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "sanctum",
+		"command": [["UPGRADE", "sanctum", 1]],
+		"children": [16]
+	},
+	{
+		"index": 13,
+		"text": "Ah, shit, I totally forgot to reply.",
+		"speaker": "ashley",
+		"mood": "",
+		"is_active": true,
+		"association": "hit",
+		"command": [["UPGRADE", "hit", 1]],
+		"children": [17]
+	},
+	{
+		"index": 14,
+		"text": "You didn't mean to say it like that. You meant for it to be sarcastic, a witty comeback, and instead your mouth tastes bitter. The curve of your lips feel plastic and fake.",
+		"speaker": "yearner",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [18]
+	},
+	{
+		"index": 15,
+		"text": "You technically were. You just didn't get much progress on it, because you were having a miserable breakdown after your mom called. But she doesn't need to know that.",
+		"speaker": "executive",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [19]
+	},
+	{
+		"index": 16,
+		"text": "You have been stressed. You are currently stressed. You in the future will probably be stressed. This small confession - a plea for help, to be notices, alleviates some of it at least.",
+		"speaker": "sanctum",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [20]
+	},
+	{
+		"index": 17,
+		"text": "You did not forget to reply. You saw it, felt the beginning of spiraling guilt, and promptly switched your phone off and started working on homework on your computer.",
+		"speaker": "hit",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [21]
+	},
+	{
+		"index": 18,
+		"text": "She furrows her brows in concern.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [22]
+	},
+	{
+		"index": 19,
+		"text": "She nods in sympathy.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [23]
+	},
+	{
+		"index": 20,
+		"text": "She sighs in commiseration.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [24]
+	},
+	{
+		"index": 21,
+		"text": "She smiles teasingly.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [25]
+	},
+	{
+		"index": 22,
+		"text": "... Something happen?",
+		"speaker": "mel",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [26]
+	},
+	{
+		"index": 23,
+		"text": "It really seems like they're throwing a lot of stuff at us early, huh.",
+		"speaker": "mel",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [26]
+	},
+	{
+		"index": 24,
+		"text": "Feel that. Second week was just one reading, and now it's three with double the pages.",
+		"speaker": "mel",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [26]
+	},
+	{
+		"index": 25,
+		"text": "Can't believe reacting to my collection of frog images isn't your top priority.",
+		"speaker": "mel",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": [26]
+	},
+	{
+		"index": 26,
+		"text": "But before you can say some sort of rebuttal, the professor clears her throat. Your conversation will have to wait until after class.",
+		"speaker": "",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [],
+		"children": []
+	}
+]

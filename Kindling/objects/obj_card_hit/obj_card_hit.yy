@@ -8,8 +8,8 @@
   "name":"obj_card_hit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"cards",
+    "path":"folders/Objects/cards.yy",
   },
   "parentObjectId":null,
   "persistent":false,

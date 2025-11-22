@@ -50,6 +50,9 @@ function open_dialogue(argument0){
 			case obj_bench:
 				this_object = obj_dialogue.map.bench
 				break
+			case obj_schooldoor:
+				this_object = obj_dialogue.map.enterschool
+				break
 			case obj_dorm_entrance:
 				show_debug_message("dorm entrance..?")
 				close_dialogue()
@@ -185,6 +188,9 @@ function set_pointer_index(argument0, argument1) {
 		case obj_bench:
 			obj_dialogue.map.bench.ptr_index = index
 			return true
+		case obj_schooldoor:
+			obj_dialogue.map.enterschool.ptr_index = index
+			return true
 		default:
 			return false
 	}
@@ -216,6 +222,8 @@ function get_pointer_index(argument0) {
 			return obj_dialogue.map.bikerack.ptr_index
 		case obj_bench:
 			return obj_dialogue.map.bench.ptr_index 
+		case obj_schooldoor:
+			return obj_dialogue.map.enterschool.ptr_index
 		default:
 			show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
 			return -1 //index not found
