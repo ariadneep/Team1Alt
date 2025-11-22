@@ -61,7 +61,7 @@
 	},
 	{
 		"index": 6,
-		"text": "The sick swell of anxiery was too much when you looked at it yesterday night and looking at Mel studying - every bit a perfect student - makes it come back with a vengeance.",
+		"text": "The sick swell of anxiety was too much when you looked at it yesterday night and looking at Mel studying - every bit a perfect student - makes it come back with a vengeance.",
 		"speaker": "executive",
 		"mood": "",
 		"is_active": true,
@@ -266,7 +266,7 @@
 		"mood": "",
 		"is_active": true,
 		"association": "",
-		"command": [],
+		"command": [["ENDGAME"]],
 		"children": []
 	}
 ]

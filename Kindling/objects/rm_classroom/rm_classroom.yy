@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_transition_day2A",
+  "%Name":"rm_classroom",
   "eventList":[],
   "managed":true,
-  "name":"obj_transition_day2A",
+  "name":"rm_classroom",
   "overriddenProperties":[],
   "parent":{
-    "name":"day_transitions",
-    "path":"folders/Objects/day_transitions.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
-  "parentObjectId":{
-    "name":"obj_day",
-    "path":"objects/obj_day/obj_day.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_transition_day2_afternoon",
-    "path":"sprites/spr_transition_day2_afternoon/spr_transition_day2_afternoon.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

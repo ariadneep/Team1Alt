@@ -56,11 +56,9 @@ function open_dialogue(argument0){
 			case obj_dorm_entrance:
 				show_debug_message("dorm entrance..?")
 				close_dialogue()
-				room_goto(rm_scorescreen)
+				//room_goto(rm_dorm)
 				return true
 			default:
-				//show_debug_message("Loading default dialogue... this may be a mistake...")
-				//this_object = obj_dialogue.map.wakeup
 				show_debug_message("Loading failed in open_dialogue... this may be a mistake... closing now")
 				close_dialogue()
 				return false
@@ -291,6 +289,10 @@ function HELPER_parse_command(argument0) {
 			var destination = command[1]
 			if(destination == "hub")
 				room_goto(rm_hub)
+			return true
+		case "ENDGAME":
+			close_dialogue()
+			room_goto(rm_scorescreen)
 			return true
 		default:
 			return false

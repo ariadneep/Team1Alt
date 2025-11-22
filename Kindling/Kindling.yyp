@@ -119,6 +119,7 @@
     {"id":{"name":"obj_transition_day2A","path":"objects/obj_transition_day2A/obj_transition_day2A.yy",},},
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"obj_UI_StartButton","path":"objects/obj_UI_StartButton/obj_UI_StartButton.yy",},},
+    {"id":{"name":"rm_classroom","path":"objects/rm_classroom/rm_classroom.yy",},},
     {"id":{"name":"rm_dorm","path":"rooms/rm_dorm/rm_dorm.yy",},},
     {"id":{"name":"rm_hub","path":"rooms/rm_hub/rm_hub.yy",},},
     {"id":{"name":"rm_scorescreen","path":"rooms/rm_scorescreen/rm_scorescreen.yy",},},
