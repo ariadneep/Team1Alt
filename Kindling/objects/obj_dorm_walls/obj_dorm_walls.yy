@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_background_dorm_walls",
-    "path":"sprites/spr_background_dorm_walls/spr_background_dorm_walls.yy",
+    "name":"spr_obstacle_dorm_walls",
+    "path":"sprites/spr_obstacle_dorm_walls/spr_obstacle_dorm_walls.yy",
   },
   "spriteMaskId":null,
   "visible":true,

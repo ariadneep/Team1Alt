@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_EndCards",
+  "%Name":"scr_Archetypes",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_EndCards",
+  "name":"scr_Archetypes",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
