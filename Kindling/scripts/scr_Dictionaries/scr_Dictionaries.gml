@@ -41,10 +41,11 @@ function populate_archetypes() {
 
 function populate_effects() {
 	with (obj_globals) {
-		effects[?"sanctum"] = fx_create("_effect_gaussian_blur")
+		effects[?"sanctum"] = fx_create("_filter_distort")
 		effects[?"yearner"] = fx_create("_filter_heathaze")
+		fx_set_parameter(effects[?"yearner"], "g_ChromaSpreadAmount", 5.0);
 		effects[?"hit"] = fx_create("_filter_underwater")
-		effects[?"executive"] = fx_create("_filter_whitenoise")
+		effects[?"executive"] = fx_create("_filter_rgbnoise")
 	}
 }
 

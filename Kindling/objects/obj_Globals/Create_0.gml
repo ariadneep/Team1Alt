@@ -5,6 +5,7 @@ CTRL_down = [vk_down, ord("S")]
 CTRL_left = [vk_left, ord("A")]
 CTRL_right = [vk_right, ord("D")]
 day = 1
+time = "morning"
 // make another array for movement 
 
 //GLOBAL VARIABLES
@@ -21,6 +22,9 @@ layer_set_visible(dialogue_effects_2, false)
 layer_set_visible(dialogue_effects, false)
 
 //MAPS
+dialogue = ds_map_create()
+load_day(day, time)
+
 archetypes = ds_map_create()
 populate_archetypes()
 
