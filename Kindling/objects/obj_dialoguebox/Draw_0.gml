@@ -36,13 +36,13 @@ draw_self()
 // Presets for text drawing:
 draw_set_halign(fa_middle)
 draw_set_valign(fa_top)
-draw_set_colour(c_white)
+draw_set_colour(c_black)
 
 var text_x = x
 var text_y = y
 var max_width = sprite_width * 0.65
 var line_sep = 20
-var text_color = c_white
+var text_color = c_black
 var selected_color = c_blue
 
 // Draw text itself:
