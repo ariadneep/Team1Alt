@@ -58,7 +58,7 @@
     {"$GMIncludedFile":"","%Name":"json_dialogue_ducklamp_day2.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_ducklamp_day2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_ducklamp.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_ducklamp.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_enterschool_day2.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_enterschool_day2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"json_dialogue_exitschool.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_exitschool.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"json_dialogue_mel_outsideschool.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_mel_outsideschool.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_intro.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_intro.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_kettle_day2.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_kettle_day2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_kettle.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_kettle.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

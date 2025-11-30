@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_npc_mel",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_npc_mel",
   "overriddenProperties":[],
@@ -10,8 +12,8 @@
     "path":"folders/Objects/characters.yy",
   },
   "parentObjectId":{
-    "name":"obj_INTERACTIBLE",
-    "path":"objects/obj_INTERACTIBLE/obj_INTERACTIBLE.yy",
+    "name":"obj_COLLIDABLE",
+    "path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -94,7 +94,7 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["CLOSE", 7, "this"]],
         "children": [
             12
         ]
@@ -106,7 +106,7 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["CLOSE", 8, "this"]],
         "children": [
             13
         ]
@@ -118,7 +118,7 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["CLOSE", 9, "this"]],
         "children": [
             14
         ]
@@ -130,7 +130,7 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["CLOSE", 10, "this"]],
         "children": [
             15
         ]
@@ -144,8 +144,8 @@
         "association": "",
         "command": [],
         "children": [
-            16,
-            17
+            17,
+            18
         ]
     },
     {
@@ -192,9 +192,9 @@
     },
     {
         "index": 15,
-        "text": "The swell of anxiety is too much, and you return to your room...",
+        "text": "Starting around seven, and then ending at ten so I can go to bed early...work tomorrow morning...",
         "speaker": "mel",
-        "mood": "",
+        "mood": "_worried",
         "is_active": true,
         "association": "executive",
         "command": [            
@@ -229,7 +229,7 @@
     {
         "index": 17,
         "text": "Yeah, sure. I've got some time.",
-        "speaker": "ashely",
+        "speaker": "ashley",
         "mood": "",
         "is_active": true,
         "association": "",
@@ -240,9 +240,9 @@
     },
     {
         "index": 18,
-        "text": "The swell of anxiety is too much, and you return to your room...",
+        "text": "I think if I don't finish my assignment now, I'm never going to. I'll text you?",
         "speaker": "ashley",
-        "mood": "",
+        "mood": "_worried",
         "is_active": true,
         "association": "",
         "command": [],
@@ -253,28 +253,28 @@
     {
         "index": 19,
         "text": "Your heart warms at the idea of Mel talking about you. Simultaneously, you are immediately worried about what exactly Mel has been saying about you.",
-        "speaker": "sanctum",
+        "speaker": "",
         "mood": "",
         "is_active": true,
         "association": "",
         "command": [],
-        "children": []
+        "children": [6]
     },
     {
         "index": 20,
-        "text": "The swell of anxiety is too much, and you return to your room...",
-        "speaker": "yearner",
+        "text": "That's a reasonable amount of people to meet for the first time, if you can somehow embody a version of yourself who won't get immediately drained by one conversation....",
+        "speaker": "",
         "mood": "",
         "is_active": true,
         "association": "",
         "command": [],
-        "children": []
+        "children": [6]
     },
     {
         "index": 21,
-        "text": "The swell of anxiety is too much, and you return to your room...",
+        "text": "Wait, Alexandra Sullivan? I know her.",
         "speaker": "ashley",
-        "mood": "",
+        "mood": "_happy",
         "is_active": true,
         "association": "",
         "command": [],
@@ -285,12 +285,12 @@
     {
         "index": 22,
         "text": "You're so exhausted. Whatever remaining stamina you have might be enough to get you through the party, or it won't and you'll shut down in the middle of the social gathering.",
-        "speaker": "executive",
+        "speaker": "",
         "mood": "",
         "is_active": true,
         "association": "",
         "command": [],
-        "children": []
+        "children": [6]
     },
     {
         "index": 23,
@@ -374,7 +374,7 @@
         "index": 29,
         "text": "Aw, that's okay - maybe next time!",
         "speaker": "mel",
-        "mood": "",
+        "mood": "_worried",
         "is_active": true,
         "association": "",
         "command": [],
@@ -385,12 +385,12 @@
     {
         "index": 30,
         "text": "You like Alexandra, but you're also so nervous talking to her. She exudes an air of confidence that you absolutely lack.",
-        "speaker": "hit",
+        "speaker": "",
         "mood": "",
         "is_active": true,
         "association": "",
         "command": [],
-        "children": []
+        "children": [6]
     },
     {
         "index": 31,
@@ -411,7 +411,7 @@
         "index": 32,
         "text": "I'm always available to talk. About anything, y'know?",
         "speaker": "mel",
-        "mood": "",
+        "mood": "_happy",
         "is_active": true,
         "association": "",
         "command": [],
@@ -424,7 +424,7 @@
         "text": "Let me know if you need any help with your homework!",
         "speaker": "mel",
         "mood": "",
-        "is_active": true,
+        "is_active": false,
         "association": "",
         "command": [],
         "children": [
@@ -436,7 +436,7 @@
         "text": "We could plan a hangout outside of class, just to relax a bit.",
         "speaker": "mel",
         "mood": "",
-        "is_active": true,
+        "is_active": false,
         "association": "",
         "command": [],
         "children": [
@@ -448,7 +448,7 @@
         "text": "Don't forget about my frog images. They are incredibly important.",
         "speaker": "mel",
         "mood": "",
-        "is_active": true,
+        "is_active": false,
         "association": "",
         "command": [],
         "children": [
@@ -459,10 +459,10 @@
         "index": 36,
         "text": "Yeah, for sure.",
         "speaker": "ashley",
-        "mood": "",
+        "mood": "_happy",
         "is_active": true,
         "association": "",
-        "command": [["NEXTDAY"]],
+        "command": [["NEXTDAY"], ["LEAVEROOM", "dorm"]],
         "children": []
     }
 ]

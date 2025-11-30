@@ -42,7 +42,12 @@ function step_dialogue() {
 		// check & parse any commands associated with this piece of dialogue before moving on to the next.
 		parse_commands(this_graph[current_index].command)
 		//save the children of this line for easy access
-		var children = this_graph[current_index].children
+		var all_children = this_graph[current_index].children
+		var children = []
+		for(var i = 0; i < array_length(all_children); i++){
+			if(this_graph[all_children[i]].is_active)
+				array_push(children, all_children[i])
+		}
 		//If there are no children, just close the dialogue.
 		if(array_length(children) == 0) {
 			is_choice = false
@@ -194,14 +199,33 @@ function HELPER_parse_command(argument0) {
 			var destination = command[1]
 			if(destination == "hub")
 				room_goto(rm_hub)
+			else if(destination == "dorm")
+				room_goto(rm_dorm)
 			return true
 		case "ENDGAME":
 			close_dialogue()
 			room_goto(rm_scorescreen)
 			return true
 		case "CLOSE":
-			close_dialogue()
-			return true
+			if(array_length(command) == 1) {
+				close_dialogue()
+				return true
+			}
+			if(array_length(command) >= 3) {
+				var index_to_close = command[1]
+				var object_to_close = command[2]
+				
+				if(object_to_close == "this")
+					object_to_close = obj_dialoguebox.current_object
+				if(index_to_close == "this")
+					index_to_close = get_pointer_index(object_to_close)
+				else 
+					index_to_close = int64(index_to_close)
+				obj_globals.dialogue[?object_to_close].content[index_to_close].is_active = false
+				show_debug_message($"disabled index {index_to_close} for object {object_to_close}")
+				return true
+			}
+			return false
 		case "NEXTDAY":
 			with(obj_globals) {
 				// Make sure there IS a next day
