@@ -1,7 +1,7 @@
 [
     {
         "index": 0,
-        "text": "Darkness. You are subsumed in it, that void that cradles you in warm, soft hands. Here, there are no worries left to wonder about under the grasp of unconsciousness.",
+        "text": "Darkness. You are subsumed in it, that void that cradles you in warm, soft hands. Here, there are no worries left to wonder about under the grasp of unconsciousness. \n\n [PRESS SPACE TO PROCEED]",
         "speaker": "",
         "mood": "",
         "is_active": true,
