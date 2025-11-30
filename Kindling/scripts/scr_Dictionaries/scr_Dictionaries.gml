@@ -41,11 +41,19 @@ function populate_archetypes() {
 
 function populate_effects() {
 	with (obj_globals) {
-		effects[?"sanctum"] = fx_create("_filter_distort")
+		//Sanctum
+		effects[?"sanctum"] = fx_create("_filter_ripples")
+		fx_set_parameter(effects[?"sanctum"], "g_RipplesSpeed", .5);
+		fx_set_parameter(effects[?"sanctum"], "g_RipplesWidth", 64);
+		//Yearner
 		effects[?"yearner"] = fx_create("_filter_heathaze")
 		fx_set_parameter(effects[?"yearner"], "g_ChromaSpreadAmount", 5.0);
+		fx_set_parameter(effects[?"yearner"], "g_Distort1Scale", [5,1]);
+		//Hit
 		effects[?"hit"] = fx_create("_filter_underwater")
+		//Exec
 		effects[?"executive"] = fx_create("_filter_rgbnoise")
+		fx_set_parameter(effects[?"executive"], "g_RGBNoiseAnimation", 1);
 	}
 }
 
