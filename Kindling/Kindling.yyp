@@ -116,7 +116,6 @@
     {"id":{"name":"obj_schooldoor","path":"objects/obj_schooldoor/obj_schooldoor.yy",},},
     {"id":{"name":"obj_sky","path":"objects/obj_sky/obj_sky.yy",},},
     {"id":{"name":"obj_symbol_interactible","path":"objects/obj_symbol_interactible/obj_symbol_interactible.yy",},},
-    {"id":{"name":"obj_transition_day2A","path":"objects/obj_transition_day2A/obj_transition_day2A.yy",},},
     {"id":{"name":"obj_tree","path":"objects/obj_tree/obj_tree.yy",},},
     {"id":{"name":"obj_UI_StartButton","path":"objects/obj_UI_StartButton/obj_UI_StartButton.yy",},},
     {"id":{"name":"rm_dorm","path":"rooms/rm_dorm/rm_dorm.yy",},},

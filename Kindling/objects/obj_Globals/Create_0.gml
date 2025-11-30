@@ -25,7 +25,6 @@ layer_set_visible(dialogue_effects, false)
 
 //MAPS
 dialogue = ds_map_create()
-load_day(day.number, day.time)
 
 archetypes = ds_map_create()
 populate_archetypes()

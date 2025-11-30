@@ -462,7 +462,7 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["NEXTDAY"]],
         "children": []
     }
 ]

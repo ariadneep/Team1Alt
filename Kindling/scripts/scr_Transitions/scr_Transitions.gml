@@ -1,6 +1,6 @@
 function start_game(){
 	window_set_cursor(cr_none)
-	room_goto(rm_dorm)
+	load_day(1, "morning")
 }
 
 /// @function load_day
@@ -9,25 +9,25 @@ function start_game(){
 /// @param {string} time: "morning", "afternoon", or "evening".
 function load_day(argument0, argument1){
 	var time = "day" + string(argument0) + "_" + string(argument1)
-	var presets =  {sprite_index: -1, day: time}
 	show_debug_message("Loading day with key \"" + time + "\"")
 	
 	switch(time) {
 		case "day1_morning":
 			load_dialogue_day1_morning()
-			// load day 1 screen and open dialogue. 
-			presets =  {sprite_index: spr_transition_day1_morning, day: time}
-			// load all defaults; move code here.
+			room_goto(rm_dorm)
+			//transition is handled in room creation code
 			break;
 		case "day2_afternoon":
 			load_dialogue_day2_afternoon()
-			presets =  {sprite_index: spr_transition_day2_afternoon, day: time}
+			room_goto(rm_hub)
+			//presets =  {sprite_index: spr_transition_day2_afternoon, day: time}
+			//instance_create_depth(0, 0, -500, obj_day, {sprite_index: spr_transition_day2_afternoon, day: time})
 			// load day 2 afternoon screen. 
 			// load hub and classroom. 
 			break;
 		case "day2_evening":
-			// load day 2 evening screen. 
 			// load dorm stuff. 
+			room_goto(rm_dorm)
 			break;
 		case "day3_morning": 
 			// load day 3 morning screen. 
@@ -37,7 +37,7 @@ function load_day(argument0, argument1){
 		default:
 			break;
 	}
-	instance_create_depth(0, 0, -500, obj_day, presets)
+	//instance_create_depth(0, 0, -500, obj_day, presets)
 }
 
 /// @function load_dialogue_day1_morning
@@ -65,6 +65,6 @@ function load_dialogue_day2_afternoon(){
 		dialogue[?"bench"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_bench.txt")}
 		dialogue[?"exitschool"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_exitschool.txt")}
 		dialogue[?"enterschool"] = {"ptr_index":0, "content": load_dialogue("json_dialogue_enterschool_day2.txt")}
-		dialogue[?"start_day2"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
+		dialogue[?"day2_afternoon"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
 	}
 }

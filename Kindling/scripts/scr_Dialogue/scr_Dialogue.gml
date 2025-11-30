@@ -137,7 +137,7 @@ function set_pointer_index(argument0, argument1) {
 function get_pointer_index(argument0) {
 	var name = argument0
 	if(!obj_globals.dialogue[?name]) {
-		show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
+		show_debug_message("No speaker found for " + name + "! Caller: get_pointer_index")
 		return -1 //index not found
 	}
 	return obj_globals.dialogue[?name].ptr_index
@@ -209,6 +209,19 @@ function HELPER_parse_command(argument0) {
 			close_dialogue()
 			room_goto(rm_scorescreen)
 			return true
+		case "NEXTDAY":
+			with(obj_globals) {
+				// Make sure there IS a next day
+				if(!(day_index < array_length(all_days) - 1)){
+					show_debug_message("Parsed command for next day, but no next day found.")
+					return false
+				}
+				//update the current day
+				day_index++
+				day = all_days[day_index]
+				load_day(day.number, day.time)
+				return true
+			}
 		default:
 			return false
 	} 
