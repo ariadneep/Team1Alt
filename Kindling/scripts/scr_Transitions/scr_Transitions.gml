@@ -31,7 +31,8 @@ function load_day(argument0, argument1){
 			// load hub and classroom. 
 			break;
 		case "day2_evening":
-			// load dorm stuff. 
+			// load dorm stuff.
+			load_dialogue_day2_evening()
 			room_goto(rm_dorm)
 			break;
 		case "day3_morning": 
@@ -89,5 +90,10 @@ function load_dialogue_day2_evening(){
 	with(obj_globals) {
 		ds_map_clear(dialogue)
 		dialogue[?"day2_evening"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
+		dialogue[?"bed"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_bed_day2.txt")}
+		dialogue[?"pc"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_computer_day2.txt")}
+		dialogue[?"duck"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_ducklamp_day2.txt")}
+		dialogue[?"kettle"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_kettle_day2.txt")}
+		dialogue[?"toilet"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_toilet_day2.txt")}
 	}
 }

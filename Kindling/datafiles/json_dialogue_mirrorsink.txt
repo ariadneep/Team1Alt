@@ -7,26 +7,26 @@
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [2]
+		"children": [1]
 	},
 	{
 		"index": 1,
+		"text": "You feel more human.",
+		"speaker": "sanctum",
+		"mood": "",
+		"is_active": true,
+		"association": "",
+		"command": [["UPGRADE", "yearner", 1], ["UPGRADE", "sanctum", 1], ["UPGRADE", "hit", 1], ["UPGRADE", "executive", 1], ["CLOSE"]],
+		"children": [2]
+	},
+	{
+		"index": 2,
 		"text": "You can't look at yourself in the eyes.",
 		"speaker": "",
 		"mood": "",
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": []
-	},
-	{
-		"index": 2,
-		"text": "You feel more human.",
-		"speaker": "sanctum",
-		"mood": "",
-		"is_active": true,
-		"association": "",
-		"command": [["UPGRADE", "yearner", 1], ["UPGRADE", "sanctum", 1], ["UPGRADE", "hit", 1], ["UPGRADE", "executive", 1]],
 		"children": []
 	}
 ]
