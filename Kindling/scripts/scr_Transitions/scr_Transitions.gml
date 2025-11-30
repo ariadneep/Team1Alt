@@ -7,11 +7,12 @@ function load_day(argument0, argument1){
 	show_debug_message("Loading day with key \"" + time + "\"")
 	switch(time) {
 		case "day1_morning":
+			load_dialogue_day1_morning()
 			// load day 1 screen. 
 			// load all defaults; move code here.
-			load_dialogue_day1_morning()
 			break;
 		case "day2_afternoon":
+			load_dialogue_day2_afternoon()
 			// load day 2 afternoon screen. 
 			// load hub and classroom. 
 			break;
