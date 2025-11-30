@@ -37,12 +37,13 @@ function load_dialogue_day1_morning(){
 		ds_map_clear(dialogue)
 		show_debug_message(" \"day1_morning\" dialogue loading...")
 		dialogue[?"bed"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_bed.txt")}
-		dialogue[?"wakeup"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_wakeup.txt")}
+		dialogue[?"day1_morning"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_wakeup.txt")}
 		dialogue[?"duck"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_ducklamp.txt")}
 		dialogue[?"pc"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_computer.txt")}
 		dialogue[?"kettle"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_kettle.txt")}
 		dialogue[?"mirrorsink"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_mirrorsink.txt")}
 		dialogue[?"toilet"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_toilet.txt")}
+		dialogue[?"leaveroom"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_leaveroom.txt")}
 	}
 }
 /// @function load_dialogue_day2_afternoon
@@ -55,6 +56,5 @@ function load_dialogue_day2_afternoon(){
 		dialogue[?"exitschool"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_exitschool.txt")}
 		dialogue[?"enterschool"] = {"ptr_index":0, "content": load_dialogue("json_dialogue_enterschool_day2.txt")}
 		dialogue[?"start_day2"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
-		dialogue[?"leaveroom"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_leaveroom.txt")}
 	}
 }

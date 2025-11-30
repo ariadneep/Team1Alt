@@ -6,8 +6,8 @@
   "name":"obj_dorm_keyboard",
   "overriddenProperties":[],
   "parent":{
-    "name":"dorm_assets",
-    "path":"folders/Objects/dorm_assets.yy",
+    "name":"interactible",
+    "path":"folders/Objects/dorm_assets/interactible.yy",
   },
   "parentObjectId":{
     "name":"obj_OBSTACLE",

@@ -8,8 +8,8 @@
   "name":"obj_dorm_box",
   "overriddenProperties":[],
   "parent":{
-    "name":"dorm_assets",
-    "path":"folders/Objects/dorm_assets.yy",
+    "name":"decor_or_obstacle",
+    "path":"folders/Objects/dorm_assets/decor_or_obstacle.yy",
   },
   "parentObjectId":{
     "name":"obj_OBSTACLE",

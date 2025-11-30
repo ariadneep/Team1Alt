@@ -3,13 +3,14 @@
   "%Name":"obj_dorm_kettle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_dorm_kettle",
   "overriddenProperties":[],
   "parent":{
-    "name":"dorm_assets",
-    "path":"folders/Objects/dorm_assets.yy",
+    "name":"interactible",
+    "path":"folders/Objects/dorm_assets/interactible.yy",
   },
   "parentObjectId":{
     "name":"obj_INTERACTIBLE",

@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_dorm_bed",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_dorm_bed",
   "overriddenProperties":[],
   "parent":{
-    "name":"dorm_assets",
-    "path":"folders/Objects/dorm_assets.yy",
+    "name":"interactible",
+    "path":"folders/Objects/dorm_assets/interactible.yy",
   },
   "parentObjectId":{
     "name":"obj_COLLIDABLE",
