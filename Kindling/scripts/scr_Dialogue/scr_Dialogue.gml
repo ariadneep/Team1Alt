@@ -24,8 +24,7 @@ function open_dialogue(argument0){
 	//update dialoguebox based on this object.
 	obj_dialoguebox.this_graph = this_object.content
 	obj_dialoguebox.current_index = get_pointer_index(target_name) //TODO outdated infrastructure..????????
-	show_debug_message("current index is " + string(obj_dialoguebox.current_index) + " and pointer index is " + string(get_pointer_index(obj_dialoguebox.current_object)))
-	
+
 	//Show layers
 	layer_set_visible(obj_globals.dialogue_layer, true)
 	layer_set_visible(obj_globals.dialogue_effects, true)
@@ -52,7 +51,6 @@ function step_dialogue() {
 		}
 		//play sound now that we know it is valid
 		audio_play_sound(snd_sfx_stepdialogue, 1, false)
-		show_debug_message("stepping???.")
 		show_debug_message("current index is " + string(current_index) + " and pointer index is " + string(get_pointer_index(current_object)))
 		
 		if(is_choice){
@@ -200,6 +198,9 @@ function HELPER_parse_command(argument0) {
 		case "ENDGAME":
 			close_dialogue()
 			room_goto(rm_scorescreen)
+			return true
+		case "CLOSE":
+			close_dialogue()
 			return true
 		case "NEXTDAY":
 			with(obj_globals) {

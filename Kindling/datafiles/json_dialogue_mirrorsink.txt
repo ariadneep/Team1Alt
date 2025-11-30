@@ -7,7 +7,7 @@
 		"is_active": true,
 		"association": "",
 		"command": [],
-		"children": [2]
+		"children": [1]
 	},
 	{
 		"index": 1,

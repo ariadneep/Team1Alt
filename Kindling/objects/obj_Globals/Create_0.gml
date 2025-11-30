@@ -11,7 +11,7 @@ day_index = 0
 day = all_days[day_index]
 
 //GLOBAL VARIABLES
-rpgMode = true
+rpgMode = false
 dialogueMode = false
 phone_is_visible = false;
 
