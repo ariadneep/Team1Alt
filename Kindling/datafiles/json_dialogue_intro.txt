@@ -1,0 +1,268 @@
+[
+    {
+        "index": 0,
+        "text": "Darkness. You are subsumed in it, that void that cradles you in warm, soft hands. Here, there are no worries left to wonder about under the grasp of unconsciousness. \n\n [PRESS SPACE TO PROCEED]",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            1
+        ]
+    },
+    {
+        "index": 1,
+        "text": "Not for long. The rhythm is close to its end. Or beginning?",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            2
+        ]
+    },
+    {
+        "index": 2,
+        "text": "Oh, like ouroboros!",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            3
+        ]
+    },
+    {
+        "index": 3,
+        "text": "Or like some straight bullshit. It's already morning? I wouldn't have opened that video if we were going to feel this gross.",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            4
+        ]
+    },
+    {
+        "index": 4,
+        "text": "You would have watched it anyways even if you did know. And can we be a little more quiet? We've got a long day ahead.",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            5
+        ]
+    },
+    {
+        "index": 5,
+        "text": "The void is slipping away, and the horrors of sensation take its place. A distant sun, warming your pillow as it rises, sweaty tackiness along your skin, gunk in the corners of your eyes...",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            6
+        ]
+    },
+    {
+        "index": 6,
+        "text": "You don't want to wake up. Can you, actually? You don't even know your name - that's still lost to the dreamless expanse.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            7
+        ]
+    },
+    {
+        "index": 7,
+        "text": "We do. You're Ashley Chen, only child of Xingguang Chen and Yiwen Wang, who respectively are -",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            8
+        ]
+    },
+    {
+        "index": 8,
+        "text": "Not important, right now. You need to wake up.",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            9
+        ]
+    },
+    {
+        "index": 9,
+        "text": "And face the battle of freshman pre-law at college. Making connections, grueling schoolwork, job opportunities...my, that does sound scarier now that I've said it out loud.",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            10
+        ]
+    },
+    {
+        "index": 10,
+        "text": "But we also can't forget that we're hundreds of miles away from your home. Which means more time to do everything you couldn't do, like, uh...",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            11
+        ]
+    },
+    {
+        "index": 11,
+        "text": "Recreational drugs and alcohol?",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            12
+        ]
+    },
+    {
+        "index": 12,
+        "text": "No, like staying up to three AM watching bad K-dramas while eating chips in bed. (Food while IN bed, isn't that nuts?)",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            13
+        ]
+    },
+    {
+        "index": 13,
+        "text": "I'd like to respectfully outlaw drugs and alcohol. Uh, outlawing us from taking them, not, like, the concept.",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            14
+        ]
+    },
+    {
+        "index": 14,
+        "text": "Technically we could outlaw the concept by just worldbuilding that drugs and alcohol never existed in the lore of this universe.",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            15
+        ]
+    },
+    {
+        "index": 15,
+        "text": "I'm starting to think I'm the only sane one here.",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            16
+        ]
+    },
+    {
+        "index": 16,
+        "text": "Oh, I see. This is like an introduction to the game, but with stupid quippy dialogue to try and make it more interesting than the boring, drawn-out cutscene that it is.",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            17
+        ]
+    },
+    {
+        "index": 17,
+        "text": "Hey, we're only allowed ONE meta fourth-wall joke! And it's not that quippy!",
+        "speaker": "yearner",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            18
+        ]
+    },
+    {
+        "index": 18,
+        "text": "It's a little quippy.",
+        "speaker": "executive",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            19
+        ]
+    },
+    {
+        "index": 19,
+        "text": "Fight, fight, fight - !",
+        "speaker": "hit",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            20
+        ]
+    },
+    {
+        "index": 20,
+        "text": "Oh, no, we couldn't even elucidate any deeper meaning about life or any truth about our self! We've completely botched any semblance of a visual novel introduction!",
+        "speaker": "sanctum",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [],
+        "children": [
+            21
+        ]
+    },
+    {
+        "index": 21,
+        "text": "And so you run out of time to elucidate any deeper meaning about life or truth revealed about your self as consciousness rears its ugly head and roars into being. Your eyes flutter open and...",
+        "speaker": "",
+        "mood": "",
+        "is_active": true,
+        "association": "",
+        "command": [
+            [
+                "NEXTDAY"
+            ]
+        ],
+        "children": []
+    }
+]

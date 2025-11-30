@@ -6,7 +6,7 @@ CTRL_left = [vk_left, ord("A")]
 CTRL_right = [vk_right, ord("D")]
 
 //day system:
-all_days = [{number:1, time:"morning"}, {number:2, time:"afternoon"}, {number:2, time:"night"}]
+all_days = [{number:0, time:""}, {number:1, time:"morning"}, {number:2, time:"afternoon"}, {number:2, time:"night"}]
 day_index = 0
 day = all_days[day_index]
 

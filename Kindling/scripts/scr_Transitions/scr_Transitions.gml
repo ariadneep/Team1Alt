@@ -1,6 +1,7 @@
 function start_game(){
+	audio_stop_sound(snd_ost_title)
 	window_set_cursor(cr_none)
-	load_day(1, "morning")
+	load_day(0, "")
 }
 
 /// @function load_day
@@ -12,6 +13,10 @@ function load_day(argument0, argument1){
 	show_debug_message("Loading day with key \"" + time + "\"")
 	
 	switch(time) {
+		case "day0_":
+			load_dialogue_day0()
+			room_goto(rm_void)
+			break;
 		case "day1_morning":
 			load_dialogue_day1_morning()
 			room_goto(rm_dorm)
@@ -39,6 +44,15 @@ function load_day(argument0, argument1){
 	}
 	//instance_create_depth(0, 0, -500, obj_day, presets)
 }
+/// @function load_dialogue_day1_morning
+/// @description A function to load introduction dialogue
+function load_dialogue_day0(){
+	with(obj_globals) {
+		ds_map_clear(dialogue)
+		show_debug_message(" intro dialogue loading...")
+		dialogue[?"intro"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_intro.txt")}
+	}
+}
 
 /// @function load_dialogue_day1_morning
 /// @description A function to dialogue for day 1 morning.
@@ -56,6 +70,7 @@ function load_dialogue_day1_morning(){
 		dialogue[?"leaveroom"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_leaveroom.txt")}
 	}
 }
+
 /// @function load_dialogue_day2_afternoon
 /// @description A function to dialogue for day 2 afternoon.
 function load_dialogue_day2_afternoon(){
@@ -65,6 +80,14 @@ function load_dialogue_day2_afternoon(){
 		dialogue[?"bench"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_bench.txt")}
 		dialogue[?"exitschool"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_exitschool.txt")}
 		dialogue[?"enterschool"] = {"ptr_index":0, "content": load_dialogue("json_dialogue_enterschool_day2.txt")}
-		dialogue[?"day2_afternoon"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
+	}
+}
+
+/// @function load_dialogue_day2_afternoon
+/// @description A function to dialogue for day 2 afternoon.
+function load_dialogue_day2_evening(){
+	with(obj_globals) {
+		ds_map_clear(dialogue)
+		dialogue[?"day2_evening"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
 	}
 }
