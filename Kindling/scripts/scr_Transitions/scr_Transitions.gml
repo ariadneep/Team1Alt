@@ -1,18 +1,27 @@
+function start_game(){
+	window_set_cursor(cr_none)
+	room_goto(rm_dorm)
+}
+
 /// @function load_day
 /// @description A function to load code, dialogue, and interactions at a specified day at a specified time.
 /// @param {real} day: The integer index of a day, i.e. 1 for day 1, 2 for day 2, etc.
 /// @param {string} time: "morning", "afternoon", or "evening".
 function load_day(argument0, argument1){
 	var time = "day" + string(argument0) + "_" + string(argument1)
+	var presets =  {sprite_index: -1, day: time}
 	show_debug_message("Loading day with key \"" + time + "\"")
+	
 	switch(time) {
 		case "day1_morning":
 			load_dialogue_day1_morning()
-			// load day 1 screen. 
+			// load day 1 screen and open dialogue. 
+			presets =  {sprite_index: spr_transition_day1_morning, day: time}
 			// load all defaults; move code here.
 			break;
 		case "day2_afternoon":
 			load_dialogue_day2_afternoon()
+			presets =  {sprite_index: spr_transition_day2_afternoon, day: time}
 			// load day 2 afternoon screen. 
 			// load hub and classroom. 
 			break;
@@ -28,6 +37,7 @@ function load_day(argument0, argument1){
 		default:
 			break;
 	}
+	instance_create_depth(0, 0, -500, obj_day, presets)
 }
 
 /// @function load_dialogue_day1_morning

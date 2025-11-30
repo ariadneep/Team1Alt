@@ -6,8 +6,8 @@
   "name":"obj_dorm_pictures",
   "overriddenProperties":[],
   "parent":{
-    "name":"decor_or_obstacle",
-    "path":"folders/Objects/dorm_assets/decor_or_obstacle.yy",
+    "name":"group1",
+    "path":"folders/Objects/dorm_assets/group1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
