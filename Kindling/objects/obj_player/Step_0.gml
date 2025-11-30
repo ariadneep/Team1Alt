@@ -21,6 +21,7 @@ if(nearest_interactible != noone) {
 		layer_set_visible(obj_globals.tips_layer, true)
 	}
 }
+
 if(obj_globals.dialogueMode)
 	layer_set_visible(obj_globals.tips_layer, false)
 
