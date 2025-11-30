@@ -1,6 +1,6 @@
 function start_game(){
 	window_set_cursor(cr_none)
-	load_day(1, "morning")
+	load_day(0, "")
 }
 
 /// @function load_day
@@ -12,6 +12,10 @@ function load_day(argument0, argument1){
 	show_debug_message("Loading day with key \"" + time + "\"")
 	
 	switch(time) {
+		case "day0_":
+			load_dialogue_day0()
+			room_goto(rm_void)
+			break;
 		case "day1_morning":
 			load_dialogue_day1_morning()
 			room_goto(rm_dorm)
@@ -38,6 +42,15 @@ function load_day(argument0, argument1){
 			break;
 	}
 	//instance_create_depth(0, 0, -500, obj_day, presets)
+}
+/// @function load_dialogue_day1_morning
+/// @description A function to load introduction dialogue
+function load_dialogue_day0(){
+	with(obj_globals) {
+		ds_map_clear(dialogue)
+		show_debug_message(" intro dialogue loading...")
+		dialogue[?"intro"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_intro.txt")}
+	}
 }
 
 /// @function load_dialogue_day1_morning
