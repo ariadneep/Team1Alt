@@ -1,4 +1,5 @@
 function start_game(){
+	audio_stop_sound(snd_ost_title)
 	window_set_cursor(cr_none)
 	load_day(0, "")
 }
@@ -69,6 +70,7 @@ function load_dialogue_day1_morning(){
 		dialogue[?"leaveroom"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_leaveroom.txt")}
 	}
 }
+
 /// @function load_dialogue_day2_afternoon
 /// @description A function to dialogue for day 2 afternoon.
 function load_dialogue_day2_afternoon(){
@@ -78,6 +80,14 @@ function load_dialogue_day2_afternoon(){
 		dialogue[?"bench"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_bench.txt")}
 		dialogue[?"exitschool"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_exitschool.txt")}
 		dialogue[?"enterschool"] = {"ptr_index":0, "content": load_dialogue("json_dialogue_enterschool_day2.txt")}
-		dialogue[?"day2_afternoon"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
+	}
+}
+
+/// @function load_dialogue_day2_afternoon
+/// @description A function to dialogue for day 2 afternoon.
+function load_dialogue_day2_evening(){
+	with(obj_globals) {
+		ds_map_clear(dialogue)
+		dialogue[?"day2_evening"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_start_day02.txt")}
 	}
 }

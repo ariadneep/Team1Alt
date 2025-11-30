@@ -47,6 +47,7 @@ function open_dialogue(argument0){
 /// @description traverses the dialogue graph currently mapped in the dialoguebox.
 /// @returns {void}
 function step_dialogue() {
+	audio_play_sound(snd_sfx_stepdialogue, 1, false)
 	with (obj_dialoguebox) {
 		// check & parse any commands associated with this piece of dialogue before moving on to the next.
 		parse_commands(this_graph[current_index].command)

@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_ui_click",
+  "%Name":"snd_sfx_stepdialogue",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "channelFormat":0,
-  "compression":1,
+  "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.15673469,
+  "duration":1.5412245,
   "exportDir":"",
-  "name":"snd_ui_click",
+  "name":"snd_sfx_stepdialogue",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_ui_click.mp3",
-  "volume":0.65,
+  "soundFile":"snd_sfx_stepdialogue.mp3",
+  "volume":0.35,
 }
