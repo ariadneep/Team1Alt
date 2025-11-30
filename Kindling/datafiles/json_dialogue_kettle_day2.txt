@@ -36,8 +36,8 @@
 		"mood": "",
 		"is_active": true,
 		"association": "",
-		"command": [],
-		"children": []
+		"command": [["CLOSE"]],
+		"children": [1]
 	}
 ]
 	

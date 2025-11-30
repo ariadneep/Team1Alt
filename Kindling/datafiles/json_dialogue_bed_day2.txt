@@ -55,13 +55,13 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
-        "children": []
+        "command": [["CLOSE"]],
+        "children": [0]
     },
     {
         "index": 5,
         "text": "Why is your heartrate still elevated? Tension knits itself into your bones and you gasp, wet and miserable, into your pillow. When did you start crying?",
-        "speaker": "execuitve",
+        "speaker": "executive",
         "mood": "",
         "is_active": true,
         "association": "sanctum",
@@ -128,7 +128,7 @@
         "speaker": "executive",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "executive",
         "command": [],
         "children": [
             16
@@ -140,7 +140,7 @@
         "speaker": "sanctum",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "sanctum",
         "command": [],
         "children": [
             16
@@ -152,7 +152,7 @@
         "speaker": "yearner",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "yearner",
         "command": [],
         "children": [
             16
@@ -164,7 +164,7 @@
         "speaker": "hit",
         "mood": "",
         "is_active": true,
-        "association": "",
+        "association": "hit",
         "command": [],
         "children": [
             16
@@ -225,7 +225,7 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["ENDGAME"]],
         "children": []
     }
 ]
