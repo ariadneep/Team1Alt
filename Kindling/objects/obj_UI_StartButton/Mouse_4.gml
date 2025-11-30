@@ -1,2 +1,2 @@
 image_index = 1
-image_speed = 0
+audio_play_sound(snd_ui_click, 1, false)
