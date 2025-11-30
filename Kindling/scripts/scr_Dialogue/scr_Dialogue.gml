@@ -1,12 +1,3 @@
-enum Speaker {
-	Player,
-	Narrator,
-	Yearner,
-	Sanctum,
-	Executive,
-	Hit
-}
-
 ///@function open_dialogue(object)
 ///@param {string} object name: the name of the object whose dialogue we plan to open.
 ///@descripton triggers dialogue sequence for a certain object.
@@ -32,7 +23,8 @@ function open_dialogue(argument0){
 	
 	//update dialoguebox based on this object.
 	obj_dialoguebox.this_graph = this_object.content
-	obj_dialoguebox.current_index = this_object.ptr_index //TODO outdated infrastructure..????????
+	obj_dialoguebox.current_index = get_pointer_index(target_name) //TODO outdated infrastructure..????????
+	show_debug_message("current index is " + string(obj_dialoguebox.current_index) + " and pointer index is " + string(get_pointer_index(obj_dialoguebox.current_object)))
 	
 	//Show layers
 	layer_set_visible(obj_globals.dialogue_layer, true)
@@ -47,20 +39,22 @@ function open_dialogue(argument0){
 /// @description traverses the dialogue graph currently mapped in the dialoguebox.
 /// @returns {void}
 function step_dialogue() {
-	audio_play_sound(snd_sfx_stepdialogue, 1, false)
 	with (obj_dialoguebox) {
 		// check & parse any commands associated with this piece of dialogue before moving on to the next.
 		parse_commands(this_graph[current_index].command)
 		//save the children of this line for easy access
 		var children = this_graph[current_index].children
-		show_debug_message("current index is " + string(current_index) + "and pointer index is " + string(get_pointer_index(current_object)))
-		
 		//If there are no children, just close the dialogue.
 		if(array_length(children) == 0) {
 			is_choice = false
 			close_dialogue()
 			return
 		}
+		//play sound now that we know it is valid
+		audio_play_sound(snd_sfx_stepdialogue, 1, false)
+		show_debug_message("stepping???.")
+		show_debug_message("current index is " + string(current_index) + " and pointer index is " + string(get_pointer_index(current_object)))
+		
 		if(is_choice){
 			//navigate to the chosen child at method call time
 			current_index = children[curr_choice_index]
@@ -154,7 +148,6 @@ function parse_commands(argument0) {
 	var commands = argument0
 	//check for argument validity & return early.
 	if(!is_array(commands) || array_length(commands) == 0){
-		show_debug_message("Parse failed: commands not array (bad) or length 0 (fine).")
 		return false
 	}
 	var returnbool = true
@@ -167,8 +160,6 @@ function parse_commands(argument0) {
 			obj_dialoguebox.this_graph[current_index].command[i] = []
 		returnbool = returnbool && cmdbool
 	}
-	
-	show_debug_message("Parse success??: " + string(returnbool))
 	
 	return returnbool
 }
