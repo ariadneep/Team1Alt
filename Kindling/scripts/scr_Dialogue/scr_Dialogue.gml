@@ -8,61 +8,29 @@ enum Speaker {
 }
 
 ///@function open_dialogue(object)
-///@param {asset} object: the object whose dialogue we plan to open.
+///@param {string} object name: the name of the object whose dialogue we plan to open.
 ///@descripton triggers dialogue sequence for a certain object.
+///@returns {bool} true on success, false on failure
 function open_dialogue(argument0){
-	show_debug_message("opened dialogue for object " + string(argument0.object_index))
+	show_debug_message("opened dialogue for object " + string(argument0))
 	obj_globals.rpgMode = false
 	obj_globals.dialogueMode = true
 	obj_dialoguebox.curr_choice_index = 0
 	obj_dialoguebox.current_object = argument0
+	var target_name = argument0
 	var this_object;
 	
-	// Figure out who the speaker is
-	switch(argument0.object_index) {
-			case obj_dorm_bed:
-				this_object = obj_dialogue.map.bed
-				break
-			case obj_dorm_ducklamp:
-				this_object = obj_dialogue.map.duck
-				break
-			case obj_dorm_pc:
-				this_object = obj_dialogue.map.pc
-				break
-			case obj_dorm_kettle:
-				this_object = obj_dialogue.map.kettle
-				break
-			case obj_dorm_toilet:
-				this_object = obj_dialogue.map.toilet
-				break
-			case obj_dorm_sink:
-				this_object = obj_dialogue.map.mirrorsink
-				break
-			case obj_transition_day1:
-				this_object = obj_dialogue.map.wakeup
-				break
-			case obj_dorm_exit:
-				this_object = obj_dialogue.map.leaveroom
-				break
-			case obj_bikerack:
-				this_object = obj_dialogue.map.bikerack
-				break
-			case obj_bench:
-				this_object = obj_dialogue.map.bench
-				break
-			case obj_schooldoor:
-				this_object = obj_dialogue.map.enterschool
-				break
-			case obj_dorm_entrance:
-				show_debug_message("dorm entrance..?")
-				close_dialogue()
-				//room_goto(rm_dorm)
-				return true
-			default:
-				show_debug_message("Loading failed in open_dialogue... this may be a mistake... closing now")
-				close_dialogue()
-				return false
-	} // end switch
+	// Try to load this object
+	show_debug_message(target_name)
+	if(obj_globals.dialogue[?target_name])
+		this_object = obj_globals.dialogue[?target_name]
+	else {
+		show_debug_message("Loading failed in open_dialogue. This may be a mistake! Closing now.")
+		close_dialogue()
+		return false
+	}
+	
+	//update dialoguebox based on this object.
 	obj_dialoguebox.this_graph = this_object.content
 	obj_dialoguebox.current_index = this_object.ptr_index //TODO outdated infrastructure..????????
 	
@@ -70,6 +38,9 @@ function open_dialogue(argument0){
 	layer_set_visible(obj_globals.dialogue_layer, true)
 	layer_set_visible(obj_globals.dialogue_effects, true)
 	layer_set_visible(obj_globals.dialogue_effects_2, true)
+	
+	// Success!
+	return true
 }
 
 /// @function step_dialogue()
@@ -147,51 +118,16 @@ function load_dialogue(argument0) {
 }
 
 /// @function set_pointer_index(object, new_index)
-/// @param {asset} object: the object whose pointer we want to modify
+/// @param {string} object: the object key whose pointer we want to modify
 /// @param {real} new_index: an integer for the new index of the dialogue pointer
 /// @desc Set the pointer
 function set_pointer_index(argument0, argument1) {
-	if(!is_real(argument1) || !is_real(argument1))
+	var name = argument0
+	if(!is_real(argument1) || !obj_globals.dialogue[?name])
 		return false
 	var index = argument1
-		
-	switch(argument0.object_index) {
-		case obj_dorm_bed:
-			obj_dialogue.map.bed.ptr_index = index
-			return true
-		case obj_dorm_ducklamp:
-			obj_dialogue.map.duck.ptr_index = index
-			return true
-		case obj_dorm_pc:
-			obj_dialogue.map.pc.ptr_index = index
-			return true
-		case obj_dorm_kettle:
-			obj_dialogue.map.kettle.ptr_index = index
-			return true
-		case obj_dorm_toilet:
-			obj_dialogue.map.toilet.ptr_index = index
-			return true
-		case obj_dorm_sink:
-			obj_dialogue.map.mirrorsink.ptr_index = index
-			return true
-		case obj_transition_day1:
-			obj_dialogue.map.wakeup.ptr_index = index
-			return true
-		case obj_dorm_exit:
-			obj_dialogue.map.leaveroom.ptr_index = index
-			return true
-		case obj_bikerack:
-			obj_dialogue.map.bikerack.ptr_index = index
-			return true
-		case obj_bench:
-			obj_dialogue.map.bench.ptr_index = index
-			return true
-		case obj_schooldoor:
-			obj_dialogue.map.enterschool.ptr_index = index
-			return true
-		default:
-			return false
-	}
+	
+	obj_globals.dialogue[?name].ptr_index = index
 }
 
 /// @function get_pointer_index(object)
@@ -199,33 +135,12 @@ function set_pointer_index(argument0, argument1) {
 /// @return {real} index: the index of dialogue we should be at.
 /// @description: Get the pointer index
 function get_pointer_index(argument0) {
-	switch(argument0.object_index) {
-		case obj_dorm_bed:
-			return obj_dialogue.map.bed.ptr_index
-		case obj_dorm_ducklamp:
-			return obj_dialogue.map.duck.ptr_index
-		case obj_dorm_pc:
-			return obj_dialogue.map.pc.ptr_index
-		case obj_dorm_kettle:
-			return obj_dialogue.map.kettle.ptr_index
-		case obj_dorm_toilet:
-			return obj_dialogue.map.toilet.ptr_index
-		case obj_dorm_sink:
-			return obj_dialogue.map.mirrorsink.ptr_index
-		case obj_transition_day1:
-			return obj_dialogue.map.wakeup.ptr_index
-		case obj_dorm_exit:
-			return obj_dialogue.map.leaveroom.ptr_index
-		case obj_bikerack:
-			return obj_dialogue.map.bikerack.ptr_index
-		case obj_bench:
-			return obj_dialogue.map.bench.ptr_index 
-		case obj_schooldoor:
-			return obj_dialogue.map.enterschool.ptr_index
-		default:
-			show_debug_message("No speaker found! Did you implement it in get_pointer_index?")
-			return -1 //index not found
+	var name = argument0
+	if(!obj_globals.dialogue[?name]) {
+		show_debug_message("No speaker found for " + name + "! Caller: get_pointer_index")
+		return -1 //index not found
 	}
+	return obj_globals.dialogue[?name].ptr_index
 }
 
 /// @function parse_commands(commands)
@@ -294,6 +209,19 @@ function HELPER_parse_command(argument0) {
 			close_dialogue()
 			room_goto(rm_scorescreen)
 			return true
+		case "NEXTDAY":
+			with(obj_globals) {
+				// Make sure there IS a next day
+				if(!(day_index < array_length(all_days) - 1)){
+					show_debug_message("Parsed command for next day, but no next day found.")
+					return false
+				}
+				//update the current day
+				day_index++
+				day = all_days[day_index]
+				load_day(day.number, day.time)
+				return true
+			}
 		default:
 			return false
 	} 

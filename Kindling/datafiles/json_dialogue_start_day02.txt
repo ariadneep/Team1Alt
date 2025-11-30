@@ -17,7 +17,7 @@
         "text": "It was surprising seeing Alexandra. You didn't know Mel and Alexandra knew each other (high school friends, apparently) and you also didn't know you were celebrating Alexandra's breakup. Her ex seemed like a piece of shit, from what you gathered.",
         "speaker": "",
         "mood": "",
-        "is_active": true,
+        "is_active": false,
         "association": "hit",
         "command": [],
         "children": [
@@ -26,7 +26,7 @@
     },
     {
         "index": 2,
-        "text": "Alexandra had texted you later today, apologizing for not 'doing friend things' with you recently. A selfie was attached to the text and you were very surprised when you saw Mel in the background. Apparently, they're high school friends, and the party was celebrating Alexandra's breakup.",
+        "text": "Alexandra had texted you later that day, apologizing for not 'doing friend things' with you recently. A selfie was attached to the text and you were very surprised when you saw Mel in the background. Apparently, they're high school friends, and the party was celebrating Alexandra's breakup.",
         "speaker": "",
         "mood": "",
         "is_active": true,

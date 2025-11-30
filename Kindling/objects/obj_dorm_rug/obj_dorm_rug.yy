@@ -6,8 +6,8 @@
   "name":"obj_dorm_rug",
   "overriddenProperties":[],
   "parent":{
-    "name":"dorm_assets",
-    "path":"folders/Objects/dorm_assets.yy",
+    "name":"group1",
+    "path":"folders/Objects/dorm_assets/group1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
