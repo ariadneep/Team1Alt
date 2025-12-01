@@ -266,7 +266,7 @@
 		"mood": "",
 		"is_active": true,
 		"association": "",
-		"command": [["ENDGAME"]],
+		"command": [["LEAVEROOM", "hub"]],
 		"children": []
 	}
 ]

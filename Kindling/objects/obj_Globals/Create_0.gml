@@ -6,7 +6,7 @@ CTRL_left = [vk_left, ord("A")]
 CTRL_right = [vk_right, ord("D")]
 
 //day system:
-all_days = [{number:0, time:""}, {number:1, time:"morning"}, {number:2, time:"afternoon"}, {number:2, time:"evening"}]
+all_days = [{number:0, time:"", started: false}, {number:1, time:"morning", started: false}, {number:2, time:"afternoon", started: false}, {number:2, time:"evening", started: false}]
 day_index = 0
 day = all_days[day_index]
 
@@ -14,6 +14,9 @@ day = all_days[day_index]
 rpgMode = false
 dialogueMode = false
 phone_is_visible = false;
+
+//INTERACTIONS
+show_mel = false
 
 //LAYERS
 initialize_layers()

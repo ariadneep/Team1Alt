@@ -7,3 +7,6 @@ if(sprite_index != spr_transition_fade_fromblack)
 show_debug_message("day object created with day " + string(day))
 image_speed = 0
 alarm[0] = 2 * 60
+
+// Block the day off from starting again
+obj_globals.day.started = true

@@ -3,11 +3,6 @@
 ///@descripton triggers dialogue sequence for a certain object.
 ///@returns {bool} true on success, false on failure
 function open_dialogue(argument0){
-	show_debug_message("opened dialogue for object " + string(argument0))
-	obj_globals.rpgMode = false
-	obj_globals.dialogueMode = true
-	obj_dialoguebox.curr_choice_index = 0
-	obj_dialoguebox.current_object = argument0
 	var target_name = argument0
 	var this_object;
 	
@@ -20,6 +15,12 @@ function open_dialogue(argument0){
 		close_dialogue()
 		return false
 	}
+	// On a successful load, update globals and dialoguebox
+	show_debug_message("opened dialogue for object " + string(argument0))
+	obj_globals.rpgMode = false
+	obj_globals.dialogueMode = true
+	obj_dialoguebox.curr_choice_index = 0
+	obj_dialoguebox.current_object = argument0
 	
 	//update dialoguebox based on this object.
 	obj_dialoguebox.this_graph = this_object.content
@@ -80,6 +81,7 @@ function step_dialogue() {
 }
 
 function close_dialogue(){
+	obj_dialoguebox.curr_choice_index = 0
 	obj_globals.rpgMode = true
 	obj_globals.dialogueMode = false
 	try{

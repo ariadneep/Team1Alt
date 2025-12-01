@@ -79,7 +79,6 @@ function load_dialogue_day2_afternoon(){
 		ds_map_clear(dialogue)
 		dialogue[?"bikerack"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_bikerack.txt")}
 		dialogue[?"bench"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_bench.txt")}
-		dialogue[?"mel"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_mel_outsideschool.txt")}
 		dialogue[?"enterschool"] = {"ptr_index":0, "content": load_dialogue("json_dialogue_enterschool_day2.txt")}
 	}
 }
