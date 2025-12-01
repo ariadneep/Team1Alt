@@ -50,7 +50,6 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"json_dialogue_bed_day2.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed_day2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"json_dialogue_bed_day2.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed_day2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_bed.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_bench.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bench.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_bikerack.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bikerack.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
