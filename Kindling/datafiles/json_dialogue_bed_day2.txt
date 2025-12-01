@@ -113,7 +113,7 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["CHOOSE", "highest"]],
         "children": [
             10,
             11,

@@ -15,8 +15,39 @@ function draw_score(argument0) {
 	draw_text_ext_colour(text_x, text_y, obj_globals.archetypes[?argument0], line_sep, max_width, text_color, text_color, text_color, text_color, 1)
 }
 
-function get_archetype_score(argument0) {
+function get_archetype_score(name) {
 	with(obj_globals) {
+		return archetypes[?name]
+	}
+}
+
+/// @function get_highest_archetype
+/// @description This function yields information on the archetype with the highest score. 
+/// In case of a tie, the highest one is chosen at random.
+/// @returns {array} A 2-element array containing the name of the highest archetype  at index 0 and the value at index 1.
+function get_highest_archetype() {
+	with(obj_globals) {
+		// initialize highest to low/invalid values
+		var highest_archetype = ""
+		var highest_value = -1
 		
+		//initialize the first temporary archetype
+		var archetype = ds_map_find_first(archetypes);
+		// optimization loop. runs while more elements exist
+		while(archetype != undefined) {
+			// recalc value every time current archetype is updated
+			var value = archetypes[?archetype];
+			
+			// optimize
+			if (value > highest_value) {
+				 highest_value = value;
+				 highest_archetype   = archetype;
+			}
+			
+			// go to next archetype
+			archetype = ds_map_find_next(archetypes, archetype);
+		}
+		show_debug_message($"Highest archetype queried; {highest_archetype} is highest with a score of {highest_value}.")
+		return [highest_archetype, highest_value]	
 	}
 }

@@ -57,6 +57,7 @@ function step_dialogue() {
 		//If there are no children, just close the dialogue.
 		if(array_length(children) == 0) {
 			is_choice = false
+			audio_play_sound(snd_sfx_click, 1, false)
 			close_dialogue()
 			return
 		}
@@ -218,35 +219,77 @@ function HELPER_parse_command(argument0) {
 				close_dialogue()
 				return true
 			}
-			if(array_length(command) >= 3) {
-				var index_to_close = command[1]
-				var object_to_close = command[2]
-				
-				if(object_to_close == "this")
-					object_to_close = obj_dialoguebox.current_object
-				if(index_to_close == "this")
-					index_to_close = get_pointer_index(object_to_close)
-				else 
-					index_to_close = int64(index_to_close)
-				obj_globals.dialogue[?object_to_close].content[index_to_close].is_active = false
-				show_debug_message($"disabled index {index_to_close} for object {object_to_close}")
-				return true
-			}
+			if(array_length(command) >= 3)
+				return command_close(command[1], command[2])
 			return false
 		case "NEXTDAY":
-			with(obj_globals) {
-				// Make sure there IS a next day
-				if(!(day_index < array_length(all_days) - 1)){
-					show_debug_message("Parsed command for next day, but no next day found.")
-					return false
-				}
-				//update the current day
-				day_index++
-				day = all_days[day_index]
-				load_day(day.number, day.time)
-				return true
-			}
+			return command_nextday()
+		case "CHOOSE":
+			show_debug_message("Command CHOOSE encountered.")
+			if(array_length(command) < 2)
+				return false
+			return command_choose(command[1])
 		default:
 			return false
 	} 
+}
+
+/// @function command_close
+/// @description This function deactivates the dialogue of a specified object at a certain index
+/// @param {real, string} index: "this" for current index, or the index (within the array/json) of the line to deactivate
+/// @param {string} object: "this" for current object, or the object NAME to look at the dialogue for.
+/// @return {bool} true on success and false on failure.
+function command_close(index, object) {
+	if(object == "this")
+		object = obj_dialoguebox.current_object
+	if(index == "this")
+		index = get_pointer_index(object)
+	else 
+		index = int64(index)
+	if(!obj_globals.dialogue[?object])
+		return false
+	obj_globals.dialogue[?object].content[index].is_active = false
+	show_debug_message($"disabled index {index} for object {object}")
+	return true
+}
+
+/// @function command_nextday
+/// @description This function moves the story to the next day.
+/// @return {bool} true on success and false on failure.
+function command_nextday() {
+	with(obj_globals) {
+		// Make sure there IS a next day
+		if(!(day_index < array_length(all_days) - 1)){
+			show_debug_message("Parsed command for next day, but no next day found.")
+			return false
+		}
+		//update the current day
+		day_index++
+		day = all_days[day_index]
+		load_day(day.number, day.time)
+		return true
+	}
+}
+	
+/// @function command_choose
+/// @description This function chooses only dialogue options with the provided 
+/// specifications to be displayed/chosen from, and deactivates all others for
+/// this certain line of dialogue.
+/// @param {string} type: "highest" or "lowest"
+/// @return {bool} true on success and false on failure.
+function command_choose(type){
+	show_debug_message("command_choose method entered.")
+	with (obj_dialoguebox) {
+		//iterate through all the children of this line.
+		var all_children = this_graph[current_index].children
+		for(var i = 0; i < array_length(all_children); i++){
+			var this_child = this_graph[all_children[i]]
+			var target_archetype = get_highest_archetype()[0] //TEMP, TODO
+			// check if the child has an undesired association
+			if(this_child.association != target_archetype) {
+				//deactivate the incorrect child for this object
+				command_close(all_children[i], "this")
+			}
+		}
+	}
 }
