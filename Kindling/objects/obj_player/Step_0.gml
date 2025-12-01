@@ -65,6 +65,8 @@ if(obj_globals.rpgMode){
 	}
 	if(is_moving) {
 		move_and_collide(xspeed, yspeed, impassible_objects)
+		if(!audio_is_playing(snd_sfx_walk))
+			audio_play_sound(snd_sfx_walk, 0, false)
 	}
 	
 	if(!is_moving) {
