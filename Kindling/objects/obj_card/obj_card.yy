@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_card_hit",
+  "%Name":"obj_card",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_card_hit",
+  "name":"obj_card",
   "overriddenProperties":[],
   "parent":{
     "name":"cards",
     "path":"folders/Objects/cards.yy",
   },
-  "parentObjectId":{
-    "name":"obj_card",
-    "path":"objects/obj_card/obj_card.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stats_hit",
-    "path":"sprites/spr_stats_hit/spr_stats_hit.yy",
+    "name":"spr_stats_executive",
+    "path":"sprites/spr_stats_executive/spr_stats_executive.yy",
   },
   "spriteMaskId":null,
   "visible":true,

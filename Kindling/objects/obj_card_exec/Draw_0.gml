@@ -1,2 +1,1 @@
-draw_self()
-draw_score("executive")
+event_inherited()

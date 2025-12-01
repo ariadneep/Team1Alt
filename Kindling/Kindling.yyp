@@ -82,6 +82,7 @@
     {"id":{"name":"obj_card_hit","path":"objects/obj_card_hit/obj_card_hit.yy",},},
     {"id":{"name":"obj_card_sanctum","path":"objects/obj_card_sanctum/obj_card_sanctum.yy",},},
     {"id":{"name":"obj_card_yearner","path":"objects/obj_card_yearner/obj_card_yearner.yy",},},
+    {"id":{"name":"obj_card","path":"objects/obj_card/obj_card.yy",},},
     {"id":{"name":"obj_city","path":"objects/obj_city/obj_city.yy",},},
     {"id":{"name":"obj_COLLIDABLE","path":"objects/obj_COLLIDABLE/obj_COLLIDABLE.yy",},},
     {"id":{"name":"obj_day","path":"objects/obj_day/obj_day.yy",},},

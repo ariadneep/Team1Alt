@@ -1,2 +1,1 @@
-draw_self()
-draw_score("hit")
+event_inherited()

@@ -1,2 +1,1 @@
-draw_self()
-draw_score("yearner")
+event_inherited()
