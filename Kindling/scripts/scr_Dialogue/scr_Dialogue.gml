@@ -6,6 +6,11 @@ function open_dialogue(argument0){
 	var target_name = argument0
 	var this_object;
 	
+	if(target_name == "enterschool") {
+		room_goto(rm_school)
+		return true
+	}
+	
 	// Try to load this object
 	show_debug_message(target_name)
 	if(obj_globals.dialogue[?target_name])
