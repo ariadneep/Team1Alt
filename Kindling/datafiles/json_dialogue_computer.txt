@@ -127,8 +127,8 @@
 		"speaker":"ashley",
 		"mood":"_worried",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "sanctum",
+		"command": [["UPGRADE", "sanctum", 1]],
 		"children": [
 			13.0
 		]
@@ -139,8 +139,8 @@
 		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "yearner",
+		"command": [["UPGRADE", "yearner", 1]],
 		"children": [
 			14.0
 		]
@@ -187,8 +187,8 @@
 		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "hit",
+		"command": [["UPGRADE", "hit", 1]],
 		"children": [
 			18.0
 		]
@@ -211,8 +211,8 @@
 		"speaker":"ashley",
 		"mood":"",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "yearner",
+		"command": [["UPGRADE", "yearner", 1]],
 		"children": [
 			23.0
 		]
@@ -318,8 +318,8 @@
 		"speaker":"ashley",
 		"mood":"_worried",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "executive",
+		"command": [["UPGRADE", "executive", 1]],
 		"children": [
 			28.0
 		]
