@@ -7,7 +7,8 @@ function open_dialogue(argument0){
 	var this_object;
 	
 	if(target_name == "enterschool") {
-		room_goto(rm_school)
+		if(ds_map_exists(obj_globals.dialogue, "classroom"))
+			room_goto(rm_school)
 		return true
 	}
 	
