@@ -9,6 +9,9 @@ if(!obj_globals.day.started) {
 		obj_player.y = 600
 	}
 }
-audio_stop_all()
+audio_stop_sound(snd_ambience_classroom)
+audio_stop_sound(snd_ambience_dorm)
+audio_stop_sound(snd_ost_dorm)
+
 audio_play_sound(snd_ambience_dorm, 5, true)
 audio_play_sound(snd_ost_dorm, 5, true, .25)
