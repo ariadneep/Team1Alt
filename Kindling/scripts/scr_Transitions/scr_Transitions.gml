@@ -94,5 +94,7 @@ function load_dialogue_day2_evening(){
 		dialogue[?"duck"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_ducklamp_day2.txt")}
 		dialogue[?"kettle"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_kettle_day2.txt")}
 		dialogue[?"toilet"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_toilet_day2.txt")}
+		dialogue[?"leaveroom"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_leaveroom.txt")}
+		dialogue[?"leaveroom"].content[1].is_active = false // you can't leave
 	}
 }
