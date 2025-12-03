@@ -3,8 +3,8 @@
   "%Name":"spr_stats_yearner",
   "bboxMode":0,
   "bbox_bottom":631,
-  "bbox_left":3,
-  "bbox_right":254,
+  "bbox_left":0,
+  "bbox_right":257,
   "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b72b48b4-2a91-4ca8-a0c7-67ed20c9b915","name":"b72b48b4-2a91-4ca8-a0c7-67ed20c9b915","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dbdcd8d7-7a1f-4b0f-8fdf-6c39cb2eb2df","name":"dbdcd8d7-7a1f-4b0f-8fdf-6c39cb2eb2df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"2ccde403-5f13-4bb7-922c-fcec5c0cb821","name":"2ccde403-5f13-4bb7-922c-fcec5c0cb821","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -70,8 +70,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b72b48b4-2a91-4ca8-a0c7-67ed20c9b915","path":"sprites/spr_stats_yearner/spr_stats_yearner.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9784731f-9ee1-40b6-a542-2c74f61f6808","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dbdcd8d7-7a1f-4b0f-8fdf-6c39cb2eb2df","path":"sprites/spr_stats_yearner/spr_stats_yearner.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3be9cbb7-739a-431e-9f39-f3b1410e79e1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2ccde403-5f13-4bb7-922c-fcec5c0cb821","path":"sprites/spr_stats_yearner/spr_stats_yearner.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"e3b7b52a-5816-4160-9398-68b74b8cfa34","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},

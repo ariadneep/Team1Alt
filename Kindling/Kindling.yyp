@@ -47,7 +47,13 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_ripples-1.0.0","name":"io.gamemaker.gm_filter_ripples-1.0.0","path":"io.gamemaker.gm_filter_ripples-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_heathaze-1.0.0","name":"io.gamemaker.gm_filter_heathaze-1.0.0","path":"io.gamemaker.gm_filter_heathaze-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_underwater-1.0.0","name":"io.gamemaker.gm_filter_underwater-1.0.0","path":"io.gamemaker.gm_filter_underwater-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_rgbnoise-1.0.0","name":"io.gamemaker.gm_filter_rgbnoise-1.0.0","path":"io.gamemaker.gm_filter_rgbnoise-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","name":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","path":"io.gamemaker.gm_effect_gaussian_blur-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"json_dialogue_bed_day2.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed_day2.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"json_dialogue_bed.txt","CopyToMask":-1,"filePath":"datafiles","name":"json_dialogue_bed.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -72,7 +78,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Kindling",
   "resources":[
