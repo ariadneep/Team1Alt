@@ -53,8 +53,8 @@
 		"speaker":"",
 		"mood":"",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "hit",
+		"command": [["UPGRADE", "hit", 1]],
 		"children": [
 			6.0
 		]
@@ -65,8 +65,8 @@
 		"speaker":"",
 		"mood":"",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "sanctum",
+		"command": [["UPGRADE", "sanctum", 1]],
 		"children": [
 			7.0
 		]

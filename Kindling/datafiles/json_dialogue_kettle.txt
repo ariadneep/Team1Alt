@@ -55,8 +55,8 @@
 		"speaker": "",
 		"mood": "",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "hit",
+		"command": [["UPGRADE", "hit", 1]],
 		"children": [8]
 	},
 	{
@@ -95,8 +95,8 @@
 		"speaker": "executive",
 		"mood": "",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "executive",
+		"command": [["UPGRADE", "executive", 1]],
 		"children": [11]
 	},
 	{
