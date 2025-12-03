@@ -15,8 +15,8 @@
 		"speaker": "",
 		"mood": "",
 		"is_active": true,
-		"association": "",
-		"command": [],
+		"association": "yearner",
+		"command": [["UPGRADE", "yearner", 1]],
 		"children": [3]
 	},
 	{
