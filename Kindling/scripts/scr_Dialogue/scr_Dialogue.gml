@@ -230,6 +230,16 @@ function HELPER_parse_command(argument0) {
 			if(array_length(command) < 2)
 				return false
 			return command_choose(command[1])
+		case "SET":
+			if(array_length(command) < 3) {
+				return false
+			}
+			var var_key = command[1]
+			var var_value = command[2]
+			obj_globals.variables[?var_key] = var_value
+			show_debug_message($"SET variable {var_key} to {var_value}. variables is now {obj_globals.variables}")
+			
+			return true
 		default:
 			return false
 	} 

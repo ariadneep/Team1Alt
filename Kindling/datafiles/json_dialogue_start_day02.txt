@@ -17,7 +17,7 @@
         "text": "It was surprising seeing Alexandra. You didn't know Mel and Alexandra knew each other (high school friends, apparently) and you also didn't know you were celebrating Alexandra's breakup. Her ex seemed like a piece of shit, from what you gathered.",
         "speaker": "",
         "mood": "",
-        "is_active": false,
+        "is_active": true,
         "association": "hit",
         "command": [],
         "children": [

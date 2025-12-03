@@ -233,8 +233,8 @@
         "mood": "",
         "is_active": true,
         "association": "",
-        "command": [],
-        "children": [
+        "command": [["SET", "went_to_party", true]],
+        "children": [ 
             23
         ]
     },
@@ -245,7 +245,7 @@
         "mood": "_worried",
         "is_active": true,
         "association": "",
-        "command": [],
+        "command": [["SET", "went_to_party", false]],
         "children": [
             24
         ]

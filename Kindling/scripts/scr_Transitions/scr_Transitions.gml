@@ -96,5 +96,17 @@ function load_dialogue_day2_evening(){
 		dialogue[?"toilet"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_toilet_day2.txt")}
 		dialogue[?"leaveroom"] = {"ptr_index": 0, "content": load_dialogue("json_dialogue_leaveroom.txt")}
 		dialogue[?"leaveroom"].content[1].is_active = false // you can't leave
+		
+		// collect options
+		var day2_wakeup_options = dialogue[?"day2_evening"].content[0].children
+		// clear current children
+		dialogue[?"day2_evening"].content[0].children = []
+		
+		//Assign with variables
+		if(variables[?"went_to_party"])
+			array_push(dialogue[?"day2_evening"].content[0].children, day2_wakeup_options[0])
+		else
+			array_push(dialogue[?"day2_evening"].content[0].children, day2_wakeup_options[1])
+		show_debug_message($"Went to party is {variables[?"went_to_party"]}, children of 0 are now {dialogue[?"day2_evening"].content[0].children}")
 	}
 }

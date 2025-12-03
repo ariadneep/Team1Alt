@@ -40,3 +40,6 @@ populate_diboxes()
 
 effects = ds_map_create()
 populate_effects()
+
+variables = ds_map_create()
+populate_variables()

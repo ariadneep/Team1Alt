@@ -57,6 +57,12 @@ function populate_effects() {
 	}
 }
 
+function populate_variables() {
+	with(obj_globals) {
+		variables[?"went_to_party"] = false
+	}
+}
+
 function initialize_layers() {
 	show_debug_message("initializing layers??")
 	with (obj_globals) {
